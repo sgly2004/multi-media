@@ -1,5 +1,6 @@
 <template>
   <div class="home-container">
+    <h1 class="main-title">数字画廊</h1>
     <div class="scroll-outer">
       <div class="scroll-container">
         <div class="scroll-content">
@@ -26,6 +27,12 @@
           </transition>
         </div>
       </div>
+    </div>
+    
+    <div class="create-button-container">
+      <button class="create-btn" @click="goToCreate">
+        自由创作
+      </button>
     </div>
   </div>
 </template>
@@ -157,6 +164,9 @@ export default {
     closeGallery() {
       this.showGallery = false;
       this.selectedWord = '';
+    },
+    goToCreate() {
+      this.$router.push('/background-select')
     }
   },
   mounted() {
@@ -302,5 +312,39 @@ export default {
 .back-btn:hover {
   background: #8b0000;
   color: #f9f4e6;
+}
+
+.main-title {
+  text-align: center;
+  color: #8b0000;
+  font-family: "KaiTi", serif;
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.create-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.create-btn {
+  background: #8b0000;
+  color: white;
+  border: none;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: "KaiTi", serif;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(139, 0, 0, 0.2);
+}
+
+.create-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(139, 0, 0, 0.3);
+  background: #a00000;
 }
 </style> 

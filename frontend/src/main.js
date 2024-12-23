@@ -3,6 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import HomePage from './components/HomePage.vue'
 import PaintingDetail from './components/PaintingDetail.vue'
+import BackgroundSelect from './components/BackgroundSelect.vue'
+import CreateCanvas from './components/CreateCanvas.vue'
 
 console.log('Starting application...')
 
@@ -18,6 +20,18 @@ const router = createRouter({
       path: '/painting/:id',
       name: 'PaintingDetail',
       component: PaintingDetail,
+      props: true
+    },
+    {
+      path: '/background-select',
+      name: 'BackgroundSelect',
+      component: BackgroundSelect,
+      props: true
+    },
+    {
+      path: '/create/:backgroundId',
+      name: 'CreateCanvas',
+      component: CreateCanvas,
       props: true
     }
   ]
