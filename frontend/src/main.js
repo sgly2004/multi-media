@@ -25,7 +25,6 @@ const router = createRouter({
 
 const app = createApp(App)
 
-// 简单的错误处理
 app.config.errorHandler = (err) => {
   console.error('Application error:', err)
 }

@@ -1,3 +1,11 @@
+import painting1 from '@/assets/mock_pic/painting1.png'
+import painting1Restored from '@/assets/mock_pic/painting1_restored.png'
+import painting1Animation from '@/assets/mock_pic/painting1_animation.mp4'
+import painting2 from '@/assets/mock_pic/painting2.png'
+import painting3 from '@/assets/mock_pic/painting3.png'
+import painting3Restored from '@/assets/mock_pic/painting3_restored.png'
+import painting3Animation from '@/assets/mock_pic/painting3_animation.mp4'
+
 export const mockPaintings = [
   {
     id: '1',
@@ -6,12 +14,12 @@ export const mockPaintings = [
     artistId: 'wangximeng',
     dynasty: '宋朝',
     year: '1113年',
-    imageUrl: require('@/assets/mock_pic/painting1.png'),
+    imageUrl: painting1,
     tags: ['山水', '人物'],
     isPremium: true,
     description: '这是一幅气势磅礴的山水长卷...',
-    restoredImage: require('@/assets/mock_pic/painting1_restored.png'),
-    animation: require('@/assets/mock_pic/painting1_animation.mp4')
+    restoredImage: painting1Restored,
+    animation: painting1Animation
   },
   {
     id: '2',
@@ -19,7 +27,7 @@ export const mockPaintings = [
     artist: '顾闳中',
     artistId: 'guchongzhong',
     dynasty: '五代',
-    imageUrl: require('@/assets/mock_pic/painting2.png'),
+    imageUrl: painting2,
     tags: ['人物', '仕女','山水'],
     isPremium: false,
     description: '描绘了五代南唐官员韩熙载的夜宴场景...'
@@ -30,12 +38,12 @@ export const mockPaintings = [
     artist: '赵佶',
     artistId: 'zhaojie',
     dynasty: '宋朝',
-    imageUrl: require('@/assets/mock_pic/painting3.png'),
+    imageUrl: painting3,
     tags: ['花鸟', '走兽','山水'],
     isPremium: true,
     description: '宋徽宗的传世名作...',
-    restoredImage: require('@/assets/mock_pic/painting3_restored.png'),
-    animation: require('@/assets/mock_pic/painting3_animation.mp4')
+    restoredImage: painting3Restored,
+    animation: painting3Animation
   },
   {
     id: '4',
@@ -43,7 +51,7 @@ export const mockPaintings = [
     artist: '丁云鹏',
     artistId: 'hanghuang',
     dynasty: '唐朝',
-    imageUrl: require('@/assets/mock_pic/painting1.png'),
+    imageUrl: painting1,
     tags: ['走兽', '山水'],
     isPremium: true,
     description: '唐代著名的工笔重彩画作...'
@@ -54,7 +62,7 @@ export const mockPaintings = [
     artist: '佚名',
     artistId: 'yiming',
     dynasty: '唐朝',
-    imageUrl: require('@/assets/mock_pic/painting2.png'),
+    imageUrl: painting2,
     tags: ['人物', '仕女','山水'],
     isPremium: false,
     description: '描绘王昭君出塞的历史场景...'
