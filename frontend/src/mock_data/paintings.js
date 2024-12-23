@@ -15,7 +15,7 @@ export const mockPaintings = [
       "假山"
     ],
     "isPremium": false,
-    "description": "",
+    "description": "恽寿平蓼汀鱼藻轴，清，恽寿平绘，绢本，设色，纵184厘米，横98厘米。",
     "restoredImage": "恽寿平蓼汀鱼藻轴_restored.png",
     "animation": "恽寿平蓼汀鱼藻轴_animation.mp4"
   },

@@ -147,7 +147,12 @@ export default {
     },
     navigateToPainting(painting) {
       console.log('Navigating to painting:', painting)
-      this.$router.push(`/painting/${painting.id}`)
+      this.$router.push({
+        path: `/painting/${painting.id}`,
+        query: { 
+          imageUrl: `${painting.imageUrl}`
+        }
+      })
     },
     closeGallery() {
       this.showGallery = false;

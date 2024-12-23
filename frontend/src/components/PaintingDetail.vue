@@ -32,7 +32,6 @@
         <h2>{{ painting.title }}</h2>
         <p>作者：{{ painting.artist }}</p>
         <p>朝代：{{ painting.dynasty }}</p>
-        <p>年代：{{ painting.year }}</p>
         <p>描述：{{ painting.description }}</p>
       </div>
       
@@ -67,13 +66,14 @@ export default {
     return {
       isOriginal: true,
       painting: null,
-      similarPaintings: []
+      similarPaintings: [],
+      imageUrl: ''
     }
   },
   computed: {
     displayImage() {
-      if (!this.painting?.isPremium) return this.painting?.imageUrl
-      return this.isOriginal ? this.painting.imageUrl : this.painting.restoredImage
+      if (!this.painting?.isPremium) return this.imageUrl
+      return this.isOriginal ? this.imageUrl : this.painting.restoredImage
     }
   },
   methods: {
@@ -96,10 +96,18 @@ export default {
       console.log('Loading painting:', id)
       this.painting = mockPaintings.find(p => p.id === id)
       
-      // 获取相似画作（这里简单示例，实际可能需要更复杂的逻辑）
-      this.similarPaintings = mockPaintings
-        .filter(p => p.id !== id && p.tags.some(tag => this.painting.tags.includes(tag)))
-        .slice(0, 4)
+      if (this.painting) {
+        this.imageUrl = this.$route.query.imageUrl || 
+          `/src/assets/mock_pic/${this.painting.dynastyFolder}/${this.painting.imageUrl}`
+        
+        this.similarPaintings = mockPaintings
+          .filter(p => p.id !== id && p.tags.some(tag => this.painting.tags.includes(tag)))
+          .slice(0, 4)
+          .map(p => ({
+            ...p,
+            imageUrl: `/src/assets/mock_pic/${p.dynastyFolder}/${p.imageUrl}`
+          }))
+      }
     }
   },
   created() {
