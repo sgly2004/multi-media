@@ -23,6 +23,8 @@
 </template>
 
 <script>
+import { mockCloudWords } from '../mock_data/cloudWords'
+
 export default {
   name: 'TimelineCloud',
   props: {
@@ -33,27 +35,24 @@ export default {
   },
   data() {
     return {
-      transform: 'translate(300,200)',
-      words: [
-        { text: '山水', weight: 80 },
-        { text: '人物', weight: 70 },
-        { text: '花鸟', weight: 60 },
-        { text: '走兽', weight: 50 },
-        { text: '仕女', weight: 45 },
-        { text: '佛像', weight: 40 }
-      ]
+      transform: 'translate(300,200)'
     }
   },
   computed: {
     cloudWords() {
       console.log('Computing cloudWords for dynasty:', this.dynasty)
-      const words = this.words.map(word => ({
+      // 从 mockCloudWords 获取当前朝代的词云数据
+      const dynastyWords = mockCloudWords[this.dynasty] || []
+      
+      // 转换数据格式并添加位置信息
+      const words = dynastyWords.map(word => ({
         text: word.text,
-        size: this.calculateFontSize(word.weight),
+        size: this.calculateFontSize(word.size * 10), // 将原始 size 值放大
         x: Math.random() * 500,
         y: Math.random() * 300,
-        weight: word.weight
+        weight: word.size * 10 // 将原始 size 值放大用于颜色计算
       }))
+      
       console.log('Generated cloudWords:', words)
       return words
     }
