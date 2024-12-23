@@ -54,32 +54,33 @@ export default {
       return Object.keys(mockCloudWords)
     },
     cloudWords() {
-      // 添加更多日志
-      console.log('当前朝代:', this.selectedDynasty)
-      console.log('可用的朝代数据:', mockCloudWords)
-      
-      const dynastyWords = mockCloudWords[this.selectedDynasty] || []
-      console.log('当前朝代的词云数据:', dynastyWords)
+      console.log('当前朝代:', this.selectedDynasty);
+      const dynastyWords = mockCloudWords[this.selectedDynasty] || [];
       
       if (dynastyWords.length === 0) {
-        console.warn('警告: 未找到当前朝代的词云数据')
-        return []
+        console.warn('警告: 未找到当前朝代的词云数据');
+        return [];
       }
       
-      // 转换数据格式并添加位置信息
-      const words = dynastyWords.map(word => {
+      // 按权重排序，确保大的词先放置
+      const sortedWords = [...dynastyWords].sort((a, b) => b.size - a.size);
+      const placedWords = [];
+      
+      for (const word of sortedWords) {
         const wordData = {
           text: word.text,
           size: this.calculateFontSize(word.size * 10),
-          x: Math.random() * 500,
-          y: Math.random() * 300,
+          x: 0,
+          y: 0,
           weight: word.size * 10
+        };
+        
+        if (this.findValidPosition(wordData, placedWords)) {
+          placedWords.push(wordData);
         }
-        console.log('处理后的词数据:', wordData)
-        return wordData
-      })
+      }
       
-      return words
+      return placedWords;
     }
   },
   methods: {
@@ -99,6 +100,44 @@ export default {
         // 更新transform以居中显示
         this.transform = `translate(${bbox.width/2},${bbox.height/2})`
       }
+    },
+    checkCollision(word1, word2) {
+      const padding = 5; // 词之间的最小间距
+      const w1 = word1.text.length * (word1.size / 2);
+      const h1 = word1.size;
+      const w2 = word2.text.length * (word2.size / 2);
+      const h2 = word2.size;
+
+      return Math.abs(word1.x - word2.x) < (w1 + w2) / 2 + padding &&
+             Math.abs(word1.y - word2.y) < (h1 + h2) / 2 + padding;
+    },
+
+    findValidPosition(word, placedWords) {
+      const maxAttempts = 100;
+      const maxRadius = 200; // 最大分布半径
+      
+      for (let attempt = 0; attempt < maxAttempts; attempt++) {
+        // 使用极坐标系统，确保词云围绕中心分布
+        const angle = Math.random() * 2 * Math.PI;
+        const radius = Math.sqrt(Math.random()) * maxRadius * (1 - attempt / maxAttempts);
+        
+        word.x = radius * Math.cos(angle);
+        word.y = radius * Math.sin(angle);
+
+        // 检查是否与已放置的词有重叠
+        let hasCollision = false;
+        for (const placedWord of placedWords) {
+          if (this.checkCollision(word, placedWord)) {
+            hasCollision = true;
+            break;
+          }
+        }
+
+        if (!hasCollision) {
+          return true;
+        }
+      }
+      return false;
     }
   },
   watch: {
