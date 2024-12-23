@@ -7,10 +7,10 @@ def process_cloud_words(df):
     # 按朝代分组统计标签
     dynasty_tags = {}
     dynasties = {
-        '宋代': 'song',
-        '元代': 'yuan',
-        '明代': 'ming',
-        '清代': 'qing'
+        '宋朝': 'song',
+        '元朝': 'yuan',
+        '明朝': 'ming',
+        '清朝': 'qing'
     }
     
     for dynasty in dynasties.keys():
@@ -43,10 +43,10 @@ def process_cloud_words(df):
 def process_paintings(df):
     paintings = []
     dynasties = {
-        '宋代': 'song',
-        '元代': 'yuan',
-        '明代': 'ming',
-        '清代': 'qing'
+        '宋朝': 'song',
+        '元朝': 'yuan',
+        '明朝': 'ming',
+        '清朝': 'qing'
     }
     
     for _, row in df.iterrows():
@@ -66,7 +66,7 @@ def process_paintings(df):
             'imageUrl': image_path,
             'tags': row['标签'].split('、') if pd.notna(row['标签']) else [],
             'isPremium': bool(row.name % 2),  # 随机设置premium属性
-            'description': f"这是一幅{row['朝代']}的{row['题目']}...",
+            'description': row['介绍'] if pd.notna(row['介绍']) else '',
         }
         
         # 为部分作品添加修复图和动画
@@ -81,6 +81,9 @@ def process_paintings(df):
 def generate_js_files():
     # 读取Excel文件
     df = pd.read_excel('backend/data/merged_output.xlsx')
+    
+    # 在读取数据后添加转换逻辑
+    df['朝代'] = df['朝代'].str.replace('代', '朝')
     
     # 处理词云数据
     cloud_words = process_cloud_words(df)

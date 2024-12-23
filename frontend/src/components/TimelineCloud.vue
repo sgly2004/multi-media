@@ -3,6 +3,16 @@
     <div class="debug-info">
       Dynasty: {{ dynasty }}, Words: {{ cloudWords.length }}
     </div>
+    
+    <!-- 添加朝代选择器 -->
+    <div class="dynasty-selector">
+      <select v-model="selectedDynasty">
+        <option v-for="d in availableDynasties" 
+                :key="d" 
+                :value="d">{{ d }}</option>
+      </select>
+    </div>
+    
     <svg ref="cloudContainer" width="100%" height="500">
       <g :transform="transform">
         <text v-for="word in cloudWords"
@@ -35,43 +45,78 @@ export default {
   },
   data() {
     return {
-      transform: 'translate(300,200)'
+      transform: 'translate(300,200)',
+      selectedDynasty: this.dynasty
     }
   },
   computed: {
+    availableDynasties() {
+      return Object.keys(mockCloudWords)
+    },
     cloudWords() {
-      console.log('Computing cloudWords for dynasty:', this.dynasty)
-      // 从 mockCloudWords 获取当前朝代的词云数据
-      const dynastyWords = mockCloudWords[this.dynasty] || []
+      // 添加更多日志
+      console.log('当前朝代:', this.selectedDynasty)
+      console.log('可用的朝代数据:', mockCloudWords)
+      
+      const dynastyWords = mockCloudWords[this.selectedDynasty] || []
+      console.log('当前朝代的词云数据:', dynastyWords)
+      
+      if (dynastyWords.length === 0) {
+        console.warn('警告: 未找到当前朝代的词云数据')
+        return []
+      }
       
       // 转换数据格式并添加位置信息
-      const words = dynastyWords.map(word => ({
-        text: word.text,
-        size: this.calculateFontSize(word.size * 10), // 将原始 size 值放大
-        x: Math.random() * 500,
-        y: Math.random() * 300,
-        weight: word.size * 10 // 将原始 size 值放大用于颜色计算
-      }))
+      const words = dynastyWords.map(word => {
+        const wordData = {
+          text: word.text,
+          size: this.calculateFontSize(word.size * 10),
+          x: Math.random() * 500,
+          y: Math.random() * 300,
+          weight: word.size * 10
+        }
+        console.log('处理后的词数据:', wordData)
+        return wordData
+      })
       
-      console.log('Generated cloudWords:', words)
       return words
     }
   },
   methods: {
     calculateFontSize(weight) {
-      return Math.max(16, Math.min(60, weight * 0.8))
+      const size = Math.max(16, Math.min(60, weight * 0.8))
+      console.log(`计算字体大小: weight=${weight}, size=${size}`)
+      return size
     },
     getColor(word) {
       const opacity = Math.max(0.3, Math.min(0.9, word.weight / 100))
       return `rgba(0, 0, 0, ${opacity})`
+    },
+    updateDimensions() {
+      if (this.$refs.cloudContainer) {
+        const bbox = this.$refs.cloudContainer.getBoundingClientRect()
+        console.log('SVG容器尺寸:', bbox)
+        // 更新transform以居中显示
+        this.transform = `translate(${bbox.width/2},${bbox.height/2})`
+      }
+    }
+  },
+  watch: {
+    dynasty: {
+      immediate: true,
+      handler(newDynasty) {
+        console.log('朝代改变:', newDynasty)
+        this.selectedDynasty = newDynasty
+      }
     }
   },
   mounted() {
-    console.log('TimelineCloud mounted, dynasty:', this.dynasty)
-    console.log('Container size:', this.$refs.cloudContainer?.getBoundingClientRect())
+    console.log('TimelineCloud mounted')
+    this.updateDimensions()
+    window.addEventListener('resize', this.updateDimensions)
   },
-  updated() {
-    console.log('TimelineCloud updated, dynasty:', this.dynasty)
+  beforeDestroy() {
+    window.removeEventListener('resize', this.updateDimensions)
   }
 }
 </script>
@@ -83,6 +128,19 @@ export default {
   border-radius: 8px;
   height: 500px;
   position: relative;
+}
+
+.dynasty-selector {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+}
+
+.dynasty-selector select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
 
 .debug-info {

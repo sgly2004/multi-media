@@ -41,23 +41,24 @@ export default {
   },
   methods: {
     handlePaintingClick(painting) {
-      console.log('Clicking painting:', painting);
+      console.log('点击画作:', painting);
       this.$emit('paintingClick', painting);
     },
     handleImageError(e) {
-      console.error('Image failed to load:', e.target.src);
-      // 可以设置一个默认图片
+      console.error('图片加载失败:', e.target.src);
       e.target.src = require('@/assets/mock_pic/default.png');
     }
   },
-  mounted() {
-    console.log('ScrollGallery mounted, paintings:', this.paintings);
-    this.paintings.forEach(painting => {
-      console.log('Painting image URL:', painting.imageUrl);
-    });
-  },
-  updated() {
-    console.log('ScrollGallery updated, paintings:', this.paintings);
+  watch: {
+    paintings: {
+      immediate: true,
+      handler(newPaintings) {
+        console.log('画作列表更新:', newPaintings);
+        if (newPaintings.length === 0) {
+          console.log('警告: 没有找到符合条件的画作');
+        }
+      }
+    }
   }
 }
 </script>

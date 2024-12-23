@@ -57,24 +57,52 @@ export default {
       return this.dynasties[this.dynastyIndex]
     },
     filteredPaintings() {
-      console.log('Filtering paintings for dynasty:', this.currentDynasty);
-      console.log('Selected word:', this.selectedWord);
-      console.log('All paintings:', this.paintings);
+      console.log('开始筛选画作:');
+      console.log('- 当前朝代:', this.currentDynasty);
+      console.log('- 选中的词:', this.selectedWord);
       
-      if (!this.selectedWord) {
-        return this.paintings.filter(p => p.dynasty === this.currentDynasty);
+      // 首先按朝代筛选
+      let filtered = this.paintings.filter(p => p.dynasty === this.currentDynasty);
+      console.log(`- 当前朝代的画作数量: ${filtered.length}`);
+      
+      // 如果选择了关键词，进一步筛选
+      if (this.selectedWord) {
+        filtered = filtered.filter(p => {
+          const hasTag = p.tags.includes(this.selectedWord);
+          console.log(`- 画作 "${p.title}" ${hasTag ? '包含' : '不包含'}标签 "${this.selectedWord}"`);
+          return hasTag;
+        });
+        console.log(`- 符合标签的画作数量: ${filtered.length}`);
       }
       
-      const filtered = this.paintings.filter(p => 
-        p.dynasty === this.currentDynasty && 
-        p.tags.includes(this.selectedWord)
-      );
+      // 处理图片路径
+      filtered = filtered.map(painting => {
+        const processedPainting = {
+          ...painting,
+          imageUrl: this.getImageUrl(painting)
+        };
+        console.log(`- 处理后的画作:`, processedPainting);
+        return processedPainting;
+      });
       
-      console.log('Filtered paintings:', filtered);
       return filtered;
     }
   },
   methods: {
+    getImageUrl(painting) {
+      try {
+        // 从完整路径中提取文件名
+        const fileName = painting.imageUrl.split('/').pop();
+        // 根据朝代构建正确的路径
+        const dynasty = painting.dynasty.slice(0,2).toLowerCase(); // "宋代" -> "宋"
+        const path = `@/assets/mock_pic/${dynasty}/${fileName}`;
+        console.log(`- 尝试加载图片: ${path}`);
+        return require(`@/assets/mock_pic/${dynasty}/${fileName}`);
+      } catch (err) {
+        console.error(`- 图片加载失败:`, err);
+        return require('@/assets/mock_pic/default.png');
+      }
+    },
     prevDynasty() {
       console.log('Moving to previous dynasty')
       if (this.dynastyIndex > 0) {
@@ -90,18 +118,18 @@ export default {
       }
     },
     handleWordClick(word) {
-      console.log('Word clicked:', word)
-      this.selectedWord = word
-      this.showGallery = true
+      console.log('词云点击:', word);
+      this.selectedWord = word;
+      this.showGallery = true;
+      
+      // 添加延时以确保数据更新后再检查结果
+      this.$nextTick(() => {
+        console.log('筛选后的画作数量:', this.filteredPaintings.length);
+      });
     },
     navigateToPainting(painting) {
       console.log('Navigating to painting:', painting)
-      this.$router.push({
-        name: 'PaintingDetail',
-        params: { 
-          id: painting.id
-        }
-      })
+      this.$router.push({ id: painting.id })
     },
     closeGallery() {
       this.showGallery = false;
@@ -111,7 +139,7 @@ export default {
   mounted() {
     console.log('HomePage mounted')
     console.log('Initial dynasty:', this.currentDynasty)
-    console.log('Available dynasties:', this.dynasties)
+    console.log('Available paintings:', this.paintings)
   }
 }
 </script>

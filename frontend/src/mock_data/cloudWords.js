@@ -1,5 +1,5 @@
 export const mockCloudWords = {
-  "宋代": [
+  "宋朝": [
     {
       "text": "人",
       "size": 5
@@ -41,7 +41,7 @@ export const mockCloudWords = {
       "size": 2
     }
   ],
-  "元代": [
+  "元朝": [
     {
       "text": "树",
       "size": 5
@@ -67,7 +67,7 @@ export const mockCloudWords = {
       "size": 2
     }
   ],
-  "明代": [
+  "明朝": [
     {
       "text": "人",
       "size": 5
@@ -109,7 +109,7 @@ export const mockCloudWords = {
       "size": 2
     }
   ],
-  "清代": [
+  "清朝": [
     {
       "text": "树",
       "size": 5
