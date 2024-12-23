@@ -85,7 +85,7 @@ export default {
   },
   methods: {
     calculateFontSize(weight) {
-      const size = Math.max(16, Math.min(60, weight * 0.8))
+      const size = Math.max(24, Math.min(80, weight * 1.5))
       console.log(`计算字体大小: weight=${weight}, size=${size}`)
       return size
     },

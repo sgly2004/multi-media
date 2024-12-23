@@ -62,7 +62,7 @@ export default {
   data() {
     return {
       currentPage: 1,
-      pageSize: 8,
+      pageSize: 6,
       defaultImage: '/src/assets/mock_pic/default.png'
     }
   },
