@@ -9,6 +9,7 @@ export const mockPaintings = [
     "artist": "恽寿平",
     "artistId": "artist_0",
     "dynasty": "清朝",
+    "dynastyFolder": "qing",
     "imageUrl": "恽寿平蓼汀鱼藻轴.png",
     "tags": [
       "假山"
@@ -24,6 +25,7 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_1",
     "dynasty": "清朝",
+    "dynastyFolder": "qing",
     "imageUrl": "雍亲王题书堂深居图屏•烛下缝衣轴.png",
     "tags": [
       "荷花",
@@ -41,7 +43,7 @@ export const mockPaintings = [
       "蜡烛"
     ],
     "isPremium": true,
-    "description": "    《雍亲王题书堂深居图屏•烛下缝衣》轴，清，宫廷画师绘，绢本，设色，纵184厘米，横98厘米。 \n    《雍亲王题书堂深居图屏》共12幅，此为其中之一。 \n     此图构思巧妙，将原为各自独立的室内外空间通过前后窗的开启而连通起来，从而表现出三个不同的空间环境：屋前是秀石与鱼缸点缀的庭园小景；屋内是女子秉烛缝衣、勤于女红的情景；屋后则可见红色的蝙蝠在青竹丛间穿插飞翔的场景。作者在此利用"蝠"与"福"的谐音赋予了此图"鸿福而至"的吉祥寓意。此图的创作目的是宣扬宫掖女子勤于女红的美德。女红包括纺织、刺绣、缝纫等，是古代衡量女子妇德的标准之一。因此，图中缝纫的场景所占画幅最大，也最为生动。 \n    此图中的女子发型与《雍亲王题书堂深居图屏•立持如意轴》中女子的发型相同，名为"螺髻"。明代王渔洋曾有"青螺如髻秀堪餐"之诗句对此种发型加以赞美。"
+    "description": "    《雍亲王题书堂深居图屏•烛下缝衣》轴，清，宫廷画师绘，绢本，设色，纵184厘米，横98厘米。 \n    《雍亲王题书堂深居图屏》共12幅，此为其中之一。 \n     此图构思巧妙，将原为各自独立的室内外空间通过前后窗的开启而连通起来，从而表现出三个不同的空间环境：屋前是秀石与鱼缸点缀的庭园小景；屋内是女子秉烛缝衣、勤于女红的情景；屋后则可见红色的蝙蝠在青竹丛间穿插飞翔的场景。作者在此利用“蝠”与“福”的谐音赋予了此图“鸿福而至”的吉祥寓意。此图的创作目的是宣扬宫掖女子勤于女红的美德。女红包括纺织、刺绣、缝纫等，是古代衡量女子妇德的标准之一。因此，图中缝纫的场景所占画幅最大，也最为生动。 \n    此图中的女子发型与《雍亲王题书堂深居图屏•立持如意轴》中女子的发型相同，名为“螺髻”。明代王渔洋曾有“青螺如髻秀堪餐”之诗句对此种发型加以赞美。"
   },
   {
     "id": "3",
@@ -49,6 +51,7 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_2",
     "dynasty": "清朝",
+    "dynastyFolder": "qing",
     "imageUrl": "佚名雍正帝耕织图册.png",
     "tags": [
       "人",
@@ -61,7 +64,7 @@ export const mockPaintings = [
       "树"
     ],
     "isPremium": false,
-    "description": "       男耕女织是中国传统生产方式，养生所亟，莫过于衣食，因此《耕织图》是古代重要绘画题材。此图册绘于康熙年间，其中耕夫与织妇绘制成胤禛夫妇形象。\n       图绘浴蚕、二眠、炙箔、织、攀花、剪帛，表现从养蚕、纺织到成帛裁制的过程。浴蚕是古代一种育蚕选种的方法，通过将蚕种放入水中漂洗，达到清洁消毒，以及优选劣汰的目的。蚕生长脱皮时，不食不动，其状如眠，谓蚕眠，第二次蜕皮即二眠。蚕长成后吐丝做茧，此时需将它们分箔排架，下方和周围放置炭火盆加热，此工序谓炙箔。"
+    "description": "       男耕女织是中国传统生产方式，养生所亟，莫过于衣食，因此《耕织图》是古代重要绘画题材。此图册绘于康熙年间，其中耕夫与织妇绘成胤禛夫妇形象。\n       图绘浴蚕、二眠、炙箔、织、攀花、剪帛，表现从养蚕、纺织到成帛裁制的过程。浴蚕是古代一种育蚕选种的方法，通过将蚕种放入水中漂洗，达到清洁消毒，以及优选劣汰的目的。蚕生长脱皮时，不食不动，其状如眠，谓蚕眠，第二次蜕皮即二眠。蚕长成后吐丝做茧，此时需将它们分箔排架，下方和周围放置炭火盆加热，此工序谓炙箔。"
   },
   {
     "id": "4",
@@ -69,6 +72,7 @@ export const mockPaintings = [
     "artist": "任薰",
     "artistId": "artist_3",
     "dynasty": "清朝",
+    "dynastyFolder": "qing",
     "imageUrl": "任薰西厢记图册.png",
     "tags": [
       "人",
@@ -79,7 +83,7 @@ export const mockPaintings = [
       "水壶"
     ],
     "isPremium": true,
-    "description": "       绘《西厢记》故事，图中题词出自王实甫《西厢记》曲词。全剧讲述张生与相国小姐崔莺莺在仕女红娘的帮助下，冲破阻挠，终成眷属的故事。任薰绘制此册时，在人物造型上取法明末陈洪绶，皆古拙变形。\n       任薰（1835—1893），字阜长，浙江萧山人。人物画师法陈洪绶，是 "海上四任"之一。\n一：图绘张生与莺莺初见场景。题："惊艳。宫样眉儿新月偃，侵入鬓云边。"语出第一本第一折。人物衣纹以充满力量的钉头描绘成，褶痕层叠如铁划银钩，装饰感强烈。\n二：图绘张生向僧人借宿。题："借厢。与我那可憎才居止处门儿相向。"语出第一本第二折。\n三：图绘莺莺与红娘开角门，移香案至太湖石旁，倚案窥张生。题："酬韵。踮着脚尖儿，子细定睛，比那初见时庞儿越整。"语出第一本第三折。\n四：图绘张生解莺莺于普救寺之危后，莺莺母亲有请，他先来拜见莺莺的情景。题："请宴。秀才们闻道请，似得了将军令，先是五脏神愿随鞭镫。"语出第二本第二折。\n五：图绘莺莺母亲悔婚后，张生弹琴表心意。题："琴心。知音者芳心自同，感怀者断肠怨痛。"语出第二本第四折。\n六：莺莺请红娘看望张生，图绘张生写柬请红娘传书。题："前候。我只说：昨夜弹琴那人，教传示。"语出第三本第一折。\n七：图绘莺莺读张生来信，红娘偷窥。题："闹简。几曾见，寄书的颠倒瞒着鱼雁？"语出第三本第二折。\n八：图绘红娘助张生与莺莺相见。题："赖简。是槐阴风摇，暮鸦是玉人帽侧乌纱。"语出第三本第三折。\n九：图绘张生病中，红娘为莺莺送信。题："后候。得了个纸条儿恁般绵里针。"语出第三本第四折。\n十：图绘红娘隔窗窥探。题："酬简。难道是昨夜梦中来。"语出第四本第一折。\n十一：图绘莺莺母亲欲审红娘，欢郎引红娘上场后，红娘为莺莺、张生说和。题："拷艳。我独在窗儿外，几曾敢轻咳嗽。"语出第四本第二折。\n十二：图绘张生赶考途中住店休息，梦见莺莺遇险。题："惊梦。斜月残灯半明半灭。"语出第四本第四折。",
+    "description": "       绘《西厢记》故事，图中题词出自王实甫《西厢记》曲词。全剧讲述张生与相国小姐崔莺莺在仕女红娘的帮助下，冲破阻挠，终成眷属的故事。任薰绘制此册时，在人物造型上取法明末陈洪绶，皆古拙变形。\n       任薰（1835—1893），字阜长，浙江萧山人。人物画师法陈洪绶，是 “海上四任”之一。\n一：图绘张生与莺莺初见场景。题：“惊艳。宫样眉儿新月偃，侵入鬓云边。”语出第一本第一折。人物衣纹以充满力量的钉头描绘成，褶痕层叠如铁划银钩，装饰感强烈。\n二：图绘张生向僧人借宿。题：“借厢。与我那可憎才居止处门儿相向。”语出第一本第二折。\n三：图绘莺莺与红娘开角门，移香案至太湖石旁，倚案窥张生。题：“酬韵。踮着脚尖儿，子细定睛，比那初见时庞儿越整。”语出第一本第三折。\n四：图绘张生解莺莺于普救寺之危后，莺莺母亲有请，他先来拜见莺莺的情景。题：“请宴。秀才们闻道请，似得了将军令，先是五脏神愿随鞭镫。”语出第二本第二折。\n五：图绘莺莺母亲悔婚后，张生弹琴表心意。题：“琴心。知音者芳心自同，感怀者断肠怨痛。”语出第二本第四折。\n六：莺莺请红娘看望张生，图绘张生写柬请红娘传书。题：“前候。我只说：昨夜弹琴那人，教传示。”语出第三本第一折。\n七：图绘莺莺读张生来信，红娘偷窥。题：“闹简。几曾见，寄书的颠倒瞒着鱼雁？”语出第三本第二折。\n八：图绘红娘助张生与莺莺相见。题：“赖简。是槐阴风摇，暮鸦是玉人帽侧乌纱。”语出第三本第三折。\n九：图绘张生病中，红娘为莺莺送信。题：“后候。得了个纸条儿恁般绵里针。”语出第三本第四折。\n十：图绘红娘隔窗窥探。题：“酬简。难道是昨夜梦中来。”语出第四本第一折。\n十一：图绘莺莺母亲欲审红娘，欢郎引红娘上场后，红娘为莺莺、张生说和。题：“拷艳。我独在窗儿外，几曾敢轻咳嗽。”语出第四本第二折。\n十二：图绘张生赶考途中住店休息，梦见莺莺遇险。题：“惊梦。斜月残灯半明半灭。”语出第四本第四折。",
     "restoredImage": "任薰西厢记图册_restored.png",
     "animation": "任薰西厢记图册_animation.mp4"
   },
@@ -89,6 +93,7 @@ export const mockPaintings = [
     "artist": "范雪仪",
     "artistId": "artist_4",
     "dynasty": "清朝",
+    "dynastyFolder": "qing",
     "imageUrl": "范雪仪人物故事图册.png",
     "tags": [
       "砚台",
@@ -97,7 +102,7 @@ export const mockPaintings = [
       "树"
     ],
     "isPremium": false,
-    "description": "        此图册为女画家范雪仪代表作。她以工笔重彩绘十个与女性有关的故事，所绘女子皆八字眉，细长眼，樱桃口，衣饰华美精致。\n        范雪仪，活动于康熙年间，江苏苏州人，为吴郡女性画家翘楚，善画人物。\n第一开：典出《列仙传》。郑交甫（传为周朝人）经汉水之滨时，遇见两位神女，求二女解佩相赠。受赠后，交甫将佩置于怀中，然而行走数十步后，二女不见，佩亦消失。\n第二开：典出《列仙传》。秦穆公时期，萧史善吹箫，穆公有女弄玉，嫁于萧史，夫妻二人常在凤台上合奏作凤鸣，终于引来凤凰，二人双双乘凤凰而去。\n第三开：《汉书》记载，汉宣帝时期，张敞为京兆尹，朝廷商议大事常能引经据典，处理适宜，大臣们都非常佩服他。他常为妻子画眉，夫妻感情和睦。\n第四开：《后汉书》云，曹世叔妻为同郡班彪之女，名班昭，博学高才。其兄班固著《汉书》，未成而卒，汉和帝遂诏班昭续写《汉书》。\n第五开：《晋书》载，前秦时，秦州刺史窦滔被流放，其妻苏氏思之，织锦为回文旋图诗以赠。该诗顺逆回环皆成文，结构巧妙而词情凄婉。\n第六开：北朝民歌《木兰诗》讲述了木兰女扮男装，替父从军的故事。图绘木兰准备离家而去，弟、妹牵衣，不舍分别。\n第七开：《太平御览》记载，南朝宋武帝的女儿寿阳公主睡卧于含章殿檐下，梅花落公主额上，拂之不去。宫人皆效仿，将梅花贴在额上，遂成一种妆饰，从而令此"梅花妆"风靡一时。\n第八开：唐杜甫所作七言古诗《观公孙大娘弟子舞剑器行》，描写了公孙大娘剑器之舞的盛况："昔有佳人公孙氏，一舞剑器动四方。观者如山色沮丧，天地为之久低昂。"\n第九开：典出《本事诗·事感第二》。唐白居易曾有诗云："樱桃樊素口，杨柳小蛮腰"，形容家中姬妾善歌舞。\n第十开：《太平广记》收录唐代裴铏所作传奇《裴航》，其中讲述，唐长庆中，裴航途经蓝桥时口渴求水，遇见一位老妪及其孙女云英施水解渴，二人皆为仙人。后裴航娶仙女云英为妻，自己也修炼成仙。"
+    "description": "        此图册为女画家范雪仪代表作。她以工笔重彩绘十个与女性有关的故事，所绘女子皆八字眉，细长眼，樱桃口，衣饰华美精致。\n        范雪仪，活动于康熙年间，江苏苏州人，为吴郡女性画家翘楚，善画人物。\n第一开：典出《列仙传》。郑交甫（传为周朝人）经汉水之滨时，遇见两位神女，求二女解佩相赠。受赠后，交甫将佩置于怀中，然而行走数十步后，二女不见，佩亦消失。\n第二开：典出《列仙传》。秦穆公时，萧史善吹箫，穆公有女弄玉，嫁于萧史，夫妻二人常在凤台上合奏作凤鸣，终于引来凤凰，二人双双乘凤凰而去。\n第三开：《汉书》记载，汉宣帝时期，张敞为京兆尹，朝廷商议大事常能引经据典，处理适宜，大臣们都非常佩服他。他常为妻子画眉，夫妻感情和睦。\n第四开：《后汉书》云，曹世叔妻为同郡班彪之女，名班昭，博学高才。其兄班固著《汉书》，未成而卒，汉和帝遂诏班昭续写《汉书》。\n第五开：《晋书》载，前秦时，秦州刺史窦滔被流放，其妻苏氏思之，织锦为回文旋图诗以赠。该诗顺逆回环皆成文，结构巧妙而词情凄婉。\n第六开：北朝民歌《木兰诗》讲述了木兰女扮男装，替父从军的故事。图绘木兰准备离家而去，弟、妹牵衣，不舍分别。\n第七开：《太平御览》记载，南朝宋武帝的女儿寿阳公主睡卧于含章殿檐下，梅花落公主额上，拂之不去。宫人皆效仿，将梅花贴在额上，遂成一种妆饰，从而令此“梅花妆”风靡一时。\n第八开：唐杜甫所作七言古诗《观公孙大娘弟子舞剑器行》，描写了公孙大娘剑器之舞的盛况：“昔有佳人公孙氏，一舞剑器动四方。观者如山色沮丧，天地为之久低昂。”\n第九开：典出《本事诗·事感第二》。唐白居易曾有诗云：“樱桃樊素口，杨柳小蛮腰”，形容家中姬妾善歌舞。\n第十开：《太平广记》收录唐代裴铏所作传奇《裴航》，其中讲述，唐长庆中，裴航途经蓝桥时口渴求水，遇见一位老妪及其孙女云英施水解渴，二人皆为仙人。后裴航娶仙女云英为妻，自己也修炼成仙。"
   },
   {
     "id": "6",
@@ -105,13 +110,14 @@ export const mockPaintings = [
     "artist": "沙馥",
     "artistId": "artist_5",
     "dynasty": "清朝",
+    "dynastyFolder": "qing",
     "imageUrl": "沙馥芭蕉仕女图轴.png",
     "tags": [
       "人",
       "芭蕉叶"
     ],
     "isPremium": true,
-    "description": "《芭蕉仕女图》轴，清，沙馥绘，纸本，设色，纵92厘米，横31厘米。\n自题："美人言语巧唤作醉酴醿，七芗先生本。甲午菊秋沙馥临于粟庵。"下钤"山春所作"印。甲午为清光绪二十年（1894年）。\n此幅是作者仿改琦笔意创作的写意仕女画。图绘女子手持花枝立于芭蕉树前闻香自醉的仪态风情。其高耸的发髻先以浓淡墨反复晕染，然后以重墨绘出根根发丝，线与面结合的绘画技法显现出女子头发的浓密及发质的柔顺。仕女的面形为瓜子脸，面部以不着痕迹的浅红色晕染，突出了人物肌肤光滑细嫩的质感和五官结构的明暗变化。其眉目间流露出矜持凄凉的怨情，与晚清文人画家在仕女画创作上所追求的"清淑静逸"之趣相符，具有鲜明的时代特征。\n人物的衬景，一侧是刻画工细写实的芭蕉树，一侧是以淡彩直接点染的写意浮萍。二者不仅展示了作者娴熟地运用不同笔法的技能，且在画中起到了以景造势的作用。芭蕉叶的实景给人物以依托，并增强了作品清新娟秀的格调；浮萍的虚景将画面引向了纵深，扩展了作品的深远空间，并给人以丰富的暇想意境。"
+    "description": "《芭蕉仕女图》轴，清，沙馥绘，纸本，设色，纵92厘米，横31厘米。\n自题：“美人言语巧唤作醉酴醿，七芗先生本。甲午菊秋沙馥临于粟庵。”下钤“山春所作”印。甲午为清光绪二十年（1894年）。\n此幅是作者仿改琦笔意创作的写意仕女画。图绘女子手持花枝立于芭蕉树前闻香自醉的仪态风情。其高耸的发髻先以浓淡墨反复晕染，然后以重墨绘出根根发丝，线与面结合的绘画技法显现出女子头发的浓密及发质的柔顺。仕女的面形为瓜子脸，面部以不着痕迹的浅红色晕染，突出了人物肌肤光滑细嫩的质感和五官结构的明暗变化。其眉目间流露出矜持凄凉的怨情，与晚清文人画家在仕女画创作上所追求的“清淑静逸”之趣相符，具有鲜明的时代特征。\n人物的衬景，一侧是刻画工细写实的芭蕉树，一侧是以淡彩直接点染的写意浮萍。二者不仅展示了作者娴熟地运用不同笔法的技能，且在画中起到了以景造势的作用。芭蕉叶的实景给人物以依托，并增强了作品清新娟秀的格调；浮萍的虚景将画面引向了纵深，扩展了作品的深远空间，并给人以丰富的暇想意境。"
   },
   {
     "id": "7",
@@ -119,6 +125,7 @@ export const mockPaintings = [
     "artist": "冷枚",
     "artistId": "artist_6",
     "dynasty": "清朝",
+    "dynastyFolder": "qing",
     "imageUrl": "冷枚芭蕉仕女图轴.png",
     "tags": [
       "人",
@@ -136,7 +143,8 @@ export const mockPaintings = [
     "artist": "禹之鼎",
     "artistId": "artist_7",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/禹之鼎芭蕉仕女图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "禹之鼎芭蕉仕女图轴.png",
     "tags": [
       "人",
       "芭蕉叶"
@@ -150,7 +158,8 @@ export const mockPaintings = [
     "artist": "陈字",
     "artistId": "artist_8",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/陈字扑蝶仕女图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "陈字扑蝶仕女图轴.png",
     "tags": [
       "蝴蝶",
       "团扇",
@@ -166,7 +175,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_9",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐仕女婴戏图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐仕女婴戏图轴.png",
     "tags": [
       "孩子",
       "孩子",
@@ -187,8 +197,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "       图绘女子怀抱幼儿，身旁小童正用悬丝操纵着一个提线木偶。作者以细劲的线条描绘女子及孩童面部、身体，又以方劲有力的钉头鼠尾描勾画衣袍。\n       任颐（1840—1896），字伯年，浙江绍兴人，寓居上海，是“海上四任”之一。",
-    "restoredImage": "@/assets/mock_pic/qing/任颐仕女婴戏图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/任颐仕女婴戏图轴_animation.mp4"
+    "restoredImage": "任颐仕女婴戏图轴_restored.png",
+    "animation": "任颐仕女婴戏图轴_animation.mp4"
   },
   {
     "id": "11",
@@ -196,7 +206,8 @@ export const mockPaintings = [
     "artist": "陈卓",
     "artistId": "artist_10",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/陈卓榴花婴戏图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "陈卓榴花婴戏图轴.png",
     "tags": [
       "人",
       "人",
@@ -219,7 +230,8 @@ export const mockPaintings = [
     "artist": "恽寿平",
     "artistId": "artist_11",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/恽寿平蓼汀鱼藻轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "恽寿平蓼汀鱼藻轴.png",
     "tags": [
       "假山"
     ],
@@ -232,7 +244,8 @@ export const mockPaintings = [
     "artist": "周恺",
     "artistId": "artist_12",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/周恺补衮图页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "周恺补衮图页.png",
     "tags": [
       "凳子",
       "人",
@@ -240,8 +253,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《补衮图》页，清，周恺绘，绢本，设色，纵27.9厘米，横17.5厘米。\n    作品款署：“补衮图。丁卯冬至前三日仿十洲笔。雪航恺。”钤作者本款印“周恺之印”等白文印两方。\n画面描绘一位女子端坐于方凳上，正神态专注地精心绣制龙纹衣装。女子头戴闪亮的簪钗，着交领淡蓝色上衣和白底方格纹长裙，一袭蓝色霞帔飘曳垂地。其面容娥眉杏眼，樱口桃腮，秀丽姣美。身边的几、案、插瓶、绣墩刻画细微，极具富丽之气。\n在传统文化中，补衮图有补救规谏帝王的过失之寓意。但此幅绘画作者着意刻画人物的皓腕纤指，于细节的描绘尤为精心，表现出女子手指的灵巧和动感。此作设色爽丽明快而又自然和谐，一位端庄娴雅、秀外慧中的女子形象跃然纸上，富于浓厚的生活气息。",
-    "restoredImage": "@/assets/mock_pic/qing/周恺补衮图页_restored.png",
-    "animation": "@/assets/mock_pic/qing/周恺补衮图页_animation.mp4"
+    "restoredImage": "周恺补衮图页_restored.png",
+    "animation": "周恺补衮图页_animation.mp4"
   },
   {
     "id": "14",
@@ -249,7 +262,8 @@ export const mockPaintings = [
     "artist": "恽寿平",
     "artistId": "artist_13",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/恽寿平双清图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "恽寿平双清图轴.png",
     "tags": [
       "水仙",
       "梅花"
@@ -263,7 +277,8 @@ export const mockPaintings = [
     "artist": "李鱓",
     "artistId": "artist_14",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/李鱓松柏长春图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "李鱓松柏长春图轴.png",
     "tags": [
       "树"
     ],
@@ -276,14 +291,15 @@ export const mockPaintings = [
     "artist": "冷枚",
     "artistId": "artist_15",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/冷枚画罗汉图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "冷枚画罗汉图册.png",
     "tags": [
       "叶子"
     ],
     "isPremium": true,
     "description": "        题跋：腥鲜龙气云堂紫，钵盂中有乖龙子。夜半倾湫倒岳来，毗岚风到袈裟止。至人视龙犹蝘蜒，仄足不敢履一蚁。岂伊重蚁而轻龙，绌在伸边如镞矢。吾本如空无所依，有作受者皆由尔。龙王膜拜受三皈，水怪生狞嗔末已。",
-    "restoredImage": "@/assets/mock_pic/qing/冷枚画罗汉图册_restored.png",
-    "animation": "@/assets/mock_pic/qing/冷枚画罗汉图册_animation.mp4"
+    "restoredImage": "冷枚画罗汉图册_restored.png",
+    "animation": "冷枚画罗汉图册_animation.mp4"
   },
   {
     "id": "17",
@@ -291,7 +307,8 @@ export const mockPaintings = [
     "artist": "任熊",
     "artistId": "artist_16",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任熊灵龟图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任熊灵龟图轴.png",
     "tags": [
       "乌龟",
       "乌龟",
@@ -307,7 +324,8 @@ export const mockPaintings = [
     "artist": "虚谷",
     "artistId": "artist_17",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/虚谷紫藤金鱼轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "虚谷紫藤金鱼轴.png",
     "tags": [
       "叶子",
       "叶子",
@@ -325,14 +343,15 @@ export const mockPaintings = [
     "artist": "任熊",
     "artistId": "artist_18",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任熊杂画图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任熊杂画图册.png",
     "tags": [
       "龙"
     ],
     "isPremium": false,
     "description": "       任熊的绘画受陈洪绶变形主义风格的影响，图中龙的形象即如此。此图选自《杂画》册，其中游龙黄腹青鳞，奋爪前行，其眼神斜睨，面带笑容，构图与画法富有装饰色彩，与常见云龙的威猛神秘大相径庭。画家以细笔勾染，笔墨俊利，应受版画造型与表现技法的影响，在展示龙可爱多姿、充满童趣的方面有所创新。",
-    "restoredImage": "@/assets/mock_pic/qing/任熊杂画图册_restored.png",
-    "animation": "@/assets/mock_pic/qing/任熊杂画图册_animation.mp4"
+    "restoredImage": "任熊杂画图册_restored.png",
+    "animation": "任熊杂画图册_animation.mp4"
   },
   {
     "id": "20",
@@ -340,7 +359,8 @@ export const mockPaintings = [
     "artist": "吕学",
     "artistId": "artist_19",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/吕学苍龙训子轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "吕学苍龙训子轴.png",
     "tags": [
       "龙"
     ],
@@ -353,7 +373,8 @@ export const mockPaintings = [
     "artist": "周璕",
     "artistId": "artist_20",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/周璕墨龙图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "周璕墨龙图轴.png",
     "tags": [
       "芭蕉叶",
       "人"
@@ -367,7 +388,8 @@ export const mockPaintings = [
     "artist": "任预",
     "artistId": "artist_21",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任预十二生肖图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任预十二生肖图册.png",
     "tags": [
       "人",
       "龙",
@@ -375,8 +397,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/任预十二生肖图册_restored.png",
-    "animation": "@/assets/mock_pic/qing/任预十二生肖图册_animation.mp4"
+    "restoredImage": "任预十二生肖图册_restored.png",
+    "animation": "任预十二生肖图册_animation.mp4"
   },
   {
     "id": "23",
@@ -384,7 +406,8 @@ export const mockPaintings = [
     "artist": "高其佩",
     "artistId": "artist_22",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/高其佩墨龙图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "高其佩墨龙图轴.png",
     "tags": [
       "龙"
     ],
@@ -397,7 +420,8 @@ export const mockPaintings = [
     "artist": "邹喆",
     "artistId": "artist_23",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/邹喆山水图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "邹喆山水图轴.png",
     "tags": [
       "房屋",
       "房屋",
@@ -418,7 +442,8 @@ export const mockPaintings = [
     "artist": "赵之谦",
     "artistId": "artist_24",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/赵之谦五瑞图纨扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "赵之谦五瑞图纨扇.png",
     "tags": [
       "大蒜",
       "枇杷",
@@ -428,8 +453,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/赵之谦五瑞图纨扇_restored.png",
-    "animation": "@/assets/mock_pic/qing/赵之谦五瑞图纨扇_animation.mp4"
+    "restoredImage": "赵之谦五瑞图纨扇_restored.png",
+    "animation": "赵之谦五瑞图纨扇_animation.mp4"
   },
   {
     "id": "26",
@@ -437,7 +462,8 @@ export const mockPaintings = [
     "artist": "赵之谦",
     "artistId": "artist_25",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/赵之谦菊花纨扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "赵之谦菊花纨扇.png",
     "tags": [
       "菊花",
       "菊花"
@@ -451,7 +477,8 @@ export const mockPaintings = [
     "artist": "赵之谦",
     "artistId": "artist_26",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/赵之谦波罗蜜扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "赵之谦波罗蜜扇页.png",
     "tags": [
       "波罗蜜"
     ],
@@ -464,14 +491,15 @@ export const mockPaintings = [
     "artist": "张骐",
     "artistId": "artist_27",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/张骐摹朱彝尊像轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "张骐摹朱彝尊像轴.png",
     "tags": [
       "人"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/张骐摹朱彝尊像轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/张骐摹朱彝尊像轴_animation.mp4"
+    "restoredImage": "张骐摹朱彝尊像轴_restored.png",
+    "animation": "张骐摹朱彝尊像轴_animation.mp4"
   },
   {
     "id": "29",
@@ -479,7 +507,8 @@ export const mockPaintings = [
     "artist": "恽寿平",
     "artistId": "artist_28",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/恽寿平松竹轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "恽寿平松竹轴.png",
     "tags": [
       "竹子",
       "松树"
@@ -493,7 +522,8 @@ export const mockPaintings = [
     "artist": "恽本初",
     "artistId": "artist_29",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/恽本初山水图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "恽本初山水图轴.png",
     "tags": [
       "树",
       "树",
@@ -515,7 +545,8 @@ export const mockPaintings = [
     "artist": "袁耀",
     "artistId": "artist_30",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/袁耀汉宫春晓图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "袁耀汉宫春晓图轴.png",
     "tags": [
       "桥",
       "山",
@@ -524,8 +555,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《汉宫春晓图》轴，清乾隆三十二年（1767年），袁耀绘，绢本，设色，纵250厘米，横162厘米。\n本幅自题：“汉宫春晓。时丁亥初冬，邗上袁耀画。”钤“袁耀之印”、“昭道氏”印。\n“丁亥”是清乾隆三十二年（1767年）。\n此图名为汉代宫殿之景，实际上表现的是作者想像中的仙山琼阁，宫阙殿宇富有装饰趣味而不具写实性。图中山石形貌奇异，繁皴与密斫浑然一体，其灵动的点染不仅显现出石质的坚硬，同时增强了画面的动势，与工整精巧的宫阙楼阁形成粗放与华美、活泼与整齐的鲜明对比。",
-    "restoredImage": "@/assets/mock_pic/qing/袁耀汉宫春晓图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/袁耀汉宫春晓图轴_animation.mp4"
+    "restoredImage": "袁耀汉宫春晓图轴_restored.png",
+    "animation": "袁耀汉宫春晓图轴_animation.mp4"
   },
   {
     "id": "32",
@@ -533,7 +564,8 @@ export const mockPaintings = [
     "artist": "袁江",
     "artistId": "artist_31",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/袁江梁园飞雪图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "袁江梁园飞雪图轴.png",
     "tags": [
       "桥",
       "竹子",
@@ -552,7 +584,8 @@ export const mockPaintings = [
     "artist": "禹之鼎",
     "artistId": "artist_32",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/禹之鼎西郊寻梅图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "禹之鼎西郊寻梅图轴.png",
     "tags": [
       "人",
       "梅花",
@@ -569,7 +602,8 @@ export const mockPaintings = [
     "artist": "许滨",
     "artistId": "artist_33",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/许滨荷花草虫扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "许滨荷花草虫扇页.png",
     "tags": [
       "虫",
       "荷花",
@@ -577,8 +611,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/许滨荷花草虫扇页_restored.png",
-    "animation": "@/assets/mock_pic/qing/许滨荷花草虫扇页_animation.mp4"
+    "restoredImage": "许滨荷花草虫扇页_restored.png",
+    "animation": "许滨荷花草虫扇页_animation.mp4"
   },
   {
     "id": "35",
@@ -586,7 +620,8 @@ export const mockPaintings = [
     "artist": "徐釚",
     "artistId": "artist_34",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/徐釚山水扇面.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "徐釚山水扇面.png",
     "tags": [
       "山",
       "山",
@@ -612,7 +647,8 @@ export const mockPaintings = [
     "artist": "虚谷",
     "artistId": "artist_35",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/虚谷菊花图扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "虚谷菊花图扇页.png",
     "tags": [
       "人",
       "人",
@@ -628,7 +664,8 @@ export const mockPaintings = [
     "artist": "虚谷",
     "artistId": "artist_36",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/虚谷杨柳八哥轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "虚谷杨柳八哥轴.png",
     "tags": [
       "鸟",
       "柳树",
@@ -636,8 +673,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/虚谷杨柳八哥轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/虚谷杨柳八哥轴_animation.mp4"
+    "restoredImage": "虚谷杨柳八哥轴_restored.png",
+    "animation": "虚谷杨柳八哥轴_animation.mp4"
   },
   {
     "id": "38",
@@ -645,7 +682,8 @@ export const mockPaintings = [
     "artist": "谢荪",
     "artistId": "artist_37",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/谢荪青绿山水图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "谢荪青绿山水图轴.png",
     "tags": [
       "山",
       "树",
@@ -664,7 +702,8 @@ export const mockPaintings = [
     "artist": "吴应贞",
     "artistId": "artist_38",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/吴应贞红莲轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "吴应贞红莲轴.png",
     "tags": [
       "荷叶",
       "荷叶",
@@ -687,15 +726,16 @@ export const mockPaintings = [
     "artist": "吴观岱",
     "artistId": "artist_39",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/吴观岱采桑图扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "吴观岱采桑图扇页.png",
     "tags": [
       "人",
       "树"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/吴观岱采桑图扇页_restored.png",
-    "animation": "@/assets/mock_pic/qing/吴观岱采桑图扇页_animation.mp4"
+    "restoredImage": "吴观岱采桑图扇页_restored.png",
+    "animation": "吴观岱采桑图扇页_animation.mp4"
   },
   {
     "id": "41",
@@ -703,7 +743,8 @@ export const mockPaintings = [
     "artist": "吴穀祥",
     "artistId": "artist_40",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/吴穀祥桃源图扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "吴穀祥桃源图扇.png",
     "tags": [
       "桃树",
       "山",
@@ -720,7 +761,8 @@ export const mockPaintings = [
     "artist": "吴穀祥",
     "artistId": "artist_41",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/吴穀祥仿梅道人山水扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "吴穀祥仿梅道人山水扇.png",
     "tags": [
       "塔",
       "树",
@@ -741,7 +783,8 @@ export const mockPaintings = [
     "artist": "文柟",
     "artistId": "artist_42",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/文柟山水人物图扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "文柟山水人物图扇页.png",
     "tags": [
       "松树",
       "船",
@@ -751,8 +794,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/文柟山水人物图扇页_restored.png",
-    "animation": "@/assets/mock_pic/qing/文柟山水人物图扇页_animation.mp4"
+    "restoredImage": "文柟山水人物图扇页_restored.png",
+    "animation": "文柟山水人物图扇页_animation.mp4"
   },
   {
     "id": "44",
@@ -760,7 +803,8 @@ export const mockPaintings = [
     "artist": "文点",
     "artistId": "artist_43",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/文点山水图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "文点山水图轴.png",
     "tags": [
       "山",
       "山",
@@ -780,7 +824,8 @@ export const mockPaintings = [
     "artist": "王屿",
     "artistId": "artist_44",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王屿雪景山水图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王屿雪景山水图轴.png",
     "tags": [
       "山",
       "树",
@@ -800,7 +845,8 @@ export const mockPaintings = [
     "artist": "王武",
     "artistId": "artist_45",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王武乔松仙杏图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王武乔松仙杏图轴.png",
     "tags": [
       "松树",
       "鸟",
@@ -808,8 +854,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/王武乔松仙杏图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/王武乔松仙杏图轴_animation.mp4"
+    "restoredImage": "王武乔松仙杏图轴_restored.png",
+    "animation": "王武乔松仙杏图轴_animation.mp4"
   },
   {
     "id": "47",
@@ -817,7 +863,8 @@ export const mockPaintings = [
     "artist": "王树榖",
     "artistId": "artist_46",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王树穀人物图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王树穀人物图册.png",
     "tags": [
       "人"
     ],
@@ -830,7 +877,8 @@ export const mockPaintings = [
     "artist": "恽寿平、王翚",
     "artistId": "artist_47",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王翚、恽寿平槐隐图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王翚、恽寿平槐隐图册.png",
     "tags": [
       "树",
       "房屋",
@@ -845,7 +893,8 @@ export const mockPaintings = [
     "artist": "恽寿平、王翚",
     "artistId": "artist_48",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王翚、恽寿平槐隐图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王翚、恽寿平槐隐图册.png",
     "tags": [
       "树",
       "房屋",
@@ -853,8 +902,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/王翚、恽寿平槐隐图册_restored.png",
-    "animation": "@/assets/mock_pic/qing/王翚、恽寿平槐隐图册_animation.mp4"
+    "restoredImage": "王翚、恽寿平槐隐图册_restored.png",
+    "animation": "王翚、恽寿平槐隐图册_animation.mp4"
   },
   {
     "id": "50",
@@ -862,7 +911,8 @@ export const mockPaintings = [
     "artist": "童塏",
     "artistId": "artist_49",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/童塏花蝶扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "童塏花蝶扇.png",
     "tags": [
       "蝴蝶",
       "叶子"
@@ -876,7 +926,8 @@ export const mockPaintings = [
     "artist": "陶宏",
     "artistId": "artist_50",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/陶宏戏婴图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "陶宏戏婴图轴.png",
     "tags": [
       "人",
       "人"
@@ -890,7 +941,8 @@ export const mockPaintings = [
     "artist": "汤禄名",
     "artistId": "artist_51",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/汤禄名梅竹仕女图扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "汤禄名梅竹仕女图扇页.png",
     "tags": [
       "人",
       "树",
@@ -898,8 +950,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《梅竹仕女图》扇页，清，汤禄名绘，金笺，设色，纵17.8厘米，横52.5厘米。\n扇页有自题：“伯符大兄大人雅正。汤禄名。”钤“乐民”半白半朱印。\n图绘闺阁女子倚窗赏梅的小景。画家笔墨娴熟，线条婉转流畅，施墨有浓淡变化，设色以雅淡为宗，较好地表现出女子明媚秀雅的神态。女子细眉小眼、瓜子脸以及瘦体溜肩弱不禁风的体态，具有鲜明的时代特征，正是晚清时期仕女画的典型风貌。",
-    "restoredImage": "@/assets/mock_pic/qing/汤禄名梅竹仕女图扇页_restored.png",
-    "animation": "@/assets/mock_pic/qing/汤禄名梅竹仕女图扇页_animation.mp4"
+    "restoredImage": "汤禄名梅竹仕女图扇页_restored.png",
+    "animation": "汤禄名梅竹仕女图扇页_animation.mp4"
   },
   {
     "id": "53",
@@ -907,7 +959,8 @@ export const mockPaintings = [
     "artist": "谈象稑",
     "artistId": "artist_52",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/谈象稑长江独钓图扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "谈象稑长江独钓图扇页.png",
     "tags": [
       "山",
       "山",
@@ -923,7 +976,8 @@ export const mockPaintings = [
     "artist": "损之",
     "artistId": "artist_53",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/金陵名笔集胜-损之画花蝴册页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "金陵名笔集胜-损之画花蝴册页.png",
     "tags": [
       "蝴蝶",
       "蜻蜓",
@@ -939,15 +993,16 @@ export const mockPaintings = [
     "artist": "孙祜",
     "artistId": "artist_54",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/孙祜苏轼诗意图成扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "孙祜苏轼诗意图成扇.png",
     "tags": [
       "树",
       "人"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/孙祜苏轼诗意图成扇_restored.png",
-    "animation": "@/assets/mock_pic/qing/孙祜苏轼诗意图成扇_animation.mp4"
+    "restoredImage": "孙祜苏轼诗意图成扇_restored.png",
+    "animation": "孙祜苏轼诗意图成扇_animation.mp4"
   },
   {
     "id": "56",
@@ -955,7 +1010,8 @@ export const mockPaintings = [
     "artist": "苏宜",
     "artistId": "artist_55",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/苏宜山水轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "苏宜山水轴.png",
     "tags": [
       "人",
       "人",
@@ -971,7 +1027,8 @@ export const mockPaintings = [
     "artist": "沈铨",
     "artistId": "artist_56",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/沈铨松鹤图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "沈铨松鹤图轴.png",
     "tags": [
       "鹤",
       "鹤",
@@ -988,7 +1045,8 @@ export const mockPaintings = [
     "artist": "沙馥",
     "artistId": "artist_57",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/沙馥负薪图扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "沙馥负薪图扇页.png",
     "tags": [
       "树",
       "树",
@@ -1003,8 +1061,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/沙馥负薪图扇页_restored.png",
-    "animation": "@/assets/mock_pic/qing/沙馥负薪图扇页_animation.mp4"
+    "restoredImage": "沙馥负薪图扇页_restored.png",
+    "animation": "沙馥负薪图扇页_animation.mp4"
   },
   {
     "id": "59",
@@ -1012,7 +1070,8 @@ export const mockPaintings = [
     "artist": "任预",
     "artistId": "artist_58",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任预观瀑图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任预观瀑图轴.png",
     "tags": [
       "山",
       "山",
@@ -1031,7 +1090,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_59",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐听松图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐听松图轴.png",
     "tags": [
       "人",
       "松树",
@@ -1049,7 +1109,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_60",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐画徐步督耕图册装轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐画徐步督耕图册装轴.png",
     "tags": [
       "人",
       "树",
@@ -1057,8 +1118,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/任颐画徐步督耕图册装轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/任颐画徐步督耕图册装轴_animation.mp4"
+    "restoredImage": "任颐画徐步督耕图册装轴_restored.png",
+    "animation": "任颐画徐步督耕图册装轴_animation.mp4"
   },
   {
     "id": "62",
@@ -1066,7 +1127,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_61",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐竹涧烹茶图团扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐竹涧烹茶图团扇.png",
     "tags": [
       "孩子",
       "孩子",
@@ -1082,7 +1144,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_62",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐紫藤栖禽团扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐紫藤栖禽团扇.png",
     "tags": [
       "鸟",
       "树",
@@ -1097,7 +1160,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_63",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐花鸟扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐花鸟扇.png",
     "tags": [
       "鸟",
       "花",
@@ -1106,8 +1170,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/任颐花鸟扇_restored.png",
-    "animation": "@/assets/mock_pic/qing/任颐花鸟扇_animation.mp4"
+    "restoredImage": "任颐花鸟扇_restored.png",
+    "animation": "任颐花鸟扇_animation.mp4"
   },
   {
     "id": "65",
@@ -1115,7 +1179,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_64",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐苏武牧羊图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐苏武牧羊图轴.png",
     "tags": [
       "人",
       "羊",
@@ -1131,7 +1196,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_65",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐桃花白鸡图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐桃花白鸡图轴.png",
     "tags": [
       "桃树",
       "桃树",
@@ -1148,7 +1214,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_66",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐紫藤鹅图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐紫藤鹅图轴.png",
     "tags": [
       "鹅",
       "树",
@@ -1156,8 +1223,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/任颐紫藤鹅图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/任颐紫藤鹅图轴_animation.mp4"
+    "restoredImage": "任颐紫藤鹅图轴_restored.png",
+    "animation": "任颐紫藤鹅图轴_animation.mp4"
   },
   {
     "id": "68",
@@ -1165,7 +1232,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_67",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐洗耳画轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐洗耳画轴.png",
     "tags": [
       "人",
       "人",
@@ -1183,7 +1251,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_68",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐碧桃春燕图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐碧桃春燕图轴.png",
     "tags": [
       "山",
       "树"
@@ -1197,7 +1266,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_69",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐归牧图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐归牧图轴.png",
     "tags": [
       "牛",
       "人",
@@ -1206,8 +1276,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/任颐归牧图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/任颐归牧图轴_animation.mp4"
+    "restoredImage": "任颐归牧图轴_restored.png",
+    "animation": "任颐归牧图轴_animation.mp4"
   },
   {
     "id": "71",
@@ -1215,7 +1285,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_70",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐苍松鹦鹉图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐苍松鹦鹉图轴.png",
     "tags": [
       "八哥"
     ],
@@ -1228,7 +1299,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_71",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐斗梅图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐斗梅图轴.png",
     "tags": [
       "猴子",
       "树",
@@ -1243,14 +1315,15 @@ export const mockPaintings = [
     "artist": "任熊",
     "artistId": "artist_72",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任熊杂画图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任熊杂画图册.png",
     "tags": [
       "龙"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/任熊杂画图册_restored.png",
-    "animation": "@/assets/mock_pic/qing/任熊杂画图册_animation.mp4"
+    "restoredImage": "任熊杂画图册_restored.png",
+    "animation": "任熊杂画图册_animation.mp4"
   },
   {
     "id": "74",
@@ -1258,7 +1331,8 @@ export const mockPaintings = [
     "artist": "钱维乔",
     "artistId": "artist_73",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/钱维乔松堂读书图扇面.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "钱维乔松堂读书图扇面.png",
     "tags": [
       "山",
       "山",
@@ -1287,7 +1361,8 @@ export const mockPaintings = [
     "artist": "钱慧安",
     "artistId": "artist_74",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/钱慧安听鹂图扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "钱慧安听鹂图扇页.png",
     "tags": [
       "人",
       "人",
@@ -1302,7 +1377,8 @@ export const mockPaintings = [
     "artist": "钱杜",
     "artistId": "artist_75",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/钱杜仿赵大年山水扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "钱杜仿赵大年山水扇.png",
     "tags": [
       "柳树",
       "柳树",
@@ -1316,8 +1392,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/钱杜仿赵大年山水扇_restored.png",
-    "animation": "@/assets/mock_pic/qing/钱杜仿赵大年山水扇_animation.mp4"
+    "restoredImage": "钱杜仿赵大年山水扇_restored.png",
+    "animation": "钱杜仿赵大年山水扇_animation.mp4"
   },
   {
     "id": "77",
@@ -1325,7 +1401,8 @@ export const mockPaintings = [
     "artist": "钱杜",
     "artistId": "artist_76",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/钱杜藕香吟馆图扇面.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "钱杜藕香吟馆图扇面.png",
     "tags": [
       "树",
       "树",
@@ -1348,7 +1425,8 @@ export const mockPaintings = [
     "artist": "陆灏",
     "artistId": "artist_77",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/陆灏仿王蒙山水轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "陆灏仿王蒙山水轴.png",
     "tags": [
       "山",
       "树",
@@ -1367,7 +1445,8 @@ export const mockPaintings = [
     "artist": "焦秉贞",
     "artistId": "artist_78",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/焦秉贞陶渊明归去来辞扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "焦秉贞陶渊明归去来辞扇.png",
     "tags": [
       "人",
       "松树",
@@ -1376,8 +1455,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/焦秉贞陶渊明归去来辞扇_restored.png",
-    "animation": "@/assets/mock_pic/qing/焦秉贞陶渊明归去来辞扇_animation.mp4"
+    "restoredImage": "焦秉贞陶渊明归去来辞扇_restored.png",
+    "animation": "焦秉贞陶渊明归去来辞扇_animation.mp4"
   },
   {
     "id": "80",
@@ -1385,7 +1464,8 @@ export const mockPaintings = [
     "artist": "黄向坚",
     "artistId": "artist_79",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/黄向坚巉崖陡壁图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "黄向坚巉崖陡壁图轴.png",
     "tags": [
       "树",
       "树"
@@ -1399,7 +1479,8 @@ export const mockPaintings = [
     "artist": "黄向坚",
     "artistId": "artist_80",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/黄向坚滇南胜境坊雪景轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "黄向坚滇南胜境坊雪景轴.png",
     "tags": [
       "山",
       "山",
@@ -1414,7 +1495,8 @@ export const mockPaintings = [
     "artist": "黄鼎",
     "artistId": "artist_81",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/黄鼎万木奇峰图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "黄鼎万木奇峰图轴.png",
     "tags": [
       "山",
       "树",
@@ -1422,8 +1504,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/黄鼎万木奇峰图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/黄鼎万木奇峰图轴_animation.mp4"
+    "restoredImage": "黄鼎万木奇峰图轴_restored.png",
+    "animation": "黄鼎万木奇峰图轴_animation.mp4"
   },
   {
     "id": "83",
@@ -1431,7 +1513,8 @@ export const mockPaintings = [
     "artist": "黄鼎",
     "artistId": "artist_82",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/黄鼎山水图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "黄鼎山水图轴.png",
     "tags": [
       "房屋",
       "树",
@@ -1447,7 +1530,8 @@ export const mockPaintings = [
     "artist": "华嵒",
     "artistId": "artist_83",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/华喦山水图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "华喦山水图轴.png",
     "tags": [
       "山",
       "树"
@@ -1461,7 +1545,8 @@ export const mockPaintings = [
     "artist": "华嵒",
     "artistId": "artist_84",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/华喦柳塘翠鹭图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "华喦柳塘翠鹭图轴.png",
     "tags": [
       "柳树",
       "鸟",
@@ -1470,8 +1555,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/华喦柳塘翠鹭图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/华喦柳塘翠鹭图轴_animation.mp4"
+    "restoredImage": "华喦柳塘翠鹭图轴_restored.png",
+    "animation": "华喦柳塘翠鹭图轴_animation.mp4"
   },
   {
     "id": "86",
@@ -1479,7 +1564,8 @@ export const mockPaintings = [
     "artist": "胡锡珪",
     "artistId": "artist_85",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/胡锡珪仕女扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "胡锡珪仕女扇.png",
     "tags": [
       "人",
       "鸟",
@@ -1497,7 +1583,8 @@ export const mockPaintings = [
     "artist": "胡锡珪",
     "artistId": "artist_86",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/胡锡珪惜花幽思图扇面.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "胡锡珪惜花幽思图扇面.png",
     "tags": [
       "人",
       "假山",
@@ -1514,14 +1601,15 @@ export const mockPaintings = [
     "artist": "何榞",
     "artistId": "artist_87",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/何榞兰花各家题扇页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "何榞兰花各家题扇页.png",
     "tags": [
       "叶子"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/何榞兰花各家题扇页_restored.png",
-    "animation": "@/assets/mock_pic/qing/何榞兰花各家题扇页_animation.mp4"
+    "restoredImage": "何榞兰花各家题扇页_restored.png",
+    "animation": "何榞兰花各家题扇页_animation.mp4"
   },
   {
     "id": "89",
@@ -1529,7 +1617,8 @@ export const mockPaintings = [
     "artist": "高其佩",
     "artistId": "artist_88",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/高其佩仙山楼阁图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "高其佩仙山楼阁图轴.png",
     "tags": [
       "房屋",
       "房屋",
@@ -1554,7 +1643,8 @@ export const mockPaintings = [
     "artist": "费以耕",
     "artistId": "artist_89",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/费以耕秋林仕女扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "费以耕秋林仕女扇.png",
     "tags": [
       "人",
       "房屋",
@@ -1573,7 +1663,8 @@ export const mockPaintings = [
     "artist": "陈枚",
     "artistId": "artist_90",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/陈枚人物山水扇.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "陈枚人物山水扇.png",
     "tags": [
       "人",
       "人",
@@ -1583,8 +1674,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/陈枚人物山水扇_restored.png",
-    "animation": "@/assets/mock_pic/qing/陈枚人物山水扇_animation.mp4"
+    "restoredImage": "陈枚人物山水扇_restored.png",
+    "animation": "陈枚人物山水扇_animation.mp4"
   },
   {
     "id": "92",
@@ -1592,7 +1683,8 @@ export const mockPaintings = [
     "artist": "陈衡恪",
     "artistId": "artist_91",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/陈衡恪蔬果图扇面.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "陈衡恪蔬果图扇面.png",
     "tags": [
       "龙",
       "龙",
@@ -1609,7 +1701,8 @@ export const mockPaintings = [
     "artist": "任预",
     "artistId": "artist_92",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任预十二生肖图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任预十二生肖图册.png",
     "tags": [
       "人",
       "龙",
@@ -1624,7 +1717,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_93",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/清人野兔页.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "清人野兔页.png",
     "tags": [
       "兔",
       "兔",
@@ -1632,8 +1726,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/清人野兔页_restored.png",
-    "animation": "@/assets/mock_pic/qing/清人野兔页_animation.mp4"
+    "restoredImage": "清人野兔页_restored.png",
+    "animation": "清人野兔页_animation.mp4"
   },
   {
     "id": "95",
@@ -1641,7 +1735,8 @@ export const mockPaintings = [
     "artist": "汪士慎",
     "artistId": "artist_94",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/汪士慎梅花图册.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "汪士慎梅花图册.png",
     "tags": [
       "兔子",
       "兔子",
@@ -1659,7 +1754,8 @@ export const mockPaintings = [
     "artist": "朱耷",
     "artistId": "artist_95",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/朱耷松鹿轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "朱耷松鹿轴.png",
     "tags": [
       "鸡",
       "桃树"
@@ -1673,7 +1769,8 @@ export const mockPaintings = [
     "artist": "王原祁",
     "artistId": "artist_96",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王原祁仿山樵山水轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王原祁仿山樵山水轴.png",
     "tags": [
       "山",
       "山",
@@ -1699,8 +1796,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/王原祁仿山樵山水轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/王原祁仿山樵山水轴_animation.mp4"
+    "restoredImage": "王原祁仿山樵山水轴_restored.png",
+    "animation": "王原祁仿山樵山水轴_animation.mp4"
   },
   {
     "id": "98",
@@ -1708,7 +1805,8 @@ export const mockPaintings = [
     "artist": "沈利",
     "artistId": "artist_97",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/沈利重峦烟云贴落.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "沈利重峦烟云贴落.png",
     "tags": [
       "萝卜",
       "竹笋",
@@ -1725,7 +1823,8 @@ export const mockPaintings = [
     "artist": "高凤翰",
     "artistId": "artist_98",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/高凤翰自画像轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "高凤翰自画像轴.png",
     "tags": [
       "山",
       "山",
@@ -1753,14 +1852,15 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_99",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐牡丹双鸡图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐牡丹双鸡图轴.png",
     "tags": [
       "人"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/qing/任颐牡丹双鸡图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/任颐牡丹双鸡图轴_animation.mp4"
+    "restoredImage": "任颐牡丹双鸡图轴_restored.png",
+    "animation": "任颐牡丹双鸡图轴_animation.mp4"
   },
   {
     "id": "101",
@@ -1768,7 +1868,8 @@ export const mockPaintings = [
     "artist": "王鉴",
     "artistId": "artist_100",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王鉴仿叔明长松仙馆图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王鉴仿叔明长松仙馆图轴.png",
     "tags": [
       "山",
       "树",
@@ -1783,7 +1884,8 @@ export const mockPaintings = [
     "artist": "查士标、王翚",
     "artistId": "artist_101",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/王翚查士标合作名山访胜图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "王翚查士标合作名山访胜图轴.png",
     "tags": [
       "山",
       "山",
@@ -1804,7 +1906,8 @@ export const mockPaintings = [
     "artist": "任颐",
     "artistId": "artist_102",
     "dynasty": "清朝",
-    "imageUrl": "@/assets/mock_pic/qing/任颐苏武牧羊图轴.png",
+    "dynastyFolder": "qing",
+    "imageUrl": "任颐苏武牧羊图轴.png",
     "tags": [
       "人",
       "羊",
@@ -1813,8 +1916,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《苏武牧羊图》轴，清，任颐作，纸本，设色，纵149.5厘米，横81厘米。 钤 “任颐印”白文方印。款：“光绪庚辰嘉平吉旦，山阴任颐伯年甫写于春申浦。”\n在任颐众多的人物故事画中，“苏武牧羊”是他描绘较多的题材之一。《汉书·苏武传》中记载：苏武，字子卿，曾奉汉武帝命以中郎将身分出使匈奴，单于欲降苏武，苏武不屈，被留放北海(今贝尔加湖)长达19年，苏武“杖汉节牧羊，卧起操持，节旌尽落”，表现了强烈的爱国精神。作为出身于市民，又一度随太平军转战的任颐，面对加速殖民化的国土，深感“身居十里洋场，无异置身异域”，甚至寄希望于“草莽英雄”，正是这种思想驱使他在画中寄托忧患意识，歌颂高尚的爱国情操。图中苏武手持汉节，如坚石般站立于画面中心，双目望于画外，似在遥望汉国，目光坚定自信，表现了不屈的精神。\n画中人物造型比例准确，除保持了陈洪绶人物奇古伟岸的特征之外，还融汇了西洋画速写、素描的技法，线条凝练概括，具有力度，与主题相统一。色墨的渲染协调统一，尤其是羊群运用写意的手法，在黑、白、灰的墨色变化中准确地描绘出羊群的造型，同时也描绘出群羊因寒冷而挤作一团的情景，以此衬托出环境的恶劣，从而突出了人物不畏艰难险阻的刚毅气节。",
-    "restoredImage": "@/assets/mock_pic/qing/任颐苏武牧羊图轴_restored.png",
-    "animation": "@/assets/mock_pic/qing/任颐苏武牧羊图轴_animation.mp4"
+    "restoredImage": "任颐苏武牧羊图轴_restored.png",
+    "animation": "任颐苏武牧羊图轴_animation.mp4"
   },
   {
     "id": "104",
@@ -1822,7 +1925,8 @@ export const mockPaintings = [
     "artist": "李衎",
     "artistId": "artist_103",
     "dynasty": "元朝",
-    "imageUrl": "@/assets/mock_pic/yuan/李衎墨竹卷.png",
+    "dynastyFolder": "yuan",
+    "imageUrl": "李衎墨竹卷.png",
     "tags": [
       "竹子"
     ],
@@ -1835,7 +1939,8 @@ export const mockPaintings = [
     "artist": "盛懋",
     "artistId": "artist_104",
     "dynasty": "元朝",
-    "imageUrl": "@/assets/mock_pic/yuan/盛懋坐看云起图页.png",
+    "dynastyFolder": "yuan",
+    "imageUrl": "盛懋坐看云起图页.png",
     "tags": [
       "山",
       "树",
@@ -1851,7 +1956,8 @@ export const mockPaintings = [
     "artist": "李衎",
     "artistId": "artist_105",
     "dynasty": "元朝",
-    "imageUrl": "@/assets/mock_pic/yuan/李衎双钩竹轴.png",
+    "dynastyFolder": "yuan",
+    "imageUrl": "李衎双钩竹轴.png",
     "tags": [
       "山",
       "山",
@@ -1859,8 +1965,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/yuan/李衎双钩竹轴_restored.png",
-    "animation": "@/assets/mock_pic/yuan/李衎双钩竹轴_animation.mp4"
+    "restoredImage": "李衎双钩竹轴_restored.png",
+    "animation": "李衎双钩竹轴_animation.mp4"
   },
   {
     "id": "107",
@@ -1868,7 +1974,8 @@ export const mockPaintings = [
     "artist": "赵孟頫",
     "artistId": "artist_106",
     "dynasty": "元朝",
-    "imageUrl": "@/assets/mock_pic/yuan/赵孟頫古木竹石图轴.png",
+    "dynastyFolder": "yuan",
+    "imageUrl": "赵孟頫古木竹石图轴.png",
     "tags": [
       "竹子"
     ],
@@ -1881,7 +1988,8 @@ export const mockPaintings = [
     "artist": "赵雍",
     "artistId": "artist_107",
     "dynasty": "元朝",
-    "imageUrl": "@/assets/mock_pic/yuan/赵雍挟弹游骑图轴.png",
+    "dynastyFolder": "yuan",
+    "imageUrl": "赵雍挟弹游骑图轴.png",
     "tags": [
       "人",
       "马",
@@ -1897,7 +2005,8 @@ export const mockPaintings = [
     "artist": "仇英",
     "artistId": "artist_108",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/仇英吹箫引凤图页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "仇英吹箫引凤图页.png",
     "tags": [
       "人",
       "团扇",
@@ -1905,8 +2014,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "      本页选自《人物故事图》册，明，仇英作，绢本，设色，每开纵41.4厘米，横33.8厘米。\n      典出《列仙传》。秦穆公女嫁萧史为妻，二人常在凤台上合奏，终引凤凰而来。",
-    "restoredImage": "@/assets/mock_pic/ming/仇英吹箫引凤图页_restored.png",
-    "animation": "@/assets/mock_pic/ming/仇英吹箫引凤图页_animation.mp4"
+    "restoredImage": "仇英吹箫引凤图页_restored.png",
+    "animation": "仇英吹箫引凤图页_animation.mp4"
   },
   {
     "id": "110",
@@ -1914,7 +2023,8 @@ export const mockPaintings = [
     "artist": "吴湘",
     "artistId": "artist_109",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/吴湘仕女四段图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "吴湘仕女四段图卷.png",
     "tags": [
       "人",
       "人",
@@ -1929,7 +2039,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_110",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/佚名文姬归汉图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "佚名文姬归汉图卷.png",
     "tags": [
       "人",
       "人",
@@ -1947,7 +2058,8 @@ export const mockPaintings = [
     "artist": "丁云鹏",
     "artistId": "artist_111",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/丁云鹏婕妤挡熊图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "丁云鹏婕妤挡熊图卷.png",
     "tags": [
       "鸟",
       "鸟",
@@ -1956,8 +2068,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "丁云鹏《冯媛当熊图》卷，明，丁云鹏绘，纸本，设色， 纵32.6厘米，横148.8厘米。\n本幅款署：“万历癸未春丁云鹏写。”下钤“南羽”朱文方印。引首有吴元满篆书“冯媛当（音挡）熊”四字，尾纸有吴时尧、施于民题跋。\n按题可知，此图作于明万历十一年（1583年）。\n此图以翠竹、梧桐、椿树、湖石为背景，表现了冯媛挡熊的故事场景。据《汉书•外戚传下•冯昭仪》记载，西汉建昭年间，元帝率左右随从，于后宫观斗兽。突然有熊逸出圈，攀栏欲上殿，冯婕妤冲上前挡熊而立，保护元帝免遭伤害。“冯媛当熊”应为爱君之典。《汉书》卷三十六称“《列女传》凡八篇，以戒天子”。",
-    "restoredImage": "@/assets/mock_pic/ming/丁云鹏婕妤挡熊图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/丁云鹏婕妤挡熊图卷_animation.mp4"
+    "restoredImage": "丁云鹏婕妤挡熊图卷_restored.png",
+    "animation": "丁云鹏婕妤挡熊图卷_animation.mp4"
   },
   {
     "id": "113",
@@ -1965,7 +2077,8 @@ export const mockPaintings = [
     "artist": "董其昌",
     "artistId": "artist_112",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/董其昌林杪水步图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "董其昌林杪水步图轴.png",
     "tags": [
       "树",
       "山"
@@ -1979,7 +2092,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_113",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶龙王礼佛轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶龙王礼佛轴.png",
     "tags": [
       "人",
       "莲花"
@@ -1993,15 +2107,16 @@ export const mockPaintings = [
     "artist": "明人",
     "artistId": "artist_114",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人龙王图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人龙王图卷.png",
     "tags": [
       "人",
       "龙"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/明人龙王图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/明人龙王图卷_animation.mp4"
+    "restoredImage": "明人龙王图卷_restored.png",
+    "animation": "明人龙王图卷_animation.mp4"
   },
   {
     "id": "116",
@@ -2009,7 +2124,8 @@ export const mockPaintings = [
     "artist": "朱之蕃",
     "artistId": "artist_115",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/朱之蕃孤松盘桓轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "朱之蕃孤松盘桓轴.png",
     "tags": [
       "荷叶",
       "莲蓬",
@@ -2026,7 +2142,8 @@ export const mockPaintings = [
     "artist": "张路",
     "artistId": "artist_116",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/张路吹箫女仙图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "张路吹箫女仙图轴.png",
     "tags": [
       "笛子",
       "人",
@@ -2041,7 +2158,8 @@ export const mockPaintings = [
     "artist": "杨文骢",
     "artistId": "artist_117",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/杨文骢白日掩荆扉图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "杨文骢白日掩荆扉图卷.png",
     "tags": [
       "人",
       "房屋",
@@ -2050,8 +2168,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/杨文骢白日掩荆扉图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/杨文骢白日掩荆扉图卷_animation.mp4"
+    "restoredImage": "杨文骢白日掩荆扉图卷_restored.png",
+    "animation": "杨文骢白日掩荆扉图卷_animation.mp4"
   },
   {
     "id": "119",
@@ -2059,7 +2177,8 @@ export const mockPaintings = [
     "artist": "徐泰",
     "artistId": "artist_118",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/徐泰写照蓝瑛补景邵弥肖像轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "徐泰写照蓝瑛补景邵弥肖像轴.png",
     "tags": [
       "人",
       "树",
@@ -2074,7 +2193,8 @@ export const mockPaintings = [
     "artist": "邢侗",
     "artistId": "artist_119",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/邢侗拳石图扇.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "邢侗拳石图扇.png",
     "tags": [
       "岩石"
     ],
@@ -2087,7 +2207,8 @@ export const mockPaintings = [
     "artist": "项圣谟",
     "artistId": "artist_120",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/项圣谟青梅初熟卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "项圣谟青梅初熟卷.png",
     "tags": [
       "青梅",
       "青梅",
@@ -2098,8 +2219,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/项圣谟青梅初熟卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/项圣谟青梅初熟卷_animation.mp4"
+    "restoredImage": "项圣谟青梅初熟卷_restored.png",
+    "animation": "项圣谟青梅初熟卷_animation.mp4"
   },
   {
     "id": "122",
@@ -2107,7 +2228,8 @@ export const mockPaintings = [
     "artist": "王仲玉",
     "artistId": "artist_121",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/王仲玉陶渊明像轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "王仲玉陶渊明像轴.png",
     "tags": [
       "人",
       "人"
@@ -2121,7 +2243,8 @@ export const mockPaintings = [
     "artist": "王翘",
     "artistId": "artist_122",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/王翘鱼藻卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "王翘鱼藻卷.png",
     "tags": [
       "鱼",
       "鱼",
@@ -2140,7 +2263,8 @@ export const mockPaintings = [
     "artist": "王綦",
     "artistId": "artist_123",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/王綦山水册.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "王綦山水册.png",
     "tags": [
       "树",
       "树",
@@ -2148,8 +2272,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/王綦山水册_restored.png",
-    "animation": "@/assets/mock_pic/ming/王綦山水册_animation.mp4"
+    "restoredImage": "王綦山水册_restored.png",
+    "animation": "王綦山水册_animation.mp4"
   },
   {
     "id": "125",
@@ -2157,7 +2281,8 @@ export const mockPaintings = [
     "artist": "王谔",
     "artistId": "artist_124",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/王谔踏雪寻梅图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "王谔踏雪寻梅图轴.png",
     "tags": [
       "人",
       "树"
@@ -2171,7 +2296,8 @@ export const mockPaintings = [
     "artist": "万寿祺",
     "artistId": "artist_125",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/万寿祺松石轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "万寿祺松石轴.png",
     "tags": [
       "树",
       "房屋",
@@ -2186,7 +2312,8 @@ export const mockPaintings = [
     "artist": "宋珏",
     "artistId": "artist_126",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/宋珏山楼对雨图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "宋珏山楼对雨图轴.png",
     "tags": [
       "人",
       "桥",
@@ -2194,8 +2321,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/宋珏山楼对雨图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/宋珏山楼对雨图轴_animation.mp4"
+    "restoredImage": "宋珏山楼对雨图轴_restored.png",
+    "animation": "宋珏山楼对雨图轴_animation.mp4"
   },
   {
     "id": "128",
@@ -2203,7 +2330,8 @@ export const mockPaintings = [
     "artist": "钦式",
     "artistId": "artist_127",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/钦式山水扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "钦式山水扇页.png",
     "tags": [
       "人",
       "人",
@@ -2218,7 +2346,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_128",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人长江万里图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人长江万里图卷.png",
     "tags": [
       "人",
       "人",
@@ -2235,7 +2364,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_129",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人长江万里图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人长江万里图卷.png",
     "tags": [
       "人",
       "人",
@@ -2245,8 +2375,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/明人长江万里图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/明人长江万里图卷_animation.mp4"
+    "restoredImage": "明人长江万里图卷_restored.png",
+    "animation": "明人长江万里图卷_animation.mp4"
   },
   {
     "id": "131",
@@ -2254,7 +2384,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_130",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人花鸟图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人花鸟图轴.png",
     "tags": [
       "鸟",
       "鸟",
@@ -2282,7 +2413,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_131",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人五王避暑图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人五王避暑图轴.png",
     "tags": [
       "人",
       "人",
@@ -2313,15 +2445,16 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_132",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人仿李衎松石图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人仿李衎松石图轴.png",
     "tags": [
       "竹子",
       "树"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/明人仿李衎松石图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/明人仿李衎松石图轴_animation.mp4"
+    "restoredImage": "明人仿李衎松石图轴_restored.png",
+    "animation": "明人仿李衎松石图轴_animation.mp4"
   },
   {
     "id": "134",
@@ -2329,7 +2462,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_133",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人画赵桓半身像轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人画赵桓半身像轴.png",
     "tags": [
       "人"
     ],
@@ -2342,7 +2476,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_134",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人画刘海像轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人画刘海像轴.png",
     "tags": [
       "人",
       "扫把"
@@ -2356,15 +2491,16 @@ export const mockPaintings = [
     "artist": "陆鸣凤",
     "artistId": "artist_135",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陆鸣凤画紫柏大师像轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陆鸣凤画紫柏大师像轴.png",
     "tags": [
       "人",
       "拂尘"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陆鸣凤画紫柏大师像轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/陆鸣凤画紫柏大师像轴_animation.mp4"
+    "restoredImage": "陆鸣凤画紫柏大师像轴_restored.png",
+    "animation": "陆鸣凤画紫柏大师像轴_animation.mp4"
   },
   {
     "id": "137",
@@ -2372,7 +2508,8 @@ export const mockPaintings = [
     "artist": "丁云鹏",
     "artistId": "artist_136",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/丁云鹏玉川煮茶图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "丁云鹏玉川煮茶图轴.png",
     "tags": [
       "假山",
       "人",
@@ -2390,7 +2527,8 @@ export const mockPaintings = [
     "artist": "丁元公",
     "artistId": "artist_137",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/丁元公佛像轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "丁元公佛像轴.png",
     "tags": [
       "人",
       "莲花"
@@ -2404,7 +2542,8 @@ export const mockPaintings = [
     "artist": "陈焕",
     "artistId": "artist_138",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈焕四季山水屏.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈焕四季山水屏.png",
     "tags": [
       "人",
       "马",
@@ -2416,8 +2555,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陈焕四季山水屏_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈焕四季山水屏_animation.mp4"
+    "restoredImage": "陈焕四季山水屏_restored.png",
+    "animation": "陈焕四季山水屏_animation.mp4"
   },
   {
     "id": "140",
@@ -2425,7 +2564,8 @@ export const mockPaintings = [
     "artist": "陈焕",
     "artistId": "artist_139",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈焕江村旅况卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈焕江村旅况卷.png",
     "tags": [
       "船",
       "房屋",
@@ -2441,7 +2581,8 @@ export const mockPaintings = [
     "artist": "周之冕",
     "artistId": "artist_140",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/周之冕梅花鸣禽扇面.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "周之冕梅花鸣禽扇面.png",
     "tags": [
       "鸟",
       "梅花"
@@ -2455,7 +2596,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_141",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶梅花扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶梅花扇页.png",
     "tags": [
       "梅花",
       "梅花",
@@ -2465,8 +2607,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陈洪绶梅花扇页_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈洪绶梅花扇页_animation.mp4"
+    "restoredImage": "陈洪绶梅花扇页_restored.png",
+    "animation": "陈洪绶梅花扇页_animation.mp4"
   },
   {
     "id": "143",
@@ -2474,7 +2616,8 @@ export const mockPaintings = [
     "artist": "陶成",
     "artistId": "artist_142",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陶成蟾宫玉兔图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陶成蟾宫玉兔图轴.png",
     "tags": [
       "牛",
       "人",
@@ -2489,7 +2632,8 @@ export const mockPaintings = [
     "artist": "杨补",
     "artistId": "artist_143",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/杨补梅花扇面.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "杨补梅花扇面.png",
     "tags": [
       "梅花",
       "梅花"
@@ -2503,14 +2647,15 @@ export const mockPaintings = [
     "artist": "陈嘉言",
     "artistId": "artist_144",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈嘉言梅花扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈嘉言梅花扇页.png",
     "tags": [
       "梅花"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陈嘉言梅花扇页_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈嘉言梅花扇页_animation.mp4"
+    "restoredImage": "陈嘉言梅花扇页_restored.png",
+    "animation": "陈嘉言梅花扇页_animation.mp4"
   },
   {
     "id": "146",
@@ -2518,7 +2663,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_145",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人双兔页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人双兔页.png",
     "tags": [
       "兔",
       "兔"
@@ -2532,7 +2678,8 @@ export const mockPaintings = [
     "artist": "袁尚统",
     "artistId": "artist_146",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/袁尚统岁朝图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "袁尚统岁朝图轴.png",
     "tags": [
       "假山",
       "花"
@@ -2546,7 +2693,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_147",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明皇斗鸡图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明皇斗鸡图轴.png",
     "tags": [
       "松树",
       "人",
@@ -2559,8 +2707,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "斗鸡又称“博鸡”，是一项十分古老的娱乐游戏。唐玄宗喜爱斗鸡，贵族大臣纷纷效仿，斗鸡游戏盛行，而使得国家政治日渐朽坏，后世对此多有批评。 此绘唐玄宗出行斗鸡，虽名为“明皇斗鸡”，实则是对此故实的批判。图中帝王比例略有扩大，以突出帝王的高大形象，是画像惯用的手法。",
-    "restoredImage": "@/assets/mock_pic/ming/明皇斗鸡图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/明皇斗鸡图轴_animation.mp4"
+    "restoredImage": "明皇斗鸡图轴_restored.png",
+    "animation": "明皇斗鸡图轴_animation.mp4"
   },
   {
     "id": "149",
@@ -2568,7 +2716,8 @@ export const mockPaintings = [
     "artist": "周官",
     "artistId": "artist_148",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/周官莲花落图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "周官莲花落图卷.png",
     "tags": [
       "房屋",
       "桥",
@@ -2586,7 +2735,8 @@ export const mockPaintings = [
     "artist": "李士达",
     "artistId": "artist_149",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/李士达三驼图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "李士达三驼图轴.png",
     "tags": [
       "人",
       "人",
@@ -2601,7 +2751,8 @@ export const mockPaintings = [
     "artist": "张宏",
     "artistId": "artist_150",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/张宏杂技游戏图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "张宏杂技游戏图卷.png",
     "tags": [
       "羊",
       "人",
@@ -2610,8 +2761,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "观看杂技表演是民间广为流传、为众喜爱的娱乐方式。此绘制市井杂技、游戏约二十种，有说书、唱戏、磨镜、吵架、戏猴、斗羊、做法事、斗纸牌、走绳索等内容，展示了明代市井百态。杂技作为一种娱乐、表演活动，在汉代便已成熟，《汉书》称角抵戏，指两人相触比较力量，或摔跤、射箭等竞争活动，用以取乐，常配以音乐，称为杂技乐。《白氏六帖事类集》中记载杂技有吞刀、吐火、截马、易牛马头等，类似于今天的魔术表演，表演者被称为“眩人”。",
-    "restoredImage": "@/assets/mock_pic/ming/张宏杂技游戏图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/张宏杂技游戏图卷_animation.mp4"
+    "restoredImage": "张宏杂技游戏图卷_restored.png",
+    "animation": "张宏杂技游戏图卷_animation.mp4"
   },
   {
     "id": "152",
@@ -2619,7 +2770,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_151",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人雪山渔父图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人雪山渔父图轴.png",
     "tags": [
       "树",
       "柳树",
@@ -2649,7 +2801,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_152",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/磨镜图页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "磨镜图页.png",
     "tags": [
       "人",
       "人",
@@ -2672,7 +2825,8 @@ export const mockPaintings = [
     "artist": "李士达",
     "artistId": "artist_153",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/李士达岁朝村庆图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "李士达岁朝村庆图轴.png",
     "tags": [
       "人",
       "人",
@@ -2710,8 +2864,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "岁朝（音招）即农历正月初一。此图将水村山郭布置满幅，人物分布错落有致，表现过年走亲访友、燃放爆竹等，满眼皆为岁朝村庆、生意盎然景象。人物造型浑圆，生动自然。",
-    "restoredImage": "@/assets/mock_pic/ming/李士达岁朝村庆图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/李士达岁朝村庆图轴_animation.mp4"
+    "restoredImage": "李士达岁朝村庆图轴_restored.png",
+    "animation": "李士达岁朝村庆图轴_animation.mp4"
   },
   {
     "id": "155",
@@ -2719,7 +2873,8 @@ export const mockPaintings = [
     "artist": "谢时臣",
     "artistId": "artist_154",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/谢时臣策杖寻幽图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "谢时臣策杖寻幽图轴.png",
     "tags": [
       "柿子",
       "荔枝",
@@ -2734,7 +2889,8 @@ export const mockPaintings = [
     "artist": "文伯仁",
     "artistId": "artist_155",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文伯仁溪桥策杖扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文伯仁溪桥策杖扇页.png",
     "tags": [
       "房屋",
       "树",
@@ -2752,7 +2908,8 @@ export const mockPaintings = [
     "artist": "陆治",
     "artistId": "artist_156",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陆治黎花白燕扇面.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陆治黎花白燕扇面.png",
     "tags": [
       "燕",
       "燕",
@@ -2760,8 +2917,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陆治黎花白燕扇面_restored.png",
-    "animation": "@/assets/mock_pic/ming/陆治黎花白燕扇面_animation.mp4"
+    "restoredImage": "陆治黎花白燕扇面_restored.png",
+    "animation": "陆治黎花白燕扇面_animation.mp4"
   },
   {
     "id": "158",
@@ -2769,7 +2926,8 @@ export const mockPaintings = [
     "artist": "崔子忠",
     "artistId": "artist_157",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/崔子忠问道图扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "崔子忠问道图扇页.png",
     "tags": [
       "人",
       "牛",
@@ -2784,7 +2942,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_158",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶松溪扇.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶松溪扇.png",
     "tags": [
       "船",
       "树",
@@ -2799,7 +2958,8 @@ export const mockPaintings = [
     "artist": "丁云鹏",
     "artistId": "artist_159",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/丁云鹏三教图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "丁云鹏三教图轴.png",
     "tags": [
       "树",
       "人",
@@ -2808,8 +2968,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《三教图》轴，明，丁云鹏作，纸本，设色，纵115.6厘米，横55.7厘米。\n图左下款署“善男子丁雲鵬敬寫”。钤“丁雲鵬印”“南羽氏”。画上有陈继儒题记。\n此图画孔子、老子、红衣罗汉坐于树下共同探究玄理的情景。画中三位智慧长者面目严肃，神情专注，孔子儒雅敦厚，循循善诱，正发表言论；老子道貌岸然，谨慎而善辩，他注视着对方，似乎准备随时发问；红衣罗汉双目低垂，安详而平静，从他紧锁的眉头可以看出他已沉于思索之中。明代，随着儒、道、释三教的融合，宗教题材的绘画也随之有了世俗化的倾向，此画中的宗教人物与作为供养的神仙不同，脱离了程式化的因素，有着鲜明的个性特征和情绪化色彩，同时融入了文人的审美情趣。其人物造型古拙、气质端庄文雅，体现了明后期文人画注重表现个性的风尚。画法上，运用“高古游丝描”，细劲而“笔力伟然”，既有古朴之感，又具有时代气息。设色古妍冷隽，尤其是人物服饰的红色、兰色与赭色，赋色沉稳和谐。山石树木勾勒添色，取法文徵明，小青绿设色，文静典雅，营造了一种静谧清淡的意境，引人入胜。",
-    "restoredImage": "@/assets/mock_pic/ming/丁云鹏三教图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/丁云鹏三教图轴_animation.mp4"
+    "restoredImage": "丁云鹏三教图轴_restored.png",
+    "animation": "丁云鹏三教图轴_animation.mp4"
   },
   {
     "id": "161",
@@ -2817,7 +2977,8 @@ export const mockPaintings = [
     "artist": "李麟",
     "artistId": "artist_160",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/李麟牧牛图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "李麟牧牛图卷.png",
     "tags": [
       "牛",
       "牛",
@@ -2837,7 +2998,8 @@ export const mockPaintings = [
     "artist": "张宏",
     "artistId": "artist_161",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/张宏岁朝轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "张宏岁朝轴.png",
     "tags": [
       "牛",
       "牛",
@@ -2854,7 +3016,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_162",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶岁朝清供轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶岁朝清供轴.png",
     "tags": [
       "荷花",
       "荷花",
@@ -2867,8 +3030,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陈洪绶岁朝清供轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈洪绶岁朝清供轴_animation.mp4"
+    "restoredImage": "陈洪绶岁朝清供轴_restored.png",
+    "animation": "陈洪绶岁朝清供轴_animation.mp4"
   },
   {
     "id": "164",
@@ -2876,7 +3039,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_163",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人牧牛读书图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人牧牛读书图轴.png",
     "tags": [
       "人",
       "牛",
@@ -2891,7 +3055,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_164",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶晋爵图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶晋爵图卷.png",
     "tags": [
       "竹子",
       "岩石"
@@ -2905,7 +3070,8 @@ export const mockPaintings = [
     "artist": "陈继儒",
     "artistId": "artist_165",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈继儒梅花双禽卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈继儒梅花双禽卷.png",
     "tags": [
       "盆栽",
       "人",
@@ -2913,8 +3079,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陈继儒梅花双禽卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈继儒梅花双禽卷_animation.mp4"
+    "restoredImage": "陈继儒梅花双禽卷_restored.png",
+    "animation": "陈继儒梅花双禽卷_animation.mp4"
   },
   {
     "id": "167",
@@ -2922,7 +3088,8 @@ export const mockPaintings = [
     "artist": "朱统鐷",
     "artistId": "artist_166",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/朱统鐷枯木竹石扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "朱统鐷枯木竹石扇页.png",
     "tags": [
       "岩石",
       "树"
@@ -2936,7 +3103,8 @@ export const mockPaintings = [
     "artist": "朱端",
     "artistId": "artist_167",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/朱端竹石轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "朱端竹石轴.png",
     "tags": [
       "岩石",
       "竹子"
@@ -2950,15 +3118,16 @@ export const mockPaintings = [
     "artist": "董其昌",
     "artistId": "artist_168",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/董其昌佘山游境图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "董其昌佘山游境图轴.png",
     "tags": [
       "松树",
       "岩石"
     ],
     "isPremium": false,
     "description": "《佘山游境图》轴，明，董其昌绘，纸本，墨笔，纵98.4厘米，横41厘米。\n本幅自题：“丙寅四月，舟行龙华道中，写佘山游境。先一日宿顽仙庐。十有四日识。思翁。”钤“玄宰”印。\n“丙寅”为明天启六年（1626年），董其昌时年72岁。\n这一年，董其昌辞官告归，乘船畅游江南，寄情于山水书画。据自题可知，四月之时，正值其舟行至龙华镇。此镇位于今上海西南，镇中有龙华寺，周围遍植桃花，每遇桃花盛开之际，便有大批游人至此赏花。此图为董其昌行至龙华时，回想起前一日所历之湖山佳境，兴之所至，诉诸笔墨，以资玩味。其所写佘山位于今江苏青浦县境内，有东西两峰，风景秀丽。相传古有佘姓者曾隐居于此，故而得名。自题中提到的“顽仙庐”为董其昌密友、书画名家陈继儒所筑，位于东佘山下。\n此图以行书笔法入画，笔势秀逸简淡，笔力纯正浑穆，画面形象地展现了佘山境内湖光山色的疏淡幽静之美，抒发并寄托了董氏厌恶党派纷争、向往幽居山野的心曲。",
-    "restoredImage": "@/assets/mock_pic/ming/董其昌佘山游境图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/董其昌佘山游境图轴_animation.mp4"
+    "restoredImage": "董其昌佘山游境图轴_restored.png",
+    "animation": "董其昌佘山游境图轴_animation.mp4"
   },
   {
     "id": "170",
@@ -2966,7 +3135,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_169",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶戏婴轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶戏婴轴.png",
     "tags": [
       "人",
       "人",
@@ -2983,7 +3153,8 @@ export const mockPaintings = [
     "artist": "孙枝",
     "artistId": "artist_170",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/孙枝携琴访友图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "孙枝携琴访友图轴.png",
     "tags": [
       "桥",
       "人",
@@ -2999,15 +3170,16 @@ export const mockPaintings = [
     "artist": "陈芹",
     "artistId": "artist_171",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈芹竹石轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈芹竹石轴.png",
     "tags": [
       "岩石",
       "竹子"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/陈芹竹石轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈芹竹石轴_animation.mp4"
+    "restoredImage": "陈芹竹石轴_restored.png",
+    "animation": "陈芹竹石轴_animation.mp4"
   },
   {
     "id": "173",
@@ -3015,7 +3187,8 @@ export const mockPaintings = [
     "artist": "蒋嵩",
     "artistId": "artist_172",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/蒋嵩渔舟读书图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "蒋嵩渔舟读书图轴.png",
     "tags": [
       "船",
       "人"
@@ -3029,7 +3202,8 @@ export const mockPaintings = [
     "artist": "黄济",
     "artistId": "artist_173",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/黄济励剑轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "黄济励剑轴.png",
     "tags": [
       "人",
       "剑",
@@ -3044,15 +3218,16 @@ export const mockPaintings = [
     "artist": "项元汴",
     "artistId": "artist_174",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/项元汴桂子香园图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "项元汴桂子香园图轴.png",
     "tags": [
       "水果",
       "岩石"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/项元汴桂子香园图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/项元汴桂子香园图轴_animation.mp4"
+    "restoredImage": "项元汴桂子香园图轴_restored.png",
+    "animation": "项元汴桂子香园图轴_animation.mp4"
   },
   {
     "id": "176",
@@ -3060,7 +3235,8 @@ export const mockPaintings = [
     "artist": "姚绶",
     "artistId": "artist_175",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/姚绶秋江隐渔图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "姚绶秋江隐渔图轴.png",
     "tags": [
       "人",
       "船",
@@ -3076,7 +3252,8 @@ export const mockPaintings = [
     "artist": "吕纪",
     "artistId": "artist_176",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/吕纪南极老人像轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "吕纪南极老人像轴.png",
     "tags": [
       "鹿",
       "竹子",
@@ -3092,7 +3269,8 @@ export const mockPaintings = [
     "artist": "文嘉",
     "artistId": "artist_177",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文嘉山水图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文嘉山水图卷.png",
     "tags": [
       "房屋",
       "房屋",
@@ -3100,8 +3278,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《山水图》卷，明，文嘉作，纸本，设色，纵21.3厘米，横387.8厘米。\n本幅自识：“隆慶四年歲在庚午，齋居多暇，漫爾適興。文水道人休承嘉識。”钤“文嘉印”、“文休承印”。\n此图描绘水村渔舟、寺庙山居、岩穴幽渺。图中画法略有元代吴镇、黄公望遗意，而参以黄氏的浅绛法设色。图中山石、树木行笔松秀稳健，施墨设色富于深浅浓淡的变化，区分出物象的层次；水纹细密，用笔流畅而不板滞；山间弥漫的云气以墨和滕黄两次勾线，近线条处以淡墨晕染，表现出云层的厚度，颇富装饰趣味。画面徐徐展开，步移景易，引观者悠游于吴中的山林胜境之中，反映了当时吴中文人隐居、游乐的生活情趣。\n此图是文嘉70岁时创作的，堪称是集其数十年创作经验与艺术追求之大成的代表作品。\n清陈夔麟《宝迂斋书画录·卷一》著录。",
-    "restoredImage": "@/assets/mock_pic/ming/文嘉山水图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/文嘉山水图卷_animation.mp4"
+    "restoredImage": "文嘉山水图卷_restored.png",
+    "animation": "文嘉山水图卷_animation.mp4"
   },
   {
     "id": "179",
@@ -3109,7 +3287,8 @@ export const mockPaintings = [
     "artist": "孙隆",
     "artistId": "artist_178",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/孙隆芙蓉鹅图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "孙隆芙蓉鹅图轴.png",
     "tags": [
       "鹅",
       "岩石",
@@ -3124,7 +3303,8 @@ export const mockPaintings = [
     "artist": "张灵",
     "artistId": "artist_179",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/张灵招仙图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "张灵招仙图卷.png",
     "tags": [
       "人",
       "芦荻",
@@ -3139,14 +3319,15 @@ export const mockPaintings = [
     "artist": "项圣谟",
     "artistId": "artist_180",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/项圣谟花卉轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "项圣谟花卉轴.png",
     "tags": [
       "芭蕉叶"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/项圣谟花卉轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/项圣谟花卉轴_animation.mp4"
+    "restoredImage": "项圣谟花卉轴_restored.png",
+    "animation": "项圣谟花卉轴_animation.mp4"
   },
   {
     "id": "182",
@@ -3154,7 +3335,8 @@ export const mockPaintings = [
     "artist": "孙启",
     "artistId": "artist_181",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/孙启梅花轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "孙启梅花轴.png",
     "tags": [
       "竹子"
     ],
@@ -3167,7 +3349,8 @@ export const mockPaintings = [
     "artist": "沈周",
     "artistId": "artist_182",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/沈周桐荫玩鹤图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "沈周桐荫玩鹤图轴.png",
     "tags": [
       "人",
       "山",
@@ -3184,7 +3367,8 @@ export const mockPaintings = [
     "artist": "倪端",
     "artistId": "artist_183",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/倪端聘庞图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "倪端聘庞图轴.png",
     "tags": [
       "花",
       "花",
@@ -3193,8 +3377,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《聘庞图》轴，明，倪端绘，绢本，设色，纵163.8厘米，横92.4厘米。\n画作取材于三国时期荆州刺史刘表聘请隐士庞德公的故事。庞德公是名士庞统的叔父，与徐庶、诸葛亮等贤达交谊笃厚。人物描摹精细，设色妍丽，山水气势雄伟浑厚，林木郁茂清朗。\n款署 “楚江倪端”。钤 “金行画史”朱文印、“仲正书画”朱文印、“一师造化”朱文印。另有“乾隆御览之宝”等鉴藏印。",
-    "restoredImage": "@/assets/mock_pic/ming/倪端聘庞图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/倪端聘庞图轴_animation.mp4"
+    "restoredImage": "倪端聘庞图轴_restored.png",
+    "animation": "倪端聘庞图轴_animation.mp4"
   },
   {
     "id": "185",
@@ -3202,7 +3386,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_184",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/明人夏景货郎图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "明人夏景货郎图轴.png",
     "tags": [
       "兔",
       "竹子",
@@ -3220,7 +3405,8 @@ export const mockPaintings = [
     "artist": "李在",
     "artistId": "artist_185",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/李在山村图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "李在山村图轴.png",
     "tags": [
       "房屋",
       "房屋",
@@ -3237,7 +3423,8 @@ export const mockPaintings = [
     "artist": "李在",
     "artistId": "artist_186",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/李在阔渚遥峰轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "李在阔渚遥峰轴.png",
     "tags": [
       "船",
       "房屋",
@@ -3248,8 +3435,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《阔渚遥峰图》轴，明，李在绘，绢本，墨笔，纵165.2厘米，横90.4厘米。 　　本幅无款署。 　　此作曾经被误定为北宋郭熙所绘，后在画面上发现李在的印记，于是正名。 　　作品取全景式山水，气势宏阔，皴笔细密扎实，墨韵浑厚，画树木呈“蟹爪枝”状，从意境和笔法来看，确实与郭熙极为相似，是典型的北派山水面貌。",
-    "restoredImage": "@/assets/mock_pic/ming/李在阔渚遥峰轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/李在阔渚遥峰轴_animation.mp4"
+    "restoredImage": "李在阔渚遥峰轴_restored.png",
+    "animation": "李在阔渚遥峰轴_animation.mp4"
   },
   {
     "id": "188",
@@ -3257,7 +3444,8 @@ export const mockPaintings = [
     "artist": "严湛、陈洪绶",
     "artistId": "artist_187",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶、严湛合画仕女轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶、严湛合画仕女轴.png",
     "tags": [
       "人",
       "人",
@@ -3280,7 +3468,8 @@ export const mockPaintings = [
     "artist": "陈道復",
     "artistId": "artist_188",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈道復葵石图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈道復葵石图轴.png",
     "tags": [
       "岩石",
       "花"
@@ -3294,7 +3483,8 @@ export const mockPaintings = [
     "artist": "陈栝",
     "artistId": "artist_189",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈栝写生游戏图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈栝写生游戏图卷.png",
     "tags": [
       "蝴蝶",
       "牡丹",
@@ -3308,8 +3498,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《写生游戏图》卷，明，陈栝作，纸本，设色，纵29.8厘米，横252厘米。\n此图是陈氏写生画，图中从右至左绘牡丹、兰花、玉兰、桃花、荷花、水仙等9种花卉，花间穿插飞燕、蝴蝶、鱼虾、鸳鸯等。花卉没骨、双钩兼用，鸟用意笔写之，生动活泼，颇富野趣。画风学陈淳而琐碎过之。卷末左下自题“陳栝戲筆”。下钤“古吳陳栝”、“沱江子”二印。引首有清高宗弘历（乾隆皇帝）御题“造物爲師”四字。曾经清内府收藏。\n鉴藏印有“乾隆御覽之寶”、“石渠寶笈”、“嘉慶御覽之寶”、“宣統御覽”、“筆研精良人生一樂”等。\n清内府《石渠宝笈·初编》著录。",
-    "restoredImage": "@/assets/mock_pic/ming/陈栝写生游戏图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈栝写生游戏图卷_animation.mp4"
+    "restoredImage": "陈栝写生游戏图卷_restored.png",
+    "animation": "陈栝写生游戏图卷_animation.mp4"
   },
   {
     "id": "191",
@@ -3317,7 +3507,8 @@ export const mockPaintings = [
     "artist": "马琬",
     "artistId": "artist_190",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/马琬雪岗渡关图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "马琬雪岗渡关图轴.png",
     "tags": [
       "房屋",
       "房屋",
@@ -3332,7 +3523,8 @@ export const mockPaintings = [
     "artist": "周用",
     "artistId": "artist_191",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/周用诗画合璧册.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "周用诗画合璧册.png",
     "tags": [
       "人",
       "岩石"
@@ -3346,7 +3538,8 @@ export const mockPaintings = [
     "artist": "吕纪",
     "artistId": "artist_192",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/吕纪鹰鹊图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "吕纪鹰鹊图轴.png",
     "tags": [
       "鹰",
       "喜鹊",
@@ -3355,8 +3548,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《鹰鹊图》轴，明，吕纪绘，纸本，设色，纵120.7cm，横61.5cm。\n款署：“吕纪”。钤“四明吕廷振印”。\n图绘一只苍鹰独立岩顶，两只飞舞的蜜蜂吸引了它的目光，一旁的喜鹊趁机振翅欲逃。作者用笔粗阔，富有简率纵逸的笔墨意趣。吕纪的花鸟画不仅追求形似，更善于表现禽鸟之间的关系，捕捉住禽鸟瞬间的神态和动势，营造出千钧一发的紧迫感和爆发力，突破了传统花鸟画唯美的装饰意味，从而获得了新的艺术生命力。",
-    "restoredImage": "@/assets/mock_pic/ming/吕纪鹰鹊图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/吕纪鹰鹊图轴_animation.mp4"
+    "restoredImage": "吕纪鹰鹊图轴_restored.png",
+    "animation": "吕纪鹰鹊图轴_animation.mp4"
   },
   {
     "id": "194",
@@ -3364,7 +3557,8 @@ export const mockPaintings = [
     "artist": "杜琼",
     "artistId": "artist_193",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/杜琼友松图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "杜琼友松图卷.png",
     "tags": [
       "盆栽",
       "房屋",
@@ -3381,7 +3575,8 @@ export const mockPaintings = [
     "artist": "杜堇",
     "artistId": "artist_194",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/杜堇题竹图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "杜堇题竹图轴.png",
     "tags": [
       "人",
       "人",
@@ -3396,14 +3591,15 @@ export const mockPaintings = [
     "artist": "沈周",
     "artistId": "artist_195",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/沈周杏花图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "沈周杏花图轴.png",
     "tags": [
       "梅花"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/沈周杏花图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/沈周杏花图轴_animation.mp4"
+    "restoredImage": "沈周杏花图轴_restored.png",
+    "animation": "沈周杏花图轴_animation.mp4"
   },
   {
     "id": "197",
@@ -3411,7 +3607,8 @@ export const mockPaintings = [
     "artist": "沈士充",
     "artistId": "artist_196",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/沈士充仿曹云西山水册.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "沈士充仿曹云西山水册.png",
     "tags": [
       "松树",
       "房屋"
@@ -3425,7 +3622,8 @@ export const mockPaintings = [
     "artist": "文徵明",
     "artistId": "artist_197",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文徵明溪桥策杖图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文徵明溪桥策杖图轴.png",
     "tags": [
       "树",
       "岩石",
@@ -3441,7 +3639,8 @@ export const mockPaintings = [
     "artist": "徐渭",
     "artistId": "artist_198",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/徐渭墨花九段图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "徐渭墨花九段图卷.png",
     "tags": [
       "竹子",
       "芭蕉叶",
@@ -3449,8 +3648,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《墨花九段图》卷，明，徐渭作，纸本，墨笔，纵46.6cm，横625cm。\n此图绘水墨写意四季花卉。每段均有自题七绝一首。画面上，画家充分发挥了水墨的表现力，以狂放的笔触，淋漓的水墨，变化多端的笔锋，泼墨、焦墨、破墨、双勾并用，寥寥数笔即勾画出了各种花卉的特征，简约却颇具神采。从徐渭自书诗并题记，知此画是作者在浓郁的创作激情中以酣畅的笔墨挥洒而就。此图堪称徐渭水墨写意花卉的佳作。",
-    "restoredImage": "@/assets/mock_pic/ming/徐渭墨花九段图卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/徐渭墨花九段图卷_animation.mp4"
+    "restoredImage": "徐渭墨花九段图卷_restored.png",
+    "animation": "徐渭墨花九段图卷_animation.mp4"
   },
   {
     "id": "200",
@@ -3458,7 +3657,8 @@ export const mockPaintings = [
     "artist": "陆治",
     "artistId": "artist_199",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陆治蔷薇扇面.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陆治蔷薇扇面.png",
     "tags": [
       "蔷薇"
     ],
@@ -3471,7 +3671,8 @@ export const mockPaintings = [
     "artist": "唐寅",
     "artistId": "artist_200",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/唐寅雨竹扇面.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "唐寅雨竹扇面.png",
     "tags": [
       "竹子"
     ],
@@ -3484,14 +3685,15 @@ export const mockPaintings = [
     "artist": "文徵明",
     "artistId": "artist_201",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文徵明兰花图扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文徵明兰花图扇页.png",
     "tags": [
       "兰花"
     ],
     "isPremium": true,
     "description": "《兰花图》扇页，明，文徵明绘，金笺，墨笔，纵16.8cm，横50.9cm。\n扇页有自题：“离离水苍珮，居然在空谷。虽多荆棘枝，春风自芬馥。徵明。”钤“徵明”白文印。\n此图绘兰花与荆棘相伴而生的田野风光。文氏以挥洒豪放的笔墨，表现兰叶摇曳之美；以迟缓的中锋运笔，表现荆棘的坚韧而多刺。在一件作品中将不同的物象施以迥异的笔法，由此可见文氏所具的高超绘画技法。",
-    "restoredImage": "@/assets/mock_pic/ming/文徵明兰花图扇页_restored.png",
-    "animation": "@/assets/mock_pic/ming/文徵明兰花图扇页_animation.mp4"
+    "restoredImage": "文徵明兰花图扇页_restored.png",
+    "animation": "文徵明兰花图扇页_animation.mp4"
   },
   {
     "id": "203",
@@ -3499,7 +3701,8 @@ export const mockPaintings = [
     "artist": "文徵明",
     "artistId": "artist_202",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文徵明红杏湖石图扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文徵明红杏湖石图扇页.png",
     "tags": [
       "岩石",
       "杏树"
@@ -3513,7 +3716,8 @@ export const mockPaintings = [
     "artist": "沈周",
     "artistId": "artist_203",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/沈周荔柿图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "沈周荔柿图轴.png",
     "tags": [
       "人",
       "驴"
@@ -3527,15 +3731,16 @@ export const mockPaintings = [
     "artist": "唐寅",
     "artistId": "artist_204",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/唐寅桐阴清梦图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "唐寅桐阴清梦图轴.png",
     "tags": [
       "人",
       "梧桐"
     ],
     "isPremium": false,
     "description": "《桐阴清梦图》轴，明，唐寅绘，纸本，水墨，纵62cm，横30.9cm。\n本幅行书自题七绝诗一首：“十里桐阴覆紫苔，先生闲试醉眠来；此生已谢功名念，清梦应无到古槐。唐寅画。”钤“吴趋”朱文圆印、“唐寅私印”白文方印、“唐阿大”朱文方印。鉴藏印有“松莲鑑定”白文方印、“东吴王莲泾藏书画记”朱文长方印等。\n《桐阴清梦图》以人物画为题材，抒发画家的生活遭遇和感受。此图用水墨白描手法，画梧桐一株，桐阴坡石处一人仰面闭目，坐於交椅之上，神情生动自然。构图简洁，用笔洗练，风格洒脱，韵致清逸，是唐寅白描人物画佳作。诗、书、画相得益彰。虽未署年款，但从题诗内容可以看出，此图是他在科场案受打击回苏州后所作，是画家看破尘事，不再追求功名，从此幽居林下的写照。 图绘茁壮的桐树下，一高士仰面闭目，坐于交椅之上，其神态诙谐而生动，富有浓郁的生活气息。此幅虽然未署年款，但是从题诗“此生已谢功名念”来推断，此图当是作者在科场案受打击回苏州后所作，是他不再追求功名，从此幽居林下的写照。人物以细劲的白描笔刻画，线条流畅，造型准确，显现出作者以线造型的深厚功底。画幅中留有大面积的留白，简约的构图给人以空旷萧瑟的寂寞感，与作者超然物外的情调相切合，也突出了自我陶醉的“清梦”主题，是唐寅典型的文人画佳作。 本幅行书自题七绝诗一首：“十里桐阴覆紫苔，先生闲试醉眠来。此生已谢功名念，清梦应无到古槐。唐寅画。”\n唐寅为人性情疏朗，生活放诞，许多关於他的传说故事广为流传，妇孺皆知。他的诗、曲、书、画均颇有成就，尤以画名为最著，题材广泛，山水、人物、花鸟、竹石无一不精。曾以周臣为师，青出于蓝，并从宋元诸名家绘画中汲取营养，特别在继承南宋李唐、刘松年传统画法上有新的发展，形成了自己严谨秀逸的画风，成就突出，影响深远，在书史上有很高地位，是明代中期文人画的重要代表，与沈周、文徵明、仇英并称“吴门四大家”。\n未见著录。",
-    "restoredImage": "@/assets/mock_pic/ming/唐寅桐阴清梦图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/唐寅桐阴清梦图轴_animation.mp4"
+    "restoredImage": "唐寅桐阴清梦图轴_restored.png",
+    "animation": "唐寅桐阴清梦图轴_animation.mp4"
   },
   {
     "id": "206",
@@ -3543,7 +3748,8 @@ export const mockPaintings = [
     "artist": "唐寅",
     "artistId": "artist_205",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/唐寅幽人燕坐图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "唐寅幽人燕坐图轴.png",
     "tags": [
       "人",
       "人",
@@ -3558,7 +3764,8 @@ export const mockPaintings = [
     "artist": "陈道復",
     "artistId": "artist_206",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈道復墨笔山水图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈道復墨笔山水图轴.png",
     "tags": [
       "人",
       "树"
@@ -3572,7 +3779,8 @@ export const mockPaintings = [
     "artist": "王铎",
     "artistId": "artist_207",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/王铎花卉卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "王铎花卉卷.png",
     "tags": [
       "花",
       "花",
@@ -3581,8 +3789,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/王铎花卉卷_restored.png",
-    "animation": "@/assets/mock_pic/ming/王铎花卉卷_animation.mp4"
+    "restoredImage": "王铎花卉卷_restored.png",
+    "animation": "王铎花卉卷_animation.mp4"
   },
   {
     "id": "209",
@@ -3590,7 +3798,8 @@ export const mockPaintings = [
     "artist": "文徵明",
     "artistId": "artist_208",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文徵明风竹扇面.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文徵明风竹扇面.png",
     "tags": [
       "竹子"
     ],
@@ -3603,7 +3812,8 @@ export const mockPaintings = [
     "artist": "张路",
     "artistId": "artist_209",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/张路山雨欲来图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "张路山雨欲来图轴.png",
     "tags": [
       "山",
       "人",
@@ -3618,7 +3828,8 @@ export const mockPaintings = [
     "artist": "沈周",
     "artistId": "artist_210",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/沈周江亭避暑图扇页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "沈周江亭避暑图扇页.png",
     "tags": [
       "树",
       "树",
@@ -3627,8 +3838,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《江亭避暑图》扇页，明，沈周绘，金笺，设色，纵18cm，横46cm。\n扇页有自题：“池上一亭好，夕阳松影中。正无避暑地，认是水晶宫。沈周。”钤“启南”朱文印。\n此图是幅笔笔紧贴诗意的画作。图绘夕阳下，高士策杖至江亭避暑的小景。扇面构图为左右开合式，设色以绿色为主，其青翠明洁的色调与简约的景致相呼应。清爽、平淡的审美意趣与消除烦燥求得清凉的避暑主题相契合，烘托出远离市俗寻幽独行高士其清逸雅淡的心境。",
-    "restoredImage": "@/assets/mock_pic/ming/沈周江亭避暑图扇页_restored.png",
-    "animation": "@/assets/mock_pic/ming/沈周江亭避暑图扇页_animation.mp4"
+    "restoredImage": "沈周江亭避暑图扇页_restored.png",
+    "animation": "沈周江亭避暑图扇页_animation.mp4"
   },
   {
     "id": "212",
@@ -3636,7 +3847,8 @@ export const mockPaintings = [
     "artist": "金湜",
     "artistId": "artist_211",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/金湜双钩竹轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "金湜双钩竹轴.png",
     "tags": [
       "桥",
       "房屋",
@@ -3651,7 +3863,8 @@ export const mockPaintings = [
     "artist": "文徵明",
     "artistId": "artist_212",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文徵明深翠轩图卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文徵明深翠轩图卷.png",
     "tags": [
       "竹子",
       "岩石"
@@ -3665,7 +3878,8 @@ export const mockPaintings = [
     "artist": "董其昌",
     "artistId": "artist_213",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/董其昌岚容川色图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "董其昌岚容川色图轴.png",
     "tags": [
       "山",
       "树",
@@ -3673,8 +3887,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《岚容川色图》轴，明，董其昌作，纸本，墨笔，纵138.8cm，横53.3cm。\n此图是董其昌74岁（1628年）时创作的，以笔墨表现为主旨，意在聊写胸中丘壑。作者在静观自然景象的基础上，以娴熟的笔墨技法阐释自己对自然山川的本质感悟，它超越了山水云树的具体形貌，以形写神，故图中每一景、每一境虽都不是自然景观的真实描绘，但读者却可从其谨严的笔墨塑造中领略到真山实水的存在。以近景的树木为例，形态各异的树木，互有遮掩地生长在凹凸不平的坡地上。树干以短线条双勾，高低不同且有曲直变化，干体以淡墨或皴或晕，增强了其明暗效果及立体感；树叶表现得更为丰富，有的以侧锋卧笔大点横贯，有的浓淡墨相互交叠，有的直接落笔画线成叶，有的则以线勾双边成夹叶状，各具神采。但将它们参照客观存在的植物，却难以分辨出其树种，显然它们是董其昌“读万卷书，行万里路，胸中脱去尘浊，自然丘壑内营，成立鄞鄂（注：指城廓），随手写出，皆为山水传神矣”的美学观的最好图释。",
-    "restoredImage": "@/assets/mock_pic/ming/董其昌岚容川色图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/董其昌岚容川色图轴_animation.mp4"
+    "restoredImage": "董其昌岚容川色图轴_restored.png",
+    "animation": "董其昌岚容川色图轴_animation.mp4"
   },
   {
     "id": "215",
@@ -3682,7 +3896,8 @@ export const mockPaintings = [
     "artist": "柳遇",
     "artistId": "artist_214",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/柳遇宋致静听松风图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "柳遇宋致静听松风图轴.png",
     "tags": [
       "人",
       "松树"
@@ -3696,7 +3911,8 @@ export const mockPaintings = [
     "artist": "杜堇",
     "artistId": "artist_215",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/杜堇画古贤诗意卷.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "杜堇画古贤诗意卷.png",
     "tags": [
       "白菜",
       "花"
@@ -3710,7 +3926,8 @@ export const mockPaintings = [
     "artist": "文徵明",
     "artistId": "artist_216",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文徵明横塘图页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文徵明横塘图页.png",
     "tags": [
       "人",
       "人",
@@ -3718,8 +3935,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/ming/文徵明横塘图页_restored.png",
-    "animation": "@/assets/mock_pic/ming/文徵明横塘图页_animation.mp4"
+    "restoredImage": "文徵明横塘图页_restored.png",
+    "animation": "文徵明横塘图页_animation.mp4"
   },
   {
     "id": "218",
@@ -3727,7 +3944,8 @@ export const mockPaintings = [
     "artist": "沈周",
     "artistId": "artist_217",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/沈周新郭图页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "沈周新郭图页.png",
     "tags": [
       "树",
       "树",
@@ -3745,7 +3963,8 @@ export const mockPaintings = [
     "artist": "陈道復",
     "artistId": "artist_218",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈道復紫薇村页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈道復紫薇村页.png",
     "tags": [
       "船",
       "船",
@@ -3762,15 +3981,16 @@ export const mockPaintings = [
     "artist": "唐寅",
     "artistId": "artist_219",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/唐寅沛台实景图页.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "唐寅沛台实景图页.png",
     "tags": [
       "岩石",
       "竹子"
     ],
     "isPremium": true,
     "description": "《沛台实景图》页，明，唐寅作，绢本，水墨，纵26.2cm，横23.9cm。\n本幅作者自题并书七言律诗一首：“正德丙寅，奉陪大塚宰太原老先生登歌風台，謹和感古佳韻並圖其實景，呈茂化學士請教。唐寅。‘此地曾經王輦巡，比鄰爭睹帝王身。世隨邑改井猶存，碑勒風歌字失真。仗劍當時冀亡命，入關不意竟降秦。千年泗上荒台在，落日牛羊感路人。’”钤“唐居士”。另有安岐、吴璵等人收藏印记。\n唐寅在题诗中讲述了绘制此图的原由。明正德元年丙寅（1506年），唐寅36岁时，陪同大学士王鏊游览沛台后绘此图，并赠茂化学士。沛台，又名歌风台，位于今江苏省沛县境内，相传，汉高祖刘邦曾于此饮酒放歌，后人于是筑此台以纪之。\n唐寅此图纯用水墨，完全是纪实写生之作。庭院屋舍结构清晰，颇具透视感。各种树木相间杂，多用空勾夹叶，繁而不乱。近景坡石用细笔长皴，微作晕染，工劲中兼有细秀圆润，是唐寅较富特色的山石画法。远景一角山林，雾气沉沉，墨色湿润，与近景相比较，虽有近大远小的区别，但在空间位置上却有很大的随意性，反映了中国古代画家对空间处理的独特理解。整幅作品融宋代院体技巧与元人笔墨韵味为一体，呈现出劲峭而又不失秀雅的品貌。\n《墨缘汇观》著录。",
-    "restoredImage": "@/assets/mock_pic/ming/唐寅沛台实景图页_restored.png",
-    "animation": "@/assets/mock_pic/ming/唐寅沛台实景图页_animation.mp4"
+    "restoredImage": "唐寅沛台实景图页_restored.png",
+    "animation": "唐寅沛台实景图页_animation.mp4"
   },
   {
     "id": "221",
@@ -3778,7 +3998,8 @@ export const mockPaintings = [
     "artist": "吴伟",
     "artistId": "artist_220",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/吴伟歌舞图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "吴伟歌舞图轴.png",
     "tags": [
       "竹子",
       "岩石"
@@ -3792,7 +4013,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_221",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶梅石轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶梅石轴.png",
     "tags": [
       "人",
       "桥",
@@ -3807,7 +4029,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_222",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶杂画图册.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶杂画图册.png",
     "tags": [
       "人",
       "人",
@@ -3820,8 +4043,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《杂画图》册，明，陈洪绶作，绢本，设色，每开纵30.2cm，各横25.1cm。 　　本册共八开，每开均有作者题跋及款印。所画题材有山水、人物、花鸟，全以工笔写之。山岩之结构，花蝶之动态，人物形象之奇特，均已加入了画家个人之造型意念，精彩绝伦。其中一册，以变形夸张的手法表现古拙奇崛的特征，描写佛教传说中的罗汉拄杖坐于大石上，对面跪拜一人，衣饰长摆，异国情调，突出了装饰性趣味，图页上自题名为“無法可說”，颇具禅机。另一册《玉兰柱石图》，图右侧一太湖石竖立，玲珑剔透，紧靠石下伸出一支玉兰花，石另一侧后面也露出一支海棠花，花上一只彩蝶。画家把握住不同的物象特征进行描绘，湖石的稳重坚硬，衬托出花朵的轻盈柔美，浓重的色调托出了玉兰的洁白。画面层次清晰，设色明丽温和，在线条的表现形式上，均用细劲的墨线勾勒，刚柔相济，巧拙互用，于对比中求统一。 　　从署款和绘画风格看，此图是陈洪绶中前期作品，为其代表作之一。",
-    "restoredImage": "@/assets/mock_pic/ming/陈洪绶杂画图册_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈洪绶杂画图册_animation.mp4"
+    "restoredImage": "陈洪绶杂画图册_restored.png",
+    "animation": "陈洪绶杂画图册_animation.mp4"
   },
   {
     "id": "224",
@@ -3829,7 +4052,8 @@ export const mockPaintings = [
     "artist": "唐寅",
     "artistId": "artist_223",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/唐寅墨梅图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "唐寅墨梅图轴.png",
     "tags": [
       "蝴蝶",
       "蝴蝶",
@@ -3844,7 +4068,8 @@ export const mockPaintings = [
     "artist": "文徵明",
     "artistId": "artist_224",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/文徵明临溪幽赏轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "文徵明临溪幽赏轴.png",
     "tags": [
       "人",
       "桥",
@@ -3859,7 +4084,8 @@ export const mockPaintings = [
     "artist": "吕纪",
     "artistId": "artist_225",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/吕纪残荷鹰鹭图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "吕纪残荷鹰鹭图轴.png",
     "tags": [
       "鹰",
       "白鹭",
@@ -3870,8 +4096,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《残荷鹰鹭图》轴，明，吕纪绘，绢本，水墨，纵190cm，横105.2cm。\n款署：“吕纪”。钤“四明吕廷振印”。\n画面描绘了秋日荷塘中惊心动魄的一幕，苍鹰俯冲搏击白鹭，白鹭冲进苇丛深处，希图逃脱。众鸟或纷纷躲避，或受惊鸣叫。劲风吹动芦苇残荷，更添肃杀之气。作者把握住禽鸟的自然特征，赋予了戏剧化的情节表现，使画面具有扣人心弦的感染力。画家用写意的笔法画出枯败的荷叶，效果逼真，体现出高超的水墨控制能力。",
-    "restoredImage": "@/assets/mock_pic/ming/吕纪残荷鹰鹭图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/吕纪残荷鹰鹭图轴_animation.mp4"
+    "restoredImage": "吕纪残荷鹰鹭图轴_restored.png",
+    "animation": "吕纪残荷鹰鹭图轴_animation.mp4"
   },
   {
     "id": "227",
@@ -3879,7 +4105,8 @@ export const mockPaintings = [
     "artist": "刘俊",
     "artistId": "artist_226",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/刘俊雪夜访普图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "刘俊雪夜访普图轴.png",
     "tags": [
       "人",
       "人",
@@ -3900,7 +4127,8 @@ export const mockPaintings = [
     "artist": "戴进",
     "artistId": "artist_227",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/戴进三顾茅庐图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "戴进三顾茅庐图轴.png",
     "tags": [
       "松树",
       "竹子",
@@ -3915,15 +4143,16 @@ export const mockPaintings = [
     "artist": "董其昌",
     "artistId": "artist_228",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/董其昌赠稼轩山水图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "董其昌赠稼轩山水图轴.png",
     "tags": [
       "房屋",
       "树"
     ],
     "isPremium": false,
     "description": "《赠稼轩山水图》轴，明，董其昌绘，纸本，墨笔，纵101.3cm，横46.3cm。\n本幅自题：“芙蓉一朵插天表，势压天下群山雄。玄宰。丙寅中秋写。己巳秋寄稼轩世丈。”钤“昌”、“宗伯学士”、“董氏玄宰”印。\n鉴藏印钤“涿鹿李氏珍藏”、“江左人文”、“子孙宝之”、“第一希有”、“朱之赤鉴藏”等。\n“丙寅”为明天启六年（1626年），董其昌时年72岁。\n此画构图取势平远，树石简繁相参，敛放有致，与同年作者所作《佘山游境图》轴相比，在笔势运转上更显刚健挺拔。渲染则多湿笔浓墨，墨气纵横，得草树、坡石蓊郁润泽之态。\n据题跋可知此图为作者于丙寅年所作，三年后，即“己巳”（明崇祯二年，1629年）寄赠瞿稼轩。“稼轩”是瞿式耜的号。此图从一个侧面反映了明末文人之间以诗文书画相契赏的风尚。",
-    "restoredImage": "@/assets/mock_pic/ming/董其昌赠稼轩山水图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/董其昌赠稼轩山水图轴_animation.mp4"
+    "restoredImage": "董其昌赠稼轩山水图轴_restored.png",
+    "animation": "董其昌赠稼轩山水图轴_animation.mp4"
   },
   {
     "id": "230",
@@ -3931,7 +4160,8 @@ export const mockPaintings = [
     "artist": "仇英",
     "artistId": "artist_229",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/仇英玉洞仙源图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "仇英玉洞仙源图轴.png",
     "tags": [
       "桥"
     ],
@@ -3944,7 +4174,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_230",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶荷花鸳鸯图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶荷花鸳鸯图轴.png",
     "tags": [
       "荷叶",
       "荷叶",
@@ -3971,7 +4202,8 @@ export const mockPaintings = [
     "artist": "王绂",
     "artistId": "artist_231",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/王绂墨竹图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "王绂墨竹图轴.png",
     "tags": [
       "人",
       "人",
@@ -3984,8 +4216,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《墨竹图》轴，明，王绂作，纸本，墨笔，纵113.8cm，横51.3cm。\n是图以墨笔画竹三株，竿梢挺然，枝叶飘摇，有潇洒出尘之致；枝干润泽，叶尖微垂，具含雨带露之态。王绂以画山水竹石闻名于世，其画竹尤为明代“开山手”。此幅画法上承元人而自出新意，出竿、伸枝、布叶，均笔笔有法而又不拘于法。以圆劲之笔画竿，以秀挺之笔画枝，竹叶运用笔触之宽窄直曲，发挥书法特长，随手自然撇出，以体现叶之正侧向背，顾盼俯仰。以墨之干湿浓淡，笔触之大小疏密，表现竹丛之空间感和立体感。运笔熟练简洁，造形生动逼真，别具一种清爽之神韵。\n相传王绂画竹曾有一段故事，他在北京时，夜闻箫声优美，于是乘兴画竹一幅，次日访吹箫者欲当面相赠。其人乃大商贾，见此当然高兴，立即送王绂以厚礼，请他再画一幅。王绂笑曰：“我为箫声访，汝以箫材报，汝俗子也。”遂把前画撕毁，礼物退还。这种傲岸孤高的品性，在王绂笔下的墨竹中时时自然流露，成为其人格的写照。\n本幅自题：“□□辛巳九日王紱寫寄塵外禪翁清供。”下钤：“孟端”。裱边有吴湖帆题：“辛巳爲建文三年，九龍山人時年四十歲。辛字上有剜補痕，蓋永樂靖難後忌諱而然。”依此，辛字上面所缺者应为“建文”两字，永乐改制后，收藏者忌讳，怕惹不测之祸，故挖去。政治风波每每累及艺术品，此其一例。所幸剜挖不多，于画尚无大损伤。洪武时王绂因事受牵连，谪戍山西大同，建文元年被释还京（南京），此图正是被释后二年所作，而孤高潇洒之气流露于竹间，可知他并不因遭受贬谪而稍意冷。《无声诗史》载：王绂尝“游太行，出雁门，往来晋代之间，周览形胜，辄感慨吊古，徘徊不能去。一时闻，人慕其名，争延致之，及观其气貌瑰岸，议论踔厉，益加器重。”是知王绂虽遭贬谪而更富经历，气格文采愈高，此图正是画家当时襟怀的写照。\n王绂此图，实乃借画竹抒发心怀，表示其对超豁出俗、不与庸俗污浊之徒相苟合的人格的赞美，故题赠友人“清供”。清代王应祥于本幅左上角题诗云：“遠懷天上玉堂仙，身綴鵷行又幾年。回首故國歸未得，夢魂應繞竹溪邊。”则是着意于王绂曾多年归隐九龙山，以为王绂作此图是借写竹而表达其怀念故乡之情。\n又诗堂有明代邵宝诗题：“萧萧数叶不胜看，到此方知画竹难。谁信中书曾放笔，片时行尽楚江千。”对王绂写竹的造诣备加推崇。诗中所谓“中书”，即指曾官“中书舍人”的王绂，不过王绂官至中书舍人时，已是永乐十年（1412年），是作此图十余年以后的事了。",
-    "restoredImage": "@/assets/mock_pic/ming/王绂墨竹图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/王绂墨竹图轴_animation.mp4"
+    "restoredImage": "王绂墨竹图轴_restored.png",
+    "animation": "王绂墨竹图轴_animation.mp4"
   },
   {
     "id": "233",
@@ -3993,7 +4225,8 @@ export const mockPaintings = [
     "artist": "戴进",
     "artistId": "artist_232",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/戴进关山行旅图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "戴进关山行旅图轴.png",
     "tags": [
       "人",
       "人",
@@ -4008,7 +4241,8 @@ export const mockPaintings = [
     "artist": "吕纪",
     "artistId": "artist_233",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/吕纪桂菊山禽图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "吕纪桂菊山禽图轴.png",
     "tags": [
       "菊花",
       "菊花",
@@ -4032,7 +4266,8 @@ export const mockPaintings = [
     "artist": "陈洪绶",
     "artistId": "artist_234",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/陈洪绶升庵簪花图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "陈洪绶升庵簪花图轴.png",
     "tags": [
       "山",
       "树",
@@ -4040,8 +4275,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "    《升庵簪花图》轴，明，陈洪绶绘，绢本，设色，纵143.5cm，横61.5cm。\n    明代著名文学家杨慎（1488—1559年），号升庵，被流放云南时为讥讽时政，曾醉酒后以白粉涂面，髻上插花，与学生和妓女游行于市中。此图即绘其事。图中人物造型夸张，神态生动，线描圆劲流畅，背景中老树枯槎虬枝，更衬托出主人公桀骜不羁的个性，显示了陈洪绶人物画成熟时期的典型面貌。",
-    "restoredImage": "@/assets/mock_pic/ming/陈洪绶升庵簪花图轴_restored.png",
-    "animation": "@/assets/mock_pic/ming/陈洪绶升庵簪花图轴_animation.mp4"
+    "restoredImage": "陈洪绶升庵簪花图轴_restored.png",
+    "animation": "陈洪绶升庵簪花图轴_animation.mp4"
   },
   {
     "id": "236",
@@ -4049,7 +4284,8 @@ export const mockPaintings = [
     "artist": "唐寅",
     "artistId": "artist_235",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/唐寅王蜀宫妓图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "唐寅王蜀宫妓图轴.png",
     "tags": [
       "人"
     ],
@@ -4062,7 +4298,8 @@ export const mockPaintings = [
     "artist": "边景昭",
     "artistId": "artist_236",
     "dynasty": "明朝",
-    "imageUrl": "@/assets/mock_pic/ming/边景昭竹鹤图轴.png",
+    "dynastyFolder": "ming",
+    "imageUrl": "边景昭竹鹤图轴.png",
     "tags": [
       "鹤",
       "鹤",
@@ -4078,14 +4315,15 @@ export const mockPaintings = [
     "artist": "陈容",
     "artistId": "artist_237",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/陈容墨龙卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "陈容墨龙卷.png",
     "tags": [
       "龙"
     ],
     "isPremium": true,
     "description": "        此图描绘海波云雾，巨龙飞舞盘旋，张目右顾，两只幼龙隐约可见。画家用粗劲的墨笔勾勒龙身、鳞甲，加以水墨晕染，将飞龙矫健腾跃的磅礴之态表现得淋漓尽致。",
-    "restoredImage": "@/assets/mock_pic/song/陈容墨龙卷_restored.png",
-    "animation": "@/assets/mock_pic/song/陈容墨龙卷_animation.mp4"
+    "restoredImage": "陈容墨龙卷_restored.png",
+    "animation": "陈容墨龙卷_animation.mp4"
   },
   {
     "id": "239",
@@ -4093,7 +4331,8 @@ export const mockPaintings = [
     "artist": "马远",
     "artistId": "artist_238",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马远寒山子单页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马远寒山子单页.png",
     "tags": [
       "人"
     ],
@@ -4106,7 +4345,8 @@ export const mockPaintings = [
     "artist": "马远",
     "artistId": "artist_239",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马远石壁看云单页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马远石壁看云单页.png",
     "tags": [
       "人",
       "树",
@@ -4122,14 +4362,15 @@ export const mockPaintings = [
     "artist": "马远",
     "artistId": "artist_240",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马远孔子像图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马远孔子像图页.png",
     "tags": [
       "人"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/马远孔子像图页_restored.png",
-    "animation": "@/assets/mock_pic/song/马远孔子像图页_animation.mp4"
+    "restoredImage": "马远孔子像图页_restored.png",
+    "animation": "马远孔子像图页_animation.mp4"
   },
   {
     "id": "242",
@@ -4137,7 +4378,8 @@ export const mockPaintings = [
     "artist": "林椿",
     "artistId": "artist_241",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/林椿葡萄草虫图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "林椿葡萄草虫图页.png",
     "tags": [
       "葡萄",
       "葡萄",
@@ -4153,7 +4395,8 @@ export const mockPaintings = [
     "artist": "梁楷",
     "artistId": "artist_242",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/梁楷雪栈行骑单页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "梁楷雪栈行骑单页.png",
     "tags": [
       "树",
       "树",
@@ -4170,7 +4413,8 @@ export const mockPaintings = [
     "artist": "梁楷",
     "artistId": "artist_243",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/梁楷疏柳寒鸦图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "梁楷疏柳寒鸦图页.png",
     "tags": [
       "鸦",
       "鸦",
@@ -4178,8 +4422,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《疏柳寒鸦图》页，宋，梁楷绘，纨扇页，绢本，设色，纵26.4厘米，横24.2厘米。\n本幅款识：“梁楷”。\n图绘枯柳疏枝，两只乌鸦栖息于树干上，一只低头啄食，一只仰望高空，与远处的飞鸦呼应成趣，另有一只飞临树干。几枝败柳将冬季萧瑟的气氛巧妙地烘托出来，四只寒鸦形神各异。乌鸦头尾以浓墨点染，羽翼用焦墨勾写，腹部略敷白粉，更突出鸦头之黑，笔简神丰。\n梁楷的“减笔”画既带有文人的笔墨情趣，又能对物象高度概括，具有传神的效果，这在两宋花鸟画中是绝无仅有的。这种画法对元代的颜辉、明代的徐渭、清代的黄慎、近代的任伯年等著名画家都有较大的影响。",
-    "restoredImage": "@/assets/mock_pic/song/梁楷疏柳寒鸦图页_restored.png",
-    "animation": "@/assets/mock_pic/song/梁楷疏柳寒鸦图页_animation.mp4"
+    "restoredImage": "梁楷疏柳寒鸦图页_restored.png",
+    "animation": "梁楷疏柳寒鸦图页_animation.mp4"
   },
   {
     "id": "245",
@@ -4187,7 +4431,8 @@ export const mockPaintings = [
     "artist": "李东",
     "artistId": "artist_244",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/李东雪江卖鱼页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "李东雪江卖鱼页.png",
     "tags": [
       "房子",
       "山",
@@ -4202,7 +4447,8 @@ export const mockPaintings = [
     "artist": "何筌",
     "artistId": "artist_245",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/何筌草堂客话图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "何筌草堂客话图页.png",
     "tags": [
       "狗"
     ],
@@ -4215,7 +4461,8 @@ export const mockPaintings = [
     "artist": "陈清波",
     "artistId": "artist_246",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/陈清波湖山春晓图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "陈清波湖山春晓图页.png",
     "tags": [
       "房屋",
       "树",
@@ -4229,8 +4476,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《湖山春晓图》页，南宋，陈清波绘，绢本，设色，纵25厘米，横26.7厘米。\n本幅款署：“乙未陈清波。”钤收藏印“庞莱臣珍藏宋元真迹”一方。庞元济《虚斋名画录》著录。\n此页以平远之法绘春山平湖。湖堤一边是掩映在绿树丛中的深院崇楼，湖对岸小路上一人骑马远行，执鞭回望崇楼，二仆负伞荷担相随，湖阔天高，远山一带。画中人物是踏青，是出行，是省亲，是远宦，耐人寻味。楼阁虽以粗笔画出，但飞檐户牖洗练而不失准确。简括明了的线条、大片空白的院体格式与清新淡雅的色调使画面在含蓄蕴藉之中充满了春天的明媚。",
-    "restoredImage": "@/assets/mock_pic/song/陈清波湖山春晓图页_restored.png",
-    "animation": "@/assets/mock_pic/song/陈清波湖山春晓图页_animation.mp4"
+    "restoredImage": "陈清波湖山春晓图页_restored.png",
+    "animation": "陈清波湖山春晓图页_animation.mp4"
   },
   {
     "id": "248",
@@ -4238,7 +4485,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_247",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/蓼龟图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "蓼龟图页.png",
     "tags": [
       "乌龟",
       "叶子"
@@ -4252,7 +4500,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_248",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/霜桕山鸟图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "霜桕山鸟图页.png",
     "tags": [
       "鸟",
       "鸟",
@@ -4268,7 +4517,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_249",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳荫醉归单页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳荫醉归单页.png",
     "tags": [
       "人",
       "人",
@@ -4276,8 +4526,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人柳荫醉归单页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人柳荫醉归单页_animation.mp4"
+    "restoredImage": "宋人柳荫醉归单页_restored.png",
+    "animation": "宋人柳荫醉归单页_animation.mp4"
   },
   {
     "id": "251",
@@ -4285,7 +4535,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_250",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人清溪风帆单页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人清溪风帆单页.png",
     "tags": [
       "山",
       "山",
@@ -4306,7 +4557,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_251",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/牡丹图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "牡丹图页.png",
     "tags": [
       "牡丹花",
       "牡丹花",
@@ -4324,15 +4576,16 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_252",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人莲舟仙渡图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人莲舟仙渡图页.png",
     "tags": [
       "船",
       "人"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人莲舟仙渡图页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人莲舟仙渡图页_animation.mp4"
+    "restoredImage": "宋人莲舟仙渡图页_restored.png",
+    "animation": "宋人莲舟仙渡图页_animation.mp4"
   },
   {
     "id": "254",
@@ -4340,7 +4593,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_253",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/丛菊图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "丛菊图页.png",
     "tags": [
       "花",
       "花",
@@ -4369,7 +4623,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_254",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人鹌鹑图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人鹌鹑图页.png",
     "tags": [
       "鹌鹑",
       "芦苇"
@@ -4383,14 +4638,15 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_255",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人江上青峰页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人江上青峰页.png",
     "tags": [
       "山"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人江上青峰页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人江上青峰页_animation.mp4"
+    "restoredImage": "宋人江上青峰页_restored.png",
+    "animation": "宋人江上青峰页_animation.mp4"
   },
   {
     "id": "257",
@@ -4398,7 +4654,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_256",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/女孝经图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "女孝经图卷.png",
     "tags": [
       "人",
       "人",
@@ -4438,7 +4695,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_257",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/寒塘凫侣图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "寒塘凫侣图页.png",
     "tags": [
       "猴子",
       "树"
@@ -4452,7 +4710,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_258",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/荷塘鸂鵣图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "荷塘鸂鵣图页.png",
     "tags": [
       "鸭子",
       "鸭子",
@@ -4462,8 +4721,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《荷塘鸂鵣图》页，南宋，绢本，设色，纵16.8厘米，横21厘米。\n本幅无款印。\n画面烟雾迷濛，一弯清溪，两岸夹植杨柳，间以红花。溪中莲叶点点，鸂鵣戏水，其乐融融。一行白鹭破空飞向远方，蜿蜒的清溪流向画面深处。小小的册页画中采用了深远与高远的画法，使画面意境达到了深远的效果。柳叶用攒笔点画，树干用双钩法绘出，鸂鵣以工笔刻画。设色柔和淡雅。\n对幅有清乾隆皇帝御题诗一首:“花鸟从来属剑南，水禽夏卉照晴潭。鸳鸯无碍称其紫，弟子有时胜彼蓝。水宿相呼如觧勅，沙群式度自能谙。涨滩落鸟寻常事，何涉西台纪怪谈。”\n清《石渠宝笈续编》著录。",
-    "restoredImage": "@/assets/mock_pic/song/荷塘鸂鵣图页_restored.png",
-    "animation": "@/assets/mock_pic/song/荷塘鸂鵣图页_animation.mp4"
+    "restoredImage": "荷塘鸂鵣图页_restored.png",
+    "animation": "荷塘鸂鵣图页_animation.mp4"
   },
   {
     "id": "260",
@@ -4471,7 +4730,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_259",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人沧海湧日页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人沧海湧日页.png",
     "tags": [
       "鸟",
       "鸟",
@@ -4490,7 +4750,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_260",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人梅溪放艇页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人梅溪放艇页.png",
     "tags": [
       "船",
       "人",
@@ -4506,14 +4767,15 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_261",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/蕉阴击球图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "蕉阴击球图页.png",
     "tags": [
       "花"
     ],
     "isPremium": true,
     "description": "《蕉阴击球图》页，宋，绢本，设色，纵25厘米，横24.5厘米。\n无作者款印。对幅清高宗弘历御题诗一首。本幅、对幅及裱边钤高宗弘历“古稀天子”、“八徵耄念之宝”、“太上皇帝之宝”等鉴藏印，共6方。\n《蕉阴击球图》绘南宋贵族庭院里的婴戏小景。庭院内奇巧的湖石突兀而立，其后隐现茂盛的芭蕉数丛。石前的少妇正与身旁的女子专注地观看二童子玩槌球游戏。一童手持木拍正欲坐地击球，另一童子则向他急急地喊话。图中四人的目光同时落于童子所欲击打的小小球体上。构思巧妙，情节生动，显示出作者善于观察人物并且捕捉生活细节的能力。此幅在构图上巧妙地将玲珑剔透的湖石正立于画心中部，以其自身的完整性起到了镇住画面的作用，聚拢了交叠张扬的芭蕉叶及分散的人物，避免了画面因景物繁杂而出现轻浮感。此外，湖石拉开了前景人物与背景芭蕉间的距离，增强了画面的纵向层次感。在笔法上，作者注重物象间的对比互衬关系。人物与芭蕉为中锋运笔，线条工整细匀，如行云流水；着色渲染浓淡相宜，清新明洁的色调有助于表达轻松活泼的主题。湖石则以粗笔重墨表现，线条劲练，转折顿挫中见洒脱。湖石所呈现出的坚硬质地成功地衬托出人物纤秀婉约的形象及芭蕉飘逸润泽的自然美。\n在宋代类似于《蕉阴击球图》的作品很多。以写实的笔法描绘民间生活、反映“市井细民”的审美趣味是宋代绘画的一大特色。当时涌现出众多绘风俗画的著名画家，如王居正、张择端、李嵩、苏汉臣等人，他们的作品以富有浓郁的生活气息而在中国绘画史上占有重要的地位。 　　原题签作者为苏汉臣。此幅虽在题材、笔法上与苏汉臣的画风较为接近，但在艺术表现的造诣上却远不及苏汉臣，因此，此图当是与苏汉臣同时代的佚名画家之作。\n清内府《石渠宝笈续编》著录。",
-    "restoredImage": "@/assets/mock_pic/song/蕉阴击球图页_restored.png",
-    "animation": "@/assets/mock_pic/song/蕉阴击球图页_animation.mp4"
+    "restoredImage": "蕉阴击球图页_restored.png",
+    "animation": "蕉阴击球图页_animation.mp4"
   },
   {
     "id": "263",
@@ -4521,7 +4783,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_262",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/春溪水族图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "春溪水族图页.png",
     "tags": [
       "孩子",
       "孩子",
@@ -4543,7 +4806,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_263",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/青山白云图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "青山白云图页.png",
     "tags": [
       "假山",
       "假山",
@@ -4563,7 +4827,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_264",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/莲塘泛舟图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "莲塘泛舟图页.png",
     "tags": [
       "船",
       "人",
@@ -4572,8 +4837,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《莲塘泛舟图》页，宋，绢本，设色，纵24.3厘米，横25.8厘米。\n本幅无款印。收藏印钤“庞莱臣珍藏宋元真迹”一方。庞元济《虚斋名画录》著录。\n画面长松密林，坡陀水阁。水阁内二女子，一执扇闲坐，一凭栏眺望，坡下莲塘，一女泛舟而来。图页中的水阁以细笔勾勒，刻画精微，设色淡雅，虽大不盈尺却美仑美奂。此图高度写实的绘画风格继承了北宋画院的传统，而莲塘的迷濛与空灵增添了画面亦真亦幻的抒情效果。",
-    "restoredImage": "@/assets/mock_pic/song/莲塘泛舟图页_restored.png",
-    "animation": "@/assets/mock_pic/song/莲塘泛舟图页_animation.mp4"
+    "restoredImage": "莲塘泛舟图页_restored.png",
+    "animation": "莲塘泛舟图页_animation.mp4"
   },
   {
     "id": "266",
@@ -4581,7 +4846,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_265",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人耕获图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人耕获图页.png",
     "tags": [
       "树",
       "树",
@@ -4601,7 +4867,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_266",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人归牧图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人归牧图页.png",
     "tags": [
       "树",
       "房子"
@@ -4615,7 +4882,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_267",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/红蓼水禽图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "红蓼水禽图页.png",
     "tags": [
       "树",
       "山",
@@ -4623,8 +4891,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《红蓼水禽图》页，宋，纨扇页，绢本，设色，纵25.2厘米，横26.8厘米。\n本幅无款识。鉴藏印钤“真赏”、“都尉耿信公书画之章”、“公”、“信公珍赏”、“丹诚”、“宜尔子孙”、“汉水耿会侯书画之章”、“漱六主人”、“陈定”、“项子京家珍藏”、“墨林秘玩”、“庞莱臣珍藏宋元真迹”。裱边钤“信公监定珍藏”。\n图绘水边一枝红蓼，小花盛开。水鸟发现波中青虾，悄然飞落红蓼枝头，引喙而啄。红蓼被水鸟的体重与蹬力压弯，梢头、叶尖浸入水中。而青虾在水中灵活地悠游，对面临的危险浑然不觉。自然界中这惊险的一霎被巧妙地摄入绢素，极为生动传神。水禽和红蓼设色鲜丽，工笔细写。小鸟纤细的毛羽清晰可数，连蓼花粟米大的花冠也用紫红、粉白晕染得一丝不苟，层次分明。而水中的青虾和荇藻则采用模糊的手法表现，唯以淡墨绿一色染成，类似写意画法。因而虽不画水，却水旱两界分明。\n对幅有耿昭忠题记：“传写物态，蔚有生意，徐崇矩岂惟不坠祖风，直可领袖后学。襄平耿昭忠题。”\n存《名笔集胜》册中。《虚斋名画录》著录。",
-    "restoredImage": "@/assets/mock_pic/song/红蓼水禽图页_restored.png",
-    "animation": "@/assets/mock_pic/song/红蓼水禽图页_animation.mp4"
+    "restoredImage": "红蓼水禽图页_restored.png",
+    "animation": "红蓼水禽图页_animation.mp4"
   },
   {
     "id": "269",
@@ -4632,7 +4900,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_268",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人槐荫消夏页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人槐荫消夏页.png",
     "tags": [
       "鸭子",
       "鸭子",
@@ -4648,7 +4917,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_269",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/红梅孔雀图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "红梅孔雀图页.png",
     "tags": [
       "人",
       "树",
@@ -4666,15 +4936,16 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_270",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳溪钓艇图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳溪钓艇图页.png",
     "tags": [
       "树",
       "岩石"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人柳溪钓艇图页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人柳溪钓艇图页_animation.mp4"
+    "restoredImage": "宋人柳溪钓艇图页_restored.png",
+    "animation": "宋人柳溪钓艇图页_animation.mp4"
   },
   {
     "id": "272",
@@ -4682,7 +4953,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_271",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳塘牧马图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳塘牧马图页.png",
     "tags": [
       "人",
       "松树",
@@ -4697,7 +4969,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_272",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人木末孤亭页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人木末孤亭页.png",
     "tags": [
       "人"
     ],
@@ -4710,7 +4983,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_273",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳塘泛月页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳塘泛月页.png",
     "tags": [
       "人",
       "人",
@@ -4722,8 +4996,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人柳塘泛月页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人柳塘泛月页_animation.mp4"
+    "restoredImage": "宋人柳塘泛月页_restored.png",
+    "animation": "宋人柳塘泛月页_animation.mp4"
   },
   {
     "id": "275",
@@ -4731,7 +5005,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_274",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/水仙图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "水仙图页.png",
     "tags": [
       "花",
       "花",
@@ -4755,7 +5030,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_275",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人春山渔艇页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人春山渔艇页.png",
     "tags": [
       "船",
       "树",
@@ -4772,15 +5048,16 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_276",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人鹌鹑图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人鹌鹑图页.png",
     "tags": [
       "鹌鹑",
       "芦苇"
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人鹌鹑图页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人鹌鹑图页_animation.mp4"
+    "restoredImage": "宋人鹌鹑图页_restored.png",
+    "animation": "宋人鹌鹑图页_animation.mp4"
   },
   {
     "id": "278",
@@ -4788,7 +5065,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_277",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/群鱼戏藻图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "群鱼戏藻图页.png",
     "tags": [
       "房屋",
       "人",
@@ -4804,7 +5082,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_278",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人画洛神图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人画洛神图卷.png",
     "tags": [
       "树",
       "树",
@@ -4819,15 +5098,16 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_279",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/鹡鸰图册页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "鹡鸰图册页.png",
     "tags": [
       "鸟",
       "叶子"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/鹡鸰图册页_restored.png",
-    "animation": "@/assets/mock_pic/song/鹡鸰图册页_animation.mp4"
+    "restoredImage": "鹡鸰图册页_restored.png",
+    "animation": "鹡鸰图册页_animation.mp4"
   },
   {
     "id": "281",
@@ -4835,7 +5115,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_280",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人牧牛图单页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人牧牛图单页.png",
     "tags": [
       "牛",
       "人"
@@ -4849,7 +5130,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_281",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳塘秋草页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳塘秋草页.png",
     "tags": [
       "柳树"
     ],
@@ -4862,7 +5144,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_282",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳溪春色图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳溪春色图页.png",
     "tags": [
       "柳树",
       "柳树",
@@ -4870,8 +5153,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "南宋，佚名，绢本设色，纵22厘米，横24.8厘米。\n该图为纨扇面，图绘江山小景，近岸陂陀杨柳，中间留白以示江山，远山山势和缓连绵，云气缥缈。无款，左下存半印。",
-    "restoredImage": "@/assets/mock_pic/song/宋人柳溪春色图页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人柳溪春色图页_animation.mp4"
+    "restoredImage": "宋人柳溪春色图页_restored.png",
+    "animation": "宋人柳溪春色图页_animation.mp4"
   },
   {
     "id": "284",
@@ -4879,7 +5162,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_283",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人化石成羊页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人化石成羊页.png",
     "tags": [
       "人",
       "人",
@@ -4896,7 +5180,8 @@ export const mockPaintings = [
     "artist": "马麟",
     "artistId": "artist_284",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马麟橘绿图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马麟橘绿图页.png",
     "tags": [
       "桃树",
       "橘",
@@ -4912,15 +5197,16 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_285",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人鹡鸰荷叶页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人鹡鸰荷叶页.png",
     "tags": [
       "鸟",
       "荷叶"
     ],
     "isPremium": true,
     "description": "《鹡鸰荷叶图》页，宋，绢本，设色，纵26厘米，横26.5厘米。\n本幅无款。钤鉴藏印“宋犖审定”，又半印一方，印文不辨。裱边题签：“宋人画鹡鸰荷叶”。\n图中荷塘里枯枝断茎，一片残败的荷叶向上斜出，翻卷的叶面，满布虫蚀的痕迹，一只鹡鸰停驻其上，双爪紧握荷茎，扭颈俯视，神情专注，为萧瑟的深秋平添了几许生气。鸟羽刻画细腻，先用色渲染，然后以极细之笔勾出，笔法生动秀逸。构图疏密有致，动静结合。",
-    "restoredImage": "@/assets/mock_pic/song/宋人鹡鸰荷叶页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人鹡鸰荷叶页_animation.mp4"
+    "restoredImage": "宋人鹡鸰荷叶页_restored.png",
+    "animation": "宋人鹡鸰荷叶页_animation.mp4"
   },
   {
     "id": "287",
@@ -4928,7 +5214,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_286",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人梅竹双雀页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人梅竹双雀页.png",
     "tags": [
       "麻雀",
       "麻雀",
@@ -4945,7 +5232,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_287",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/胆瓶秋卉图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "胆瓶秋卉图页.png",
     "tags": [
       "人",
       "山",
@@ -4960,7 +5248,8 @@ export const mockPaintings = [
     "artist": "王晋卿",
     "artistId": "artist_288",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/（传）王晋卿柳荫高士图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "（传）王晋卿柳荫高士图页.png",
     "tags": [
       "人",
       "柳树",
@@ -4968,8 +5257,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/（传）王晋卿柳荫高士图页_restored.png",
-    "animation": "@/assets/mock_pic/song/（传）王晋卿柳荫高士图页_animation.mp4"
+    "restoredImage": "（传）王晋卿柳荫高士图页_restored.png",
+    "animation": "（传）王晋卿柳荫高士图页_animation.mp4"
   },
   {
     "id": "290",
@@ -4977,7 +5266,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_289",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/海棠蛱蝶图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "海棠蛱蝶图页.png",
     "tags": [
       "花",
       "蝴蝶",
@@ -4993,7 +5283,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_290",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/松涧山禽图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "松涧山禽图页.png",
     "tags": [
       "树",
       "岩石",
@@ -5009,14 +5300,15 @@ export const mockPaintings = [
     "artist": "李嵩",
     "artistId": "artist_291",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/李嵩花篮图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "李嵩花篮图页.png",
     "tags": [
       "花"
     ],
     "isPremium": true,
     "description": "《花篮图》页，南宋，李嵩绘，绢本，设色，纵19.1厘米，横26.5厘米。\n画幅的左下角有款识：“李嵩画”。鉴藏印钤 “项子京家珍藏”。\n竹篮编织精巧，里面放满了各色鲜花，有秋葵、栀子、百合、广玉兰、石榴等，小小的花篮折射出繁花似锦的大自然——美丽、多样、蓬勃、朝气，让人看了之后感到十分亲切，画家对自然、生命的热爱和关注亦油然绢上。画幅虽然不大，但是描绘细腻具体，线条富有表现力，敷色艳丽雅致，构图稳定饱满。\n据款识可知，这是南宋著名的画院画家李嵩的手笔，小中见大，果然不同凡响。",
-    "restoredImage": "@/assets/mock_pic/song/李嵩花篮图页_restored.png",
-    "animation": "@/assets/mock_pic/song/李嵩花篮图页_animation.mp4"
+    "restoredImage": "李嵩花篮图页_restored.png",
+    "animation": "李嵩花篮图页_animation.mp4"
   },
   {
     "id": "293",
@@ -5024,7 +5316,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_292",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/榴枝黄鸟图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "榴枝黄鸟图页.png",
     "tags": [
       "人",
       "人",
@@ -5040,7 +5333,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_293",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/晴春蝶戏图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "晴春蝶戏图页.png",
     "tags": [
       "人",
       "人",
@@ -5058,7 +5352,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_294",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人骑士猎归图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人骑士猎归图页.png",
     "tags": [
       "蝴蝶",
       "蝴蝶",
@@ -5082,8 +5377,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人骑士猎归图页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人骑士猎归图页_animation.mp4"
+    "restoredImage": "宋人骑士猎归图页_restored.png",
+    "animation": "宋人骑士猎归图页_animation.mp4"
   },
   {
     "id": "296",
@@ -5091,7 +5386,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_295",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/蓬瀛仙馆图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "蓬瀛仙馆图页.png",
     "tags": [
       "人",
       "马"
@@ -5105,7 +5401,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_296",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人南唐文会页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人南唐文会页.png",
     "tags": [
       "房屋",
       "房屋",
@@ -5121,7 +5418,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_297",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人春江帆饱页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人春江帆饱页.png",
     "tags": [
       "人",
       "人",
@@ -5148,8 +5446,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人春江帆饱页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人春江帆饱页_animation.mp4"
+    "restoredImage": "宋人春江帆饱页_restored.png",
+    "animation": "宋人春江帆饱页_animation.mp4"
   },
   {
     "id": "299",
@@ -5157,7 +5455,8 @@ export const mockPaintings = [
     "artist": "马远",
     "artistId": "artist_298",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马远白蔷薇图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马远白蔷薇图页.png",
     "tags": [
       "蔷薇花",
       "蔷薇花",
@@ -5179,7 +5478,8 @@ export const mockPaintings = [
     "artist": "马远",
     "artistId": "artist_299",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马远梅石溪凫图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马远梅石溪凫图页.png",
     "tags": [
       "树",
       "树",
@@ -5196,7 +5496,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_300",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/碧桃图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "碧桃图页.png",
     "tags": [
       "花",
       "花",
@@ -5225,8 +5526,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《碧桃图》页，宋，纨扇页，绢本，设色，纵24.8厘米，横27厘米。\n本幅无款。钤鉴藏印“于”、“腾”、“阿蒙精赏”3方。\n图中盛开的碧桃红白相映，枝叶扶疏，娇柔妩媚。虽然画面上仅绘桃花两枝，但它的繁花簇簇、苞蕾盈枝则透露出浓郁的春意。花瓣用多变的细线条勾描后再以白粉或粉红色多层晕染，嫩叶用细红线勾轮廓和叶筋，然后填以花青和汁绿。整幅画面赋色淡雅，自然生动，体现了宋代册页画小中见大的风貌。",
-    "restoredImage": "@/assets/mock_pic/song/碧桃图页_restored.png",
-    "animation": "@/assets/mock_pic/song/碧桃图页_animation.mp4"
+    "restoredImage": "碧桃图页_restored.png",
+    "animation": "碧桃图页_animation.mp4"
   },
   {
     "id": "302",
@@ -5234,7 +5535,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_301",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/柳林牧牛图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "柳林牧牛图页.png",
     "tags": [
       "牛",
       "树"
@@ -5248,7 +5550,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_302",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/豆荚蜻蜓图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "豆荚蜻蜓图页.png",
     "tags": [
       "蜻蜓",
       "花"
@@ -5262,15 +5565,16 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_303",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人临流抚琴图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人临流抚琴图页.png",
     "tags": [
       "树",
       "人"
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人临流抚琴图页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人临流抚琴图页_animation.mp4"
+    "restoredImage": "宋人临流抚琴图页_restored.png",
+    "animation": "宋人临流抚琴图页_animation.mp4"
   },
   {
     "id": "305",
@@ -5278,7 +5582,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_304",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳院消暑页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳院消暑页.png",
     "tags": [
       "人",
       "人",
@@ -5311,7 +5616,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_305",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人柳阁风帆页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人柳阁风帆页.png",
     "tags": [
       "柳树",
       "房屋",
@@ -5330,7 +5636,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_306",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人春游晚归页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人春游晚归页.png",
     "tags": [
       "人",
       "人",
@@ -5350,8 +5657,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/宋人春游晚归页_restored.png",
-    "animation": "@/assets/mock_pic/song/宋人春游晚归页_animation.mp4"
+    "restoredImage": "宋人春游晚归页_restored.png",
+    "animation": "宋人春游晚归页_animation.mp4"
   },
   {
     "id": "308",
@@ -5359,7 +5666,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_307",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/宋人青枫巨蝶页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "宋人青枫巨蝶页.png",
     "tags": [
       "蝴蝶",
       "叶子",
@@ -5384,7 +5692,8 @@ export const mockPaintings = [
     "artist": "佚名",
     "artistId": "artist_308",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/层楼春眺图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "层楼春眺图页.png",
     "tags": [
       "树",
       "树"
@@ -5398,7 +5707,8 @@ export const mockPaintings = [
     "artist": "钱选",
     "artistId": "artist_309",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/钱选西湖吟趣图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "钱选西湖吟趣图卷.png",
     "tags": [
       "房屋",
       "树",
@@ -5406,8 +5716,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "",
-    "restoredImage": "@/assets/mock_pic/song/钱选西湖吟趣图卷_restored.png",
-    "animation": "@/assets/mock_pic/song/钱选西湖吟趣图卷_animation.mp4"
+    "restoredImage": "钱选西湖吟趣图卷_restored.png",
+    "animation": "钱选西湖吟趣图卷_animation.mp4"
   },
   {
     "id": "311",
@@ -5415,7 +5725,8 @@ export const mockPaintings = [
     "artist": "林椿",
     "artistId": "artist_310",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/林椿枇杷山鸟图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "林椿枇杷山鸟图页.png",
     "tags": [
       "人",
       "人",
@@ -5435,7 +5746,8 @@ export const mockPaintings = [
     "artist": "马和之",
     "artistId": "artist_311",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/后赤壁图赵构书赋卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "后赤壁图赵构书赋卷.png",
     "tags": [
       "船",
       "树"
@@ -5449,7 +5761,8 @@ export const mockPaintings = [
     "artist": "祁序",
     "artistId": "artist_312",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/祁序江山放牧图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "祁序江山放牧图卷.png",
     "tags": [
       "树",
       "人",
@@ -5461,8 +5774,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "《江山放牧图》卷，宋，祁序绘，绢本，设色，纵47.3厘米，横115.6厘米。\n本幅无款，上有清高宗弘历御题五律诗一首。前隔水有金章宗完颜璟瘦金体书题签：“祁序江山放牧图”。清梁清标书签：“北宋祁序江山放牧图蕉林珍藏”。鉴藏印有金章宗“内殿珍玩”、“明昌”、“明昌宝玩”、“御府宝绘”；清耿昭忠“耿昭忠信公氏一字在良别号长白山长收藏书画印记”，梁清标“蕉林”、“观其大略”以及乾隆、嘉庆、宣统诸帝之玺。\n此图为平远式构图，取景开阔。图绘初春时节，牧童们在湖泽坡岸间牧牛的情景，是典型的宋代风俗小品画。作品表现了各种情态的牛，或低头饮水，或昂首举目，或扭身顾盼，或侧身前行，皆神态生动，富有情趣，显示出作者娴熟的笔墨技法和准确的造型能力。图中点景的树木具有宋人李唐刻画粗简的遗风，树干以粗线条勾勒轮廓，润墨皴擦，显现出苍健之态、虬曲之美；树叶用笔致细腻的夹叶法表现，中锋行笔，线条圆润工整，展现出树木丰润华滋之美。堤岸坡石的表现别具匠心，以曲折弯转的墨线勾边，再以石绿色晕染坡面，亮丽的色彩不仅丰富了画面的色调，也为全幅增添了万物复苏的春之气息。作者将悠闲惬意的牛与风和日丽的环境有机地融为一体，画面中洋溢着浓郁的乡土风情。\n此幅是祁序流存至今的唯一一件作品，原藏清宫内府，宣统年间为溥仪运出宫，存于长春的小白楼内，后为周觉民获得。1983年9月由周觉民之妻李倩玉捐献给故宫博物院。\n著录于清内府《石渠宝笈初编》。",
-    "restoredImage": "@/assets/mock_pic/song/祁序江山放牧图卷_restored.png",
-    "animation": "@/assets/mock_pic/song/祁序江山放牧图卷_animation.mp4"
+    "restoredImage": "祁序江山放牧图卷_restored.png",
+    "animation": "祁序江山放牧图卷_animation.mp4"
   },
   {
     "id": "314",
@@ -5470,7 +5783,8 @@ export const mockPaintings = [
     "artist": "林椿",
     "artistId": "artist_313",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/林椿果熟来禽图页.png",
+    "dynastyFolder": "song",
+    "imageUrl": "林椿果熟来禽图页.png",
     "tags": [
       "鸟",
       "桃树",
@@ -5485,7 +5799,8 @@ export const mockPaintings = [
     "artist": "郭熙",
     "artistId": "artist_314",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/郭熙窠石平远图轴.png",
+    "dynastyFolder": "song",
+    "imageUrl": "郭熙窠石平远图轴.png",
     "tags": [
       "石头",
       "石头",
@@ -5504,7 +5819,8 @@ export const mockPaintings = [
     "artist": "李唐",
     "artistId": "artist_315",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/李唐采薇图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "李唐采薇图卷.png",
     "tags": [
       "山",
       "山",
@@ -5512,8 +5828,8 @@ export const mockPaintings = [
     ],
     "isPremium": true,
     "description": "《采薇图》卷，宋，李唐作，绢本，水墨淡设色，纵27.2cm，横90.5cm。\n这是一幅历史题材的绘画作品，是以殷末伯夷、叔齐“不食周粟”的故事为题而画的。司马迁所著之《史记》中即有“伯夷列传”，伯夷和叔齐是殷的诸侯孤竹君（国在今河北卢龙南）的两个儿子，孤竹君立其三子叔齐为继承人。孤竹君死后，叔齐要把继承权让给哥哥伯夷，伯夷不肯接受，说这是父命，不可违背，最后逃跑了。叔齐见状也离家出走。兄弟二人出走后先后投奔了西伯姬昌（即周文王），不久姬昌死，儿子姬发（即周武王）要出兵讨伐纣王。伯夷、叔齐拦住姬发的马头谏阻，认为臣子造反讨伐君王是大逆不道的。武王伐纣取得胜利后，伯夷、叔齐深以为耻，表示决心不吃从周朝土地上长出来的粮食，于是逃隐至首阳山（在山西永济县境），采食野菜充饥度日，最后双双饿死在山里，临死前还作了一首采薇歌：“登彼西山兮，采其薇矣！以暴易暴兮，不知其非矣！神农虞夏忽焉没兮，我安适归矣？于嗟徂兮，命之衰矣！”表示了坚决不屈服的志向。\n李唐所画的《采薇图》，即着力刻划了这两个古代宁死不愿意失去气节的人物。图中描绘伯夷、叔齐对坐在悬崖峭壁间的一块坡地上，伯夷双手抱膝，目光炯然，显得坚定沉着；叔齐则上身前倾，表示愿意相随。伯夷、叔齐均面容清癯，身体瘦弱，肉体上由于生活在野外和以野菜充饥而受到极大的折磨，但是在精神上却丝毫没有被困苦压倒。作者着墨不多，就把伯夷、叔齐在特定环境下的神态描绘得淋漓尽致，达到了很高的水平。\n李唐采用这个历史故事来表彰保持气节的人，谴责投降变节的行为，在当时南宋与金国对峙的时候，可谓是“借古讽今”，用心良苦。",
-    "restoredImage": "@/assets/mock_pic/song/李唐采薇图卷_restored.png",
-    "animation": "@/assets/mock_pic/song/李唐采薇图卷_animation.mp4"
+    "restoredImage": "李唐采薇图卷_restored.png",
+    "animation": "李唐采薇图卷_animation.mp4"
   },
   {
     "id": "317",
@@ -5521,7 +5837,8 @@ export const mockPaintings = [
     "artist": "李嵩",
     "artistId": "artist_316",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/李嵩钱塘观潮图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "李嵩钱塘观潮图卷.png",
     "tags": [
       "树",
       "树"
@@ -5535,7 +5852,8 @@ export const mockPaintings = [
     "artist": "马和之",
     "artistId": "artist_317",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马和之豳风图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马和之豳风图卷.png",
     "tags": [
       "花",
       "花",
@@ -5561,7 +5879,8 @@ export const mockPaintings = [
     "artist": "法常",
     "artistId": "artist_318",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/法常水墨写生图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "法常水墨写生图卷.png",
     "tags": [
       "人",
       "人",
@@ -5573,8 +5892,8 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "    《水墨写生图》卷，南宋，法常作，纸本，水墨，纵47.3cm，横814.1cm。\n    法常的绘画，有不少取材于平时人们司空见惯的日常生活，但独能于平淡天真之中揭示生命意识的真谛。此卷所绘折枝花果、禽鸟、鱼虾及蔬果，笔墨简淡，平平常常，在画幅上随随便便地摆放在一起，看来就是最为常见的与我们现实生活息息相关的景象，但是卷中墨色的氤氲、排列的错综、变化的神奇，却又分明深蕴着禅机。这些平常物象的背后是不着笔墨的大片空白，这种“知白守黑”、“计白当黑”的处理，使得画面中本不相关联的事物各自相对独立又可合而为一，画意更为完整而富于张力，给观者以想象的空间，正所谓“于无画处皆成妙境”。整幅作品充满着一种宁静、自省、淡泊的内在精神，使观者有“万物静观皆自得”的会心感受，耐人寻味。牧溪的绘画，写生功底极深，此幅亦是“肖似形类，并得其意”（项元汴语）的形神兼备之作。\n    沈周卷后题识称：“不施色彩，任意潑墨，儼然若生。回視黃筌、舜舉之流，風斯下矣。”本幅无作者款印，沈周定为“真宋物也”。徐邦达先生认为，沈周题跋中“牧”字有挖改痕迹，是“似牧非牧之画”。",
-    "restoredImage": "@/assets/mock_pic/song/法常水墨写生图卷_restored.png",
-    "animation": "@/assets/mock_pic/song/法常水墨写生图卷_animation.mp4"
+    "restoredImage": "法常水墨写生图卷_restored.png",
+    "animation": "法常水墨写生图卷_animation.mp4"
   },
   {
     "id": "320",
@@ -5582,7 +5901,8 @@ export const mockPaintings = [
     "artist": "李嵩",
     "artistId": "artist_319",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/李嵩货郎图卷.png",
+    "dynastyFolder": "song",
+    "imageUrl": "李嵩货郎图卷.png",
     "tags": [
       "人",
       "人",
@@ -5611,7 +5931,8 @@ export const mockPaintings = [
     "artist": "马麟",
     "artistId": "artist_320",
     "dynasty": "宋朝",
-    "imageUrl": "@/assets/mock_pic/song/马麟层叠冰绡图轴.png",
+    "dynastyFolder": "song",
+    "imageUrl": "马麟层叠冰绡图轴.png",
     "tags": [
       "树",
       "树",

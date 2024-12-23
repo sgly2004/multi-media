@@ -16,14 +16,14 @@
             :src="painting.imageUrl" 
             :alt="painting.title"
             @error="handleImageError"
-            :data-id="painting.id"
+            @load="handleImageLoad"
           >
           <div v-if="painting.isPremium" class="premium-badge">精品</div>
         </div>
         <div class="painting-info">
           <h3>{{ painting.title }}</h3>
           <p class="artist">{{ painting.artist }}</p>
-          <p class="dynasty">{{ painting.dynasty }}</p>
+          <p class="dynasty">{{ painting.dynasty }} ({{ painting.dynastyFolder || '未知' }})</p>
         </div>
       </div>
     </div>
@@ -63,8 +63,7 @@ export default {
     return {
       currentPage: 1,
       pageSize: 8,
-      defaultImage: new URL('../assets/mock_pic/default.png', import.meta.url).href,
-      imageLoadErrors: new Set()
+      defaultImage: '/src/assets/mock_pic/default.png'
     }
   },
   computed: {
@@ -84,17 +83,19 @@ export default {
     },
     handleImageError(e) {
       const img = e.target;
-      const id = img.getAttribute('data-id');
-      
-      if (!this.imageLoadErrors.has(id)) {
-        console.error(`图片加载失败 (ID: ${id}):`, {
-          src: img.src,
-          alt: img.alt
-        });
-        this.imageLoadErrors.add(id);
-      }
-      
+      console.error('图片加载失败:', {
+        原始URL: img.src,
+        标题: img.alt,
+        完整路径: new URL(img.src, window.location.href).href
+      });
       img.src = this.defaultImage;
+    },
+    handleImageLoad(e) {
+      console.log('图片加载成功:', {
+        URL: e.target.src,
+        标题: e.target.alt,
+        完整路径: new URL(e.target.src, window.location.href).href
+      });
     },
     prevPage() {
       if (this.currentPage > 1) {
@@ -125,6 +126,14 @@ export default {
         }
       }
     }
+  },
+  mounted() {
+    // 打印所有画作的图片路径
+    console.log('当前页面画作:', this.displayPaintings.map(p => ({
+      标题: p.title,
+      图片URL: p.imageUrl,
+      完整路径: new URL(p.imageUrl, window.location.href).href
+    })));
   }
 }
 </script>

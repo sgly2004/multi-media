@@ -54,25 +54,29 @@ def process_paintings(df):
         if not dynasty_folder:
             continue
             
-        image_name = f"{row['题目']}.png" if pd.notna(row['题目']) else ""
-        image_path = f"@/assets/mock_pic/{dynasty_folder}/{image_name}"
+        image_name = row['题目'].replace(' ', '_') if pd.notna(row['题目']) else ""
+        image_path = f"{image_name}.png"
+        
+        # 打印调试信息
+        print(f"处理画作: {image_name}")
+        print(f"朝代: {row['朝代']} -> 文件夹: {dynasty_folder}")
         
         painting = {
-            'id': str(row.name + 1),  # 使用索引+1作为ID
+            'id': str(row.name + 1),
             'title': row['题目'] if pd.notna(row['题目']) else '',
             'artist': row['作者'] if pd.notna(row['作者']) else '佚名',
-            'artistId': f"artist_{row.name}",  # 生成艺术家ID
+            'artistId': f"artist_{row.name}",
             'dynasty': row['朝代'] if pd.notna(row['朝代']) else '',
+            'dynastyFolder': dynasty_folder,  # 确保这个字段被正确设置
             'imageUrl': image_path,
             'tags': row['标签'].split('、') if pd.notna(row['标签']) else [],
-            'isPremium': bool(row.name % 2),  # 随机设置premium属性
+            'isPremium': bool(row.name % 2),
             'description': row['介绍'] if pd.notna(row['介绍']) else '',
         }
         
-        # 为部分作品添加修复图和动画
-        if row.name % 3 == 0:  # 每三个作品添加一次
-            painting['restoredImage'] = f"{image_path.replace('.png', '_restored.png')}"
-            painting['animation'] = f"{image_path.replace('.png', '_animation.mp4')}"
+        if row.name % 3 == 0:
+            painting['restoredImage'] = image_path.replace('.png', '_restored.png')
+            painting['animation'] = image_path.replace('.png', '_animation.mp4')
             
         paintings.append(painting)
     

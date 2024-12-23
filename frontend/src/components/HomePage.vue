@@ -86,38 +86,38 @@ export default {
         return processedPainting;
       });
       
-      // 添加更详细的日志
-      filtered.forEach(painting => {
-        console.log(`处理画作:`, {
-          id: painting.id,
-          title: painting.title,
-          dynasty: painting.dynasty,
-          originalUrl: painting.imageUrl,
-          processedUrl: this.getImageUrl(painting)
-        });
-      });
-      
       return filtered;
     }
   },
   methods: {
     getImageUrl(painting) {
       try {
-        // 只使用文件名，不需要分割路径
+        console.log('处理画作:', {
+          标题: painting.title,
+          朝代: painting.dynasty,
+          文件夹: painting.dynastyFolder,
+          原始路径: painting.imageUrl
+        });
+
+        if (!painting.dynastyFolder) {
+          console.error('缺少朝代文件夹信息:', painting);
+          return this.defaultImage;
+        }
+
         const fileName = painting.imageUrl;
-        // 获取朝代简称（去掉"朝"字）
-        const dynasty = painting.dynasty.replace('朝', '').toLowerCase();
+        const dynastyFolder = painting.dynastyFolder;
         
-        // 构建图片 URL
-        const imageUrl = new URL(
-          `../assets/mock_pic/${dynasty}/${fileName}`,
-          import.meta.url
-        ).href;
+        const imageUrl = `/src/assets/mock_pic/${dynastyFolder}/${fileName}`;
         
-        console.log(`加载图片: ${imageUrl} (朝代: ${dynasty}, 文件名: ${fileName})`);
+        console.log('构建图片路径:', {
+          文件名: fileName,
+          朝代文件夹: dynastyFolder,
+          完整路径: imageUrl
+        });
+        
         return imageUrl;
       } catch (err) {
-        console.error(`图片加载失败:`, err);
+        console.error('图片路径处理失败:', err);
         return this.defaultImage;
       }
     },
@@ -147,7 +147,7 @@ export default {
     },
     navigateToPainting(painting) {
       console.log('Navigating to painting:', painting)
-      this.$router.push({ id: painting.id })
+      this.$router.push(`/painting/${painting.id}`)
     },
     closeGallery() {
       this.showGallery = false;

@@ -19,12 +19,12 @@
         </div>
       </div>
       
-      <div class="chat-section">
+      <!-- <div class="chat-section">
         <ArtistChat 
           v-if="painting?.artistId"
           :artistId="painting.artistId"
         />
-      </div>
+      </div> -->
     </div>
     
     <div class="info-section">
@@ -36,7 +36,7 @@
         <p>描述：{{ painting.description }}</p>
       </div>
       
-      <div class="similar-paintings">
+      <!-- <div class="similar-paintings">
         <h3>相关作品</h3>
         <div class="similar-grid">
           <div 
@@ -49,7 +49,7 @@
             <p>{{ similar.title }}</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
