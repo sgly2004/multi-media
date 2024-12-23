@@ -1,11 +1,11 @@
 <template>
   <div class="gallery-container">
     <div class="paintings-grid">
-      <div v-if="paintings.length === 0" class="no-paintings">
+      <div v-if="displayPaintings.length === 0" class="no-paintings">
         暂无相关画作
       </div>
       <div 
-        v-for="painting in paintings" 
+        v-for="painting in displayPaintings" 
         :key="painting.id"
         class="painting-card"
         :class="{ 'premium': painting.isPremium }"
@@ -16,6 +16,7 @@
             :src="painting.imageUrl" 
             :alt="painting.title"
             @error="handleImageError"
+            :data-id="painting.id"
           >
           <div v-if="painting.isPremium" class="premium-badge">精品</div>
         </div>
@@ -25,6 +26,25 @@
           <p class="dynasty">{{ painting.dynasty }}</p>
         </div>
       </div>
+    </div>
+    
+    <!-- 分页控制器 -->
+    <div v-if="paintings.length > pageSize" class="pagination">
+      <button 
+        :disabled="currentPage === 1"
+        @click="prevPage"
+        class="page-btn"
+      >
+        上一页
+      </button>
+      <span class="page-info">{{ currentPage }} / {{ totalPages }}</span>
+      <button 
+        :disabled="currentPage === totalPages"
+        @click="nextPage"
+        class="page-btn"
+      >
+        下一页
+      </button>
     </div>
   </div>
 </template>
@@ -39,14 +59,58 @@ export default {
       default: () => []
     }
   },
+  data() {
+    return {
+      currentPage: 1,
+      pageSize: 8,
+      defaultImage: new URL('../assets/mock_pic/default.png', import.meta.url).href,
+      imageLoadErrors: new Set()
+    }
+  },
+  computed: {
+    totalPages() {
+      return Math.ceil(this.paintings.length / this.pageSize)
+    },
+    displayPaintings() {
+      const start = (this.currentPage - 1) * this.pageSize
+      const end = start + this.pageSize
+      return this.paintings.slice(start, end)
+    }
+  },
   methods: {
     handlePaintingClick(painting) {
       console.log('点击画作:', painting);
       this.$emit('paintingClick', painting);
     },
     handleImageError(e) {
-      console.error('图片加载失败:', e.target.src);
-      e.target.src = require('@/assets/mock_pic/default.png');
+      const img = e.target;
+      const id = img.getAttribute('data-id');
+      
+      if (!this.imageLoadErrors.has(id)) {
+        console.error(`图片加载失败 (ID: ${id}):`, {
+          src: img.src,
+          alt: img.alt
+        });
+        this.imageLoadErrors.add(id);
+      }
+      
+      img.src = this.defaultImage;
+    },
+    prevPage() {
+      if (this.currentPage > 1) {
+        this.currentPage--
+        this.scrollToTop()
+      }
+    },
+    nextPage() {
+      if (this.currentPage < this.totalPages) {
+        this.currentPage++
+        this.scrollToTop()
+      }
+    },
+    scrollToTop() {
+      // 平滑滚动到画廊顶部
+      this.$el.scrollIntoView({ behavior: 'smooth' })
     }
   },
   watch: {
@@ -54,6 +118,8 @@ export default {
       immediate: true,
       handler(newPaintings) {
         console.log('画作列表更新:', newPaintings);
+        // 重置到第一页
+        this.currentPage = 1;
         if (newPaintings.length === 0) {
           console.log('警告: 没有找到符合条件的画作');
         }
@@ -74,6 +140,7 @@ export default {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 30px;
   padding: 20px;
+  min-height: 600px; /* 设置最小高度避免页面跳动 */
 }
 
 .painting-card {
@@ -169,6 +236,41 @@ export default {
   text-align: center;
   padding: 40px;
   font-size: 18px;
+  color: #666;
+  font-family: "KaiTi", serif;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.page-btn {
+  padding: 8px 16px;
+  background: #8b0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "KaiTi", serif;
+  transition: all 0.3s ease;
+}
+
+.page-btn:hover:not(:disabled) {
+  background: #a00000;
+}
+
+.page-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.page-info {
+  font-size: 16px;
   color: #666;
   font-family: "KaiTi", serif;
 }
