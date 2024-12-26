@@ -126,7 +126,7 @@ export default {
 
 .main-content {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 30px;
   margin-bottom: 40px;
   min-height: 600px;
@@ -141,6 +141,7 @@ export default {
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .painting-display {
@@ -148,11 +149,12 @@ export default {
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .painting-display img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
   border-radius: 4px;
 }
