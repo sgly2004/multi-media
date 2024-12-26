@@ -1,6 +1,6 @@
-import painting1 from '@/assets/mock_pic/song/painting1.png'
-import painting1Restored from '@/assets/mock_pic/song/painting1_restored.png'
-import painting1Animation from '@/assets/mock_pic/song/painting1_animation.mp4'
+// import painting1 from '@/assets/mock_pic/song/painting1.png'
+// import painting1Restored from '@/assets/mock_pic/song/painting1_restored.png'
+// import painting1Animation from '@/assets/mock_pic/song/painting1_animation.mp4'
 
 export const mockPaintings = [
   {
@@ -4997,7 +4997,7 @@ export const mockPaintings = [
     "isPremium": true,
     "description": "",
     "restoredImage": "宋人柳塘泛月页_restored.png",
-    "animation": "宋人柳塘泛月页_animation.mp4"
+    "animation": "宋人柳塘泛月页_restored.png"
   },
   {
     "id": "275",
