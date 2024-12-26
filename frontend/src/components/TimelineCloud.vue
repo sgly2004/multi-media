@@ -1,17 +1,8 @@
 <template>
   <div class="timeline-cloud">
-    <div class="debug-info">
+    <!-- <div class="debug-info">
       Dynasty: {{ dynasty }}, Words: {{ cloudWords.length }}
-    </div>
-    
-    <!-- 添加朝代选择器 -->
-    <div class="dynasty-selector">
-      <select v-model="selectedDynasty">
-        <option v-for="d in availableDynasties" 
-                :key="d" 
-                :value="d">{{ d }}</option>
-      </select>
-    </div>
+    </div> -->
     
     <svg ref="cloudContainer" width="100%" height="500">
       <g :transform="transform">
@@ -138,6 +129,11 @@ export default {
         }
       }
       return false;
+    },
+
+    handleDynastySelect(dynasty) {
+      this.selectedDynasty = dynasty;
+      this.$emit('dynastyChange', dynasty);
     }
   },
   watch: {
@@ -167,19 +163,6 @@ export default {
   border-radius: 8px;
   height: 500px;
   position: relative;
-}
-
-.dynasty-selector {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 100;
-}
-
-.dynasty-selector select {
-  padding: 5px;
-  border-radius: 4px;
-  border: 1px solid #ddd;
 }
 
 .debug-info {
