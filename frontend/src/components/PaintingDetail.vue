@@ -73,8 +73,7 @@ export default {
   computed: {
     displayImage() {
       if (!this.painting?.isPremium) return this.imageUrl
-      // return this.isOriginal ? this.imageUrl : this.painting.restoredImage
-        return this.isOriginal ? this.imageUrl : "/src/assets/mock_pic/song/宋人柳塘泛月页_restored.png"
+        return this.painting.restoredImage ? this.painting.restoredImage : this.imageUrl
     }
   },
   methods: {

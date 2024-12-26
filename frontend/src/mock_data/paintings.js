@@ -2652,10 +2652,10 @@ export const mockPaintings = [
     "tags": [
       "梅花"
     ],
-    "isPremium": false,
+    "isPremium": true,
     "description": "",
     "restoredImage": "陈嘉言梅花扇页_restored.png",
-    "animation": "陈嘉言梅花扇页_animation.mp4"
+    "animation": "陈嘉言梅花扇页_restored.png"
   },
   {
     "id": "146",
