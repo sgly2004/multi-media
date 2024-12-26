@@ -104,16 +104,27 @@ export default {
     },
 
     findValidPosition(word, placedWords) {
-      const maxAttempts = 100;
-      const maxRadius = 200; // 最大分布半径
+      const maxAttempts = 200; // 增加尝试次数
+      const maxRadius = 550; // 增加最大半径
       
+      // 优先考虑水平方向的分布
       for (let attempt = 0; attempt < maxAttempts; attempt++) {
-        // 使用极坐标系统，确保词云围绕中心分布
-        const angle = Math.random() * 2 * Math.PI;
-        const radius = Math.sqrt(Math.random()) * maxRadius * (1 - attempt / maxAttempts);
+        let x, y;
         
-        word.x = radius * Math.cos(angle);
-        word.y = radius * Math.sin(angle);
+        if (attempt < maxAttempts / 2) {
+          // 前一半的尝试更倾向于水平分布
+          x = (Math.random() - 0.5) * maxRadius * 1.6; // 水平方向扩大1.5倍
+          y = (Math.random() - 0.5) * maxRadius * 0.6; // 垂直方向稍微收缩
+        } else {
+          // 后一半的尝试使用极坐标系统
+          const angle = Math.random() * 2 * Math.PI;
+          const radius = Math.sqrt(Math.random()) * maxRadius;
+          x = radius * Math.cos(angle);
+          y = radius * Math.sin(angle);
+        }
+        
+        word.x = x;
+        word.y = y;
 
         // 检查是否与已放置的词有重叠
         let hasCollision = false;

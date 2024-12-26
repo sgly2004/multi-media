@@ -184,28 +184,148 @@ export const mockCloudWords = {
   "元朝": [
     {
       "text": "树",
-      "size": 2
+      "size": 4
     },
     {
       "text": "山",
-      "size": 2
+      "size": 4
     },
     {
       "text": "竹子",
-      "size": 2
+      "size": 4
     },
     {
       "text": "岩石",
-      "size": 2
+      "size": 4
     },
     {
       "text": "人",
-      "size": 2
+      "size": 4
     },
     {
       "text": "马",
+      "size": 4
+    },
+    {
+      "text": "长缨",
+      "size": 4
+    },
+
+    {
+      "text": " 树",
       "size": 2
-    }
+    },
+    {
+      "text": " 山",
+      "size": 2
+    },
+    {
+      "text": " 竹子",
+      "size": 2
+    },
+    {
+      "text": " 岩石",
+      "size": 2
+    },
+    {
+      "text": " 人",
+      "size": 2
+    },
+    {
+      "text": " 马",
+      "size": 2
+    },
+    {
+      "text": " 长缨",
+      "size": 2
+    },
+    {
+      "text": "树 ",
+      "size": 3
+    },
+    {
+      "text": "山 ",
+      "size": 3
+    },
+    {
+      "text": "竹子 ",
+      "size": 3
+    },
+    {
+      "text": "岩石 ",
+      "size": 3
+    },
+    {
+      "text": "人 ",
+      "size": 3
+    },
+    {
+      "text": "马 ",
+      "size": 3
+    },
+    {
+      "text": "长缨 ",
+      "size": 3
+    },
+
+    {
+      "text": " 树 ",
+      "size": 2
+    },
+    {
+      "text": " 山 ",
+      "size": 2
+    },
+    {
+      "text": " 竹子 ",
+      "size": 2
+    },
+    {
+      "text": " 岩石 ",
+      "size": 2
+    },
+    {
+      "text": " 人 ",
+      "size": 2
+    },
+    {
+      "text": " 马 ",
+      "size": 2
+    },
+    {
+      "text": " 长缨 ",
+      "size": 2
+    },
+
+
+    {
+      "text": "  树 ",
+      "size": 2
+    },
+    {
+      "text": "  山 ",
+      "size": 2
+    },
+    {
+      "text": "  竹子 ",
+      "size": 2
+    },
+    {
+      "text": "  岩石 ",
+      "size": 2
+    },
+    {
+      "text": "  人 ",
+      "size": 2
+    },
+    {
+      "text": "  马 ",
+      "size": 2
+    },
+    {
+      "text": " 长缨 ",
+      "size": 2
+    },
   ],
   "明朝": [
     {
