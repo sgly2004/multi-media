@@ -117,10 +117,17 @@ export default {
   methods: {
     getImageUrl(painting) {
       try {
+        // 添加朝代到拼音的映射
+        const dynastyToPinyin = {
+          '宋朝': 'song',
+          '元朝': 'yuan',
+          '明朝': 'ming',
+          '清朝': 'qing'
+        };
+
         console.log('处理画作:', {
           标题: painting.title,
           朝代: painting.dynasty,
-          文件夹: painting.dynastyFolder,
           原始路径: painting.imageUrl
         });
 
@@ -130,7 +137,12 @@ export default {
         }
 
         const fileName = painting.imageUrl;
-        const dynastyFolder = painting.dynasty.toLowerCase();
+        const dynastyFolder = dynastyToPinyin[painting.dynasty];
+        
+        if (!dynastyFolder) {
+          console.error('未找到对应的朝代文件夹:', painting.dynasty);
+          return this.defaultImage;
+        }
         
         const imageUrl = `/src/assets/mock_pic/${dynastyFolder}/${fileName}`;
         
