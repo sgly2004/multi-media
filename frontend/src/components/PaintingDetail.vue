@@ -73,25 +73,23 @@ export default {
   computed: {
     displayImage() {
       if (!this.painting?.isPremium) return this.imageUrl
-      return this.isOriginal ? this.imageUrl : this.painting.restoredImage
+      
+      // 根据 isOriginal 状态决定显示原图还是修复图
+      if (this.isOriginal) {
+        return this.imageUrl
+      } else {
+        // 构建修复图片的完整路径
+        return this.painting.restoredImage ? 
+          `/src/assets/mock_pic/${this.painting.dynastyFolder}/${this.painting.restoredImage}` : 
+          this.imageUrl
+      }
     }
   },
   methods: {
     toggleMode() {
       this.isOriginal = !this.isOriginal
     },
-    handleMouseOver() {
-      if (this.painting?.isPremium && this.painting.animation) {
-        // 播放动画逻辑
-        console.log('Playing animation:', this.painting.animation)
-      }
-    },
-    handleMouseOut() {
-      if (this.painting?.isPremium && this.painting.animation) {
-        // 停止动画逻辑
-        console.log('Stopping animation')
-      }
-    },
+
     loadPainting(id) {
       console.log('Loading painting:', id)
       this.painting = mockPaintings.find(p => p.id === id)
@@ -128,7 +126,7 @@ export default {
 
 .main-content {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 30px;
   margin-bottom: 40px;
   min-height: 600px;
@@ -143,6 +141,7 @@ export default {
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .painting-display {
@@ -150,11 +149,12 @@ export default {
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .painting-display img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
   border-radius: 4px;
 }

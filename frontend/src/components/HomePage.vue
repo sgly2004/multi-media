@@ -5,11 +5,29 @@
       <div class="scroll-container">
         <div class="scroll-content">
           <transition name="fade">
-            <TimelineCloud 
-              v-if="!showGallery"
-              :dynasty="currentDynasty"
-              @wordClicked="handleWordClick"
-            />
+            <div v-if="!showGallery" class="timeline-section">
+              <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-points">
+                  <div
+                    v-for="dynasty in dynasties"
+                    :key="dynasty"
+                    class="timeline-point"
+                    :class="{ active: dynasty === currentDynasty }"
+                    @click="handleDynastyChange(dynasty)"
+                  >
+                    <div class="point"></div>
+                    <div class="dynasty-label">{{ dynasty }}</div>
+                  </div>
+                </div>
+              </div>
+              
+              <TimelineCloud 
+                :dynasty="currentDynasty"
+                @wordClicked="handleWordClick"
+                @dynastyChange="handleDynastyChange"
+              />
+            </div>
           </transition>
           <transition name="fade">
             <div v-if="showGallery" class="gallery-container">
@@ -99,20 +117,32 @@ export default {
   methods: {
     getImageUrl(painting) {
       try {
+        // 添加朝代到拼音的映射
+        const dynastyToPinyin = {
+          '宋朝': 'song',
+          '元朝': 'yuan',
+          '明朝': 'ming',
+          '清朝': 'qing'
+        };
+
         console.log('处理画作:', {
           标题: painting.title,
           朝代: painting.dynasty,
-          文件夹: painting.dynastyFolder,
           原始路径: painting.imageUrl
         });
 
-        if (!painting.dynastyFolder) {
-          console.error('缺少朝代文件夹信息:', painting);
+        if (!painting.dynasty) {
+          console.error('缺少朝代信息:', painting);
           return this.defaultImage;
         }
 
         const fileName = painting.imageUrl;
-        const dynastyFolder = painting.dynastyFolder;
+        const dynastyFolder = dynastyToPinyin[painting.dynasty];
+        
+        if (!dynastyFolder) {
+          console.error('未找到对应的朝代文件夹:', painting.dynasty);
+          return this.defaultImage;
+        }
         
         const imageUrl = `/src/assets/mock_pic/${dynastyFolder}/${fileName}`;
         
@@ -167,6 +197,10 @@ export default {
     },
     goToCreate() {
       this.$router.push('/background-select')
+    },
+    handleDynastyChange(dynasty) {
+      console.log('朝代切换:', dynasty);
+      this.dynastyIndex = this.dynasties.indexOf(dynasty);
     }
   },
   mounted() {
@@ -346,5 +380,72 @@ export default {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(139, 0, 0, 0.3);
   background: #a00000;
+}
+
+.timeline-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+  margin: -20px 40px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: #8b0000;
+}
+
+.timeline-points {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.timeline-point {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.point {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #8b0000;
+  transition: all 0.3s ease;
+}
+
+.timeline-point.active .point {
+  background: #8b0000;
+  transform: scale(1.2);
+}
+
+.dynasty-label {
+  margin-top: 8px;
+  font-family: "KaiTi", serif;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+}
+
+.timeline-point:hover .point {
+  transform: scale(1.2);
+}
+
+.timeline-point.active .dynasty-label {
+  color: #8b0000;
+  font-weight: bold;
 }
 </style> 

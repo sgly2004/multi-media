@@ -1,13 +1,35 @@
 <template>
   <div class="create-canvas">
     <div class="toolbar">
-      <button @click="exportCanvas">导出作品</button>
-      <button v-if="selectedObjectIndex !== -1" @click="deleteSelected">删除</button>
+      <div class="toolbar-left">
+        <button @click="$router.back()" class="back-btn">
+          <i class="fas fa-arrow-left"></i> 返回
+        </button>
+      </div>
+      
+      <div class="toolbar-center">
+        <button @click="undo" :disabled="currentHistoryIndex <= 0">
+          <i class="fas fa-undo"></i> 撤销
+        </button>
+        <button @click="redo" :disabled="currentHistoryIndex >= history.length - 1">
+          <i class="fas fa-redo"></i> 重做
+        </button>
+        <button v-if="selectedObjectIndex !== -1" @click="deleteSelected">
+          <i class="fas fa-trash"></i> 删除
+        </button>
+      </div>
+      
+      <div class="toolbar-right">
+        <button @click="exportCanvas">
+          <i class="fas fa-download"></i> 导出作品
+        </button>
+      </div>
     </div>
 
     <div class="canvas-container" 
       @drop="handleDrop" 
       @dragover.prevent
+      @click="handleCanvasClick"
       ref="canvasContainer"
     >
       <img :src="backgroundUrl" class="background">
@@ -30,11 +52,12 @@
         
         <!-- 控制点 - 仅在选中时显示 -->
         <template v-if="selectedObjectIndex === index">
-          <!-- 旋转控制点 -->
-          <div class="rotate-handle" @mousedown.stop="startRotate($event, index)"></div>
-          
-          <!-- 缩放控制点 -->
-          <div class="scale-handle" @mousedown.stop="startScale($event, index)"></div>
+          <div class="rotate-handle" @mousedown.stop="startRotate($event, index)">
+            <img src="../assets/icon/round.svg" alt="rotate">
+          </div>
+          <div class="scale-handle" @mousedown.stop="startScale($event, index)">
+            <img src="../assets/icon/big.svg" alt="scale">
+          </div>
         </template>
       </div>
     </div>
@@ -102,7 +125,9 @@ export default {
       centerY: 0,
       initialAngle: 0,
       initialScale: 1,
-      initialDistance: 0
+      initialDistance: 0,
+      history: [],
+      currentHistoryIndex: -1,
     }
   },
   methods: {
@@ -218,6 +243,7 @@ export default {
         scale: 1,
         rotation: 0 // 添加旋转属性
       });
+      this.saveToHistory();
     },
 
     startDrag(event, index) {
@@ -259,7 +285,8 @@ export default {
 
     // 点击画布空白处取消选择
     handleCanvasClick(event) {
-      if (event.target.classList.contains('canvas-container')) {
+      // 检查点击的目标是否是画布对象或其控制点
+      if (!event.target.closest('.canvas-object')) {
         this.selectedObjectIndex = -1;
       }
     },
@@ -355,6 +382,7 @@ export default {
       if (this.selectedObjectIndex !== -1) {
         this.canvasObjects.splice(this.selectedObjectIndex, 1);
         this.selectedObjectIndex = -1;
+        this.saveToHistory();
       }
     },
 
@@ -375,7 +403,35 @@ export default {
         console.error('导出失败:', err);
         alert('导出失败，请重试');
       }
-    }
+    },
+
+    handleKeyDown(event) {
+      if ((event.key === 'Delete' || event.key === 'Backspace') && this.selectedObjectIndex !== -1) {
+        this.deleteSelected();
+      }
+    },
+
+    saveToHistory() {
+      this.history = this.history.slice(0, this.currentHistoryIndex + 1);
+      this.history.push(JSON.stringify(this.canvasObjects));
+      this.currentHistoryIndex = this.history.length - 1;
+    },
+
+    undo() {
+      if (this.currentHistoryIndex > 0) {
+        this.currentHistoryIndex--;
+        this.canvasObjects = JSON.parse(this.history[this.currentHistoryIndex]);
+        this.selectedObjectIndex = -1;
+      }
+    },
+
+    redo() {
+      if (this.currentHistoryIndex < this.history.length - 1) {
+        this.currentHistoryIndex++;
+        this.canvasObjects = JSON.parse(this.history[this.currentHistoryIndex]);
+        this.selectedObjectIndex = -1;
+      }
+    },
   },
   created() {
     console.log('CreateCanvas组件创建');
@@ -390,10 +446,10 @@ export default {
     if (this.categories.length > 0) {
       await this.loadCategoryObjects(this.categories[0]);
     }
-    document.addEventListener('click', this.handleCanvasClick);
+    document.addEventListener('keydown', this.handleKeyDown);
   },
   beforeUnmount() {
-    document.removeEventListener('click', this.handleCanvasClick);
+    document.removeEventListener('keydown', this.handleKeyDown);
   }
 }
 </script>
@@ -545,7 +601,18 @@ export default {
   background: white;
   border-bottom: 1px solid #ddd;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbar-left, .toolbar-center, .toolbar-right {
+  display: flex;
   gap: 10px;
+}
+
+.toolbar-center {
+  flex: 1;
+  justify-content: center;
 }
 
 .toolbar button {
@@ -557,45 +624,61 @@ export default {
   cursor: pointer;
   font-family: "KaiTi", serif;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .toolbar button:hover {
   background: #a00000;
 }
 
-/* 旋转控制点 */
-.rotate-handle {
+.toolbar button i {
+  font-size: 3px;
+}
+
+.back-btn {
+  background: #666;
+}
+
+.rotate-handle, .scale-handle {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  background: #8b0000;
+  width: 24px;
+  height: 24px;
+  background: white;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rotate-handle {
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
-  cursor: pointer;
 }
 
 .rotate-handle::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  height: 10px;
-  background: #8b0000;
-  left: 50%;
-  bottom: 100%;
-  transform: translateX(-50%);
+  display: none;
 }
 
-/* 缩放控制点 */
 .scale-handle {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: #8b0000;
-  border-radius: 50%;
-  bottom: -10px;
-  right: -10px;
+  bottom: -12px;
+  right: -12px;
   cursor: se-resize;
+}
+
+.rotate-handle img, .scale-handle img {
+  width: 14px;
+  height: 14px;
+  color: #8b0000;
+}
+
+/* 禁用按钮样式 */
+.toolbar button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
 }
 </style> 
