@@ -53,10 +53,10 @@
         <!-- 控制点 - 仅在选中时显示 -->
         <template v-if="selectedObjectIndex === index">
           <div class="rotate-handle" @mousedown.stop="startRotate($event, index)">
-            <i class="fas fa-undo"></i>
+            <img src="../assets/icon/round.svg" alt="rotate">
           </div>
           <div class="scale-handle" @mousedown.stop="startScale($event, index)">
-            <i class="fas fa-arrows-alt"></i>
+            <img src="../assets/icon/big.svg" alt="scale">
           </div>
         </template>
       </div>
@@ -670,8 +670,9 @@ export default {
   cursor: se-resize;
 }
 
-.rotate-handle i, .scale-handle i {
-  font-size: 14px;
+.rotate-handle img, .scale-handle img {
+  width: 14px;
+  height: 14px;
   color: #8b0000;
 }
 

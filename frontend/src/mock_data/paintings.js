@@ -1,24 +1,4 @@
-// import painting1 from '@/assets/mock_pic/song/painting1.png'
-// import painting1Restored from '@/assets/mock_pic/song/painting1_restored.png'
-// import painting1Animation from '@/assets/mock_pic/song/painting1_animation.mp4'
-
 export const mockPaintings = [
-  {
-    "id": "1",
-    "title": "恽寿平蓼汀鱼藻轴",
-    "artist": "恽寿平",
-    "artistId": "artist_0",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "恽寿平蓼汀鱼藻轴.png",
-    "tags": [
-      "假山"
-    ],
-    "isPremium": false,
-    "description": "恽寿平蓼汀鱼藻轴，材质为纸本，颜色为设色，尺寸为纵135cm，形制为横62.6cm，",
-    "restoredImage": "恽寿平蓼汀鱼藻轴_restored.png",
-    "animation": "恽寿平蓼汀鱼藻轴_animation.mp4"
-  },
   {
     "id": "2",
     "title": "雍亲王题书堂深居图屏•烛下缝衣轴",
@@ -42,7 +22,7 @@ export const mockPaintings = [
       "人",
       "蜡烛"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "雍亲王题书堂深居图屏•烛下缝衣轴，材质为绢本，颜色为设色，尺寸为纵184cm，形制为横97.8cm，《雍亲王题书堂深居图屏•烛下缝衣》轴，清，宫廷画师绘，绢本，设色，纵184厘米，横98厘米。 《雍亲王题书堂深居图屏》共12幅，此为其中之一。 此图构思巧妙，将原为各自独立的室内外空间通过前后窗的开启而连通起来，从而表现出三个不同的空间环境：屋前是秀石与鱼缸点缀的庭园小景；屋内是女子秉烛缝衣、勤于女红的情景；屋后则可见红色的蝙蝠在青竹丛间穿插飞翔的场景。作者在此利用“蝠”与“福”的谐音赋予了此图“鸿福而至”的吉祥寓意。此图的创作目的是宣扬宫掖女子勤于女红的美德。女红包括纺织、刺绣、缝纫等，是古代衡量女子妇德的标准之一。因此，图中缝纫的场景所占画幅最大，也最为生动。 此图中的女子发型与《雍亲王题书堂深居图屏•立持如意轴》中女子的发型相同，名为“螺髻”。明代王渔洋曾有“青螺如髻秀堪餐”之诗句对此种发型加以赞美。"
   },
   {
@@ -65,27 +45,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "佚名雍正帝耕织图册，材质为绢本，颜色为设色，尺寸为纵38cm，形制为横30cm，男耕女织是中国传统生产方式，养生所亟，莫过于衣食，因此《耕织图》是古代重要绘画题材。此图册绘于康熙年间，其中耕夫与织妇绘成胤禛夫妇形象。 图绘浴蚕、二眠、炙箔、织、攀花、剪帛，表现从养蚕、纺织到成帛裁制的过程。浴蚕是古代一种育蚕选种的方法，通过将蚕种放入水中漂洗，达到清洁消毒，以及优选劣汰的目的。蚕生长脱皮时，不食不动，其状如眠，谓蚕眠，第二次蜕皮即二眠。蚕长成后吐丝做茧，此时需将它们分箔排架，下方和周围放置炭火盆加热，此工序谓炙箔。"
-  },
-  {
-    "id": "4",
-    "title": "任薰西厢记图册",
-    "artist": "任薰",
-    "artistId": "artist_3",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任薰西厢记图册.png",
-    "tags": [
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "水壶"
-    ],
-    "isPremium": true,
-    "description": "任薰西厢记图册，材质为纸本，颜色为设色，尺寸为纵36cm，形制为横33cm，绘《西厢记》故事，图中题词出自王实甫《西厢记》曲词。全剧讲述张生与相国小姐崔莺莺在仕女红娘的帮助下，冲破阻挠，终成眷属的故事。任薰绘制此册时，在人物造型上取法明末陈洪绶，皆古拙变形。 任薰（1835—1893），字阜长，浙江萧山人。人物画师法陈洪绶，是 “海上四任”之一。 一：图绘张生与莺莺初见场景。题：“惊艳。宫样眉儿新月偃，侵入鬓云边。”语出第一本第一折。人物衣纹以充满力量的钉头描绘成，褶痕层叠如铁划银钩，装饰感强烈。 二：图绘张生向僧人借宿。题：“借厢。与我那可憎才居止处门儿相向。”语出第一本第二折。 三：图绘莺莺与红娘开角门，移香案至太湖石旁，倚案窥张生。题：“酬韵。踮着脚尖儿，子细定睛，比那初见时庞儿越整。”语出第一本第三折。 四：图绘张生解莺莺于普救寺之危后，莺莺母亲有请，他先来拜见莺莺的情景。题：“请宴。秀才们闻道请，似得了将军令，先是五脏神愿随鞭镫。”语出第二本第二折。 五：图绘莺莺母亲悔婚后，张生弹琴表心意。题：“琴心。知音者芳心自同，感怀者断肠怨痛。”语出第二本第四折。 六：莺莺请红娘看望张生，图绘张生写柬请红娘传书。题：“前候。我只说：昨夜弹琴那人，教传示。”语出第三本第一折。 七：图绘莺莺读张生来信，红娘偷窥。题：“闹简。几曾见，寄书的颠倒瞒着鱼雁？”语出第三本第二折。 八：图绘红娘助张生与莺莺相见。题：“赖简。是槐阴风摇，暮鸦是玉人帽侧乌纱。”语出第三本第三折。 九：图绘张生病中，红娘为莺莺送信。题：“后候。得了个纸条儿恁般绵里针。”语出第三本第四折。 十：图绘红娘隔窗窥探。题：“酬简。难道是昨夜梦中来。”语出第四本第一折。 十一：图绘莺莺母亲欲审红娘，欢郎引红娘上场后，红娘为莺莺、张生说和。题：“拷艳。我独在窗儿外，几曾敢轻咳嗽。”语出第四本第二折。 十二：图绘张生赶考途中住店休息，梦见莺莺遇险。题：“惊梦。斜月残灯半明半灭。”语出第四本第四折。",
-    "restoredImage": "任薰西厢记图册_restored.png",
-    "animation": "任薰西厢记图册_animation.mp4"
   },
   {
     "id": "5",
@@ -116,7 +75,7 @@ export const mockPaintings = [
       "人",
       "芭蕉叶"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "沙馥芭蕉仕女图轴，材质为纸本，颜色为设色，尺寸为纵92cm，形制为横31cm，《芭蕉仕女图》轴，清，沙馥绘，纸本，设色，纵92厘米，横31厘米。 自题：“美人言语巧唤作醉酴醿，七芗先生本。甲午菊秋沙馥临于粟庵。”下钤“山春所作”印。甲午为清光绪二十年（1894年）。 此幅是作者仿改琦笔意创作的写意仕女画。图绘女子手持花枝立于芭蕉树前闻香自醉的仪态风情。其高耸的发髻先以浓淡墨反复晕染，然后以重墨绘出根根发丝，线与面结合的绘画技法显现出女子头发的浓密及发质的柔顺。仕女的面形为瓜子脸，面部以不着痕迹的浅红色晕染，突出了人物肌肤光滑细嫩的质感和五官结构的明暗变化。其眉目间流露出矜持凄凉的怨情，与晚清文人画家在仕女画创作上所追求的“清淑静逸”之趣相符，具有鲜明的时代特征。 人物的衬景，一侧是刻画工细写实的芭蕉树，一侧是以淡彩直接点染的写意浮萍。二者不仅展示了作者娴熟地运用不同笔法的技能，且在画中起到了以景造势的作用。芭蕉叶的实景给人物以依托，并增强了作品清新娟秀的格调；浮萍的虚景将画面引向了纵深，扩展了作品的深远空间，并给人以丰富的暇想意境。"
   },
   {
@@ -149,7 +108,7 @@ export const mockPaintings = [
       "人",
       "芭蕉叶"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "禹之鼎芭蕉仕女图轴，材质为纸本，颜色为墨笔，尺寸为纵87.5cm，形制为横35.7cm，《芭蕉仕女图》轴，清，禹之鼎绘，纸本，墨笔，纵87.5厘米，横35.7厘米。 款题：“红兰主人笔墨妙绝千古，最爱青藤书画。每见濡毫未下气已吞，泼墨如飞脱窠臼于腕底，实昭代传人。偶索余拟天池芭蕉士女，诚问道于盲，不揣鄙陋，漫画请教，未免布鼓耳。广陵学人禹之鼎。”下钤“慎斋禹之鼎印”、“广陵涛上渔人”、“慎斋”等印，另一印不可辨。钤近代庞元济“虚斋秘玩”等鉴藏印共3方。 《芭蕉仕女图》绘一女子侧身坐于芭蕉树下，举目远望，若有所思。生意盎然的芭蕉与四周的蔓草构筑出淡雅清幽的自然环境。由图上款题可知，此图是作者应喜爱徐渭笔墨的红兰主人之邀，追仿徐渭笔意所作。徐渭是明代泼墨大写意的代表画家，他运笔豪放洒脱，施墨酣畅淋漓，与禹之鼎贯用的细笔勾勒、色彩烘染的画风相比是完全不同的艺术表现形式。禹之鼎凭藉深厚的绘画功底，将此两种迥异的画风有机地融汇在一起，此图既有徐青藤的水墨情趣，又不失作者自身的笔墨特点。 图中芭蕉、杂草为大写意画法，作者未以自己贯用的细腻笔法精工刻画，而仿青藤笔意运笔逆来顺往，横涂竖抹，施墨随意点染，浓淡相生，芭蕉、杂草于有形无形间野趣天成，充满生机活力。仕女为小写意画法，作者仿青藤笔法绘人物的五官，仅以浓墨勾、点，而未运用己所擅长的微擦带染法，准确而简括的笔墨勾画出仕女文静俊俏之美和怡然闲适的神态。人物的衣纹，作者运用的是他所熟习的“兰叶描”法，而没有追寻青藤爽朴劲健的直线型笔致，飘逸变化的线条更有助于展示年轻女子活泼浪漫的内在性情。此图可谓禹之鼎水墨仕女画之代表作。"
   },
   {
@@ -195,7 +154,7 @@ export const mockPaintings = [
       "木偶",
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "任颐仕女婴戏图轴，材质为绢本，颜色为设色，尺寸为纵129cm，形制为横67cm，图绘女子怀抱幼儿，身旁小童正用悬丝操纵着一个提线木偶。作者以细劲的线条描绘女子及孩童面部、身体，又以方劲有力的钉头鼠尾描勾画衣袍。 任颐（1840—1896），字伯年，浙江绍兴人，寓居上海，是“海上四任”之一。",
     "restoredImage": "任颐仕女婴戏图轴_restored.png",
     "animation": "任颐仕女婴戏图轴_animation.mp4"
@@ -235,26 +194,8 @@ export const mockPaintings = [
     "tags": [
       "假山"
     ],
-    "isPremium": true,
-    "description": ""
-  },
-  {
-    "id": "13",
-    "title": "周恺补衮图页",
-    "artist": "周恺",
-    "artistId": "artist_12",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "周恺补衮图页.png",
-    "tags": [
-      "凳子",
-      "人",
-      "桌子"
-    ],
     "isPremium": false,
-    "description": "周恺补衮图页，材质为绢本，颜色为设色，尺寸为纵27.9cm，形制为横17.5cm，《补衮图》页，清，周恺绘，绢本，设色，纵27.9厘米，横17.5厘米。 作品款署：“补衮图。丁卯冬至前三日仿十洲笔。雪航恺。”钤作者本款印“周恺之印”等白文印两方。 画面描绘一位女子端坐于方凳上，正神态专注地精心绣制龙纹衣装。女子头戴闪亮的簪钗，着交领淡蓝色上衣和白底方格纹长裙，一袭蓝色霞帔飘曳垂地。其面容娥眉杏眼，樱口桃腮，秀丽姣美。身边的几、案、插瓶、绣墩刻画细微，极具富丽之气。 在传统文化中，补衮图有补救规谏帝王的过失之寓意。但此幅绘画作者着意刻画人物的皓腕纤指，于细节的描绘尤为精心，表现出女子手指的灵巧和动感。此作设色爽丽明快而又自然和谐，一位端庄娴雅、秀外慧中的女子形象跃然纸上，富于浓厚的生活气息。",
-    "restoredImage": "周恺补衮图页_restored.png",
-    "animation": "周恺补衮图页_animation.mp4"
+    "description": ""
   },
   {
     "id": "14",
@@ -268,7 +209,7 @@ export const mockPaintings = [
       "水仙",
       "梅花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "恽寿平双清图轴，材质为绢本，颜色为设色，尺寸为纵88.5cm，形制为横54cm，《双清图》轴，清，恽寿平绘，绢本，设色，纵88.5厘米，横54厘米。 本幅自题：“丙寅春瓯香阁临，南田寿平。”钤“寿平”（朱文）、“恽正叔”（白文）、“将移我情”（白文）、“寄岳云”（朱文）。画幅右侧王翚墨题，钤2白文印“王翚之印”、“石谷”。收藏印有“展轴神怡”等7方。 本幅是恽寿平55岁时所作。以“双清”为画名是因为梅花以“众芳摇落独暄妍”的品格而水仙以淡色疏香和清气逼人的特性同被视为传统绘画题材中的“清物”。此图以淡花青晕染绢地，烘托双清的花色。梅树苍干繁枝，横斜取势，其花瓣法南宋扬无咎的画法，即以墨笔圈线为瓣，线条雅秀雄健，勾勒出花之勃勃生机。水仙法元人赵孟坚的白描笔韵，叶片用笔富于急迟、粗细、顿折诸变化，花儿或仰或俯，或张或合，亦变化多端。作者以活泼多变的表现技法成功地展示出梅花、水仙暗香浮动的美感。全图不刻意求工、求似，唯求自然天趣，揭示出恽寿平一向所追求的平淡超逸的审美意趣。"
   },
   {
@@ -296,7 +237,7 @@ export const mockPaintings = [
     "tags": [
       "叶子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "冷枚画罗汉图册，材质为纸本，颜色为纵35.5cm，尺寸为横29.1cm，题跋：腥鲜龙气云堂紫，钵盂中有乖龙子。夜半倾湫倒岳来，毗岚风到袈裟止。至人视龙犹蝘蜒，仄足不敢履一蚁。岂伊重蚁而轻龙，绌在伸边如镞矢。吾本如空无所依，有作受者皆由尔。龙王膜拜受三皈，水怪生狞嗔末已。",
     "restoredImage": "冷枚画罗汉图册_restored.png",
     "animation": "冷枚画罗汉图册_animation.mp4"
@@ -334,7 +275,7 @@ export const mockPaintings = [
       "叶子",
       "叶子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "虚谷紫藤金鱼轴，材质为纸本，颜色为纵138cm，尺寸为横68.7cm，"
   },
   {
@@ -354,20 +295,6 @@ export const mockPaintings = [
     "animation": "任熊杂画图册_animation.mp4"
   },
   {
-    "id": "20",
-    "title": "吕学苍龙训子轴",
-    "artist": "吕学",
-    "artistId": "artist_19",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "吕学苍龙训子轴.png",
-    "tags": [
-      "龙"
-    ],
-    "isPremium": true,
-    "description": "吕学苍龙训子轴，材质为绢本，颜色为纵277cm，尺寸为横133.2cm，"
-  },
-  {
     "id": "21",
     "title": "周璕墨龙图轴",
     "artist": "周璕",
@@ -381,60 +308,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "周璕墨龙图轴，材质为绢本，颜色为纵251.5cm，尺寸为横117.3cm，"
-  },
-  {
-    "id": "22",
-    "title": "任预十二生肖图册",
-    "artist": "任预",
-    "artistId": "artist_21",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任预十二生肖图册.png",
-    "tags": [
-      "人",
-      "龙",
-      "山"
-    ],
-    "isPremium": true,
-    "description": "任预十二生肖图册，材质为纸本，颜色为设色，尺寸为纵32cm，形制为横38cm，",
-    "restoredImage": "任预十二生肖图册_restored.png",
-    "animation": "任预十二生肖图册_animation.mp4"
-  },
-  {
-    "id": "23",
-    "title": "高其佩墨龙图轴",
-    "artist": "高其佩",
-    "artistId": "artist_22",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "高其佩墨龙图轴.png",
-    "tags": [
-      "龙"
-    ],
-    "isPremium": false,
-    "description": "高其佩墨龙图轴，材质为纵200cm，颜色为横107cm，"
-  },
-  {
-    "id": "24",
-    "title": "邹喆山水图轴",
-    "artist": "邹喆",
-    "artistId": "artist_23",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "邹喆山水图轴.png",
-    "tags": [
-      "房屋",
-      "房屋",
-      "房屋",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树"
-    ],
-    "isPremium": true,
-    "description": "邹喆山水图轴，材质为纵252.6cm，颜色为横104.4cm，《山水图》轴，清，邹喆绘，绢本，设色，纵201厘米，横50厘米。 图绘山峦叠嶂、杂木繁茂、云雾蒸腾的景致。山石用笔松疏平和，设色淡雅，得天真秀润之趣。树木以深浅墨、色点叶，层次分明，得丰润华滋之貌，不失为作者的山水画代表作之一。 款署：“乙未春三月写，邹喆。”钤“邹喆印”白文印、“方鲁”朱文印。鉴藏印有“智超鉴定之印”朱文印。 “乙未”是清顺治十二年（1655年）。"
   },
   {
     "id": "25",
@@ -451,25 +324,10 @@ export const mockPaintings = [
       "枇杷",
       "石榴花"
     ],
-    "isPremium": false,
+    "isPremium": true,
     "description": "赵之谦五瑞图纨扇，材质为纵25.8cm，颜色为横25.9cm，",
     "restoredImage": "赵之谦五瑞图纨扇_restored.png",
     "animation": "赵之谦五瑞图纨扇_animation.mp4"
-  },
-  {
-    "id": "26",
-    "title": "赵之谦菊花纨扇",
-    "artist": "赵之谦",
-    "artistId": "artist_25",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "赵之谦菊花纨扇.png",
-    "tags": [
-      "菊花",
-      "菊花"
-    ],
-    "isPremium": true,
-    "description": "赵之谦菊花纨扇，材质为纵22.5cm，颜色为横24.5cm，"
   },
   {
     "id": "27",
@@ -496,7 +354,7 @@ export const mockPaintings = [
     "tags": [
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "张骐摹朱彝尊像轴，材质为纵118.9cm，颜色为横45.6cm，",
     "restoredImage": "张骐摹朱彝尊像轴_restored.png",
     "animation": "张骐摹朱彝尊像轴_animation.mp4"
@@ -536,7 +394,7 @@ export const mockPaintings = [
       "房屋",
       "房屋"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "恽本初山水图轴，材质为纵115cm，颜色为横43cm，"
   },
   {
@@ -575,7 +433,7 @@ export const mockPaintings = [
       "松树",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "袁江梁园飞雪图轴，材质为纵202.8cm，颜色为横118.5cm，《梁园飞雪图》轴，清，袁江绘，绢本，设色，纵202.8厘米，横118.5厘米。 本幅自题：“梁园飞雪，庚子徂暑邗上袁江画。”钤“袁江之印”、“文涛”印2方。 “梁园”又名“兔园”，是汉代梁孝王刘武所建的一处私家园林，其旧址据说在今河南开封东南。梁孝王雅好文翰，广泛结交当时的文人名士，如司马相如、枚乘、邹阳等皆为其座上宾客，许多人长期居住园内，乐而忘返，“梁园”因此而闻名。唐朝诗人李白有诗云：“一朝去京国，十载客梁园”，用的就是这个典故。本图中，作者将这座历史上著名的园林建筑安置于冬季的雪景之中，庭院、屋顶、山石上都留出大片空白，表现厚厚的积雪，精美的殿堂在白雪的映衬下愈显得富丽堂皇。寒冷的气候并没有影响园内的热烈气氛，殿堂内灯火通明，歌舞喧嚣，豪华的盛宴正值高潮。 这幅作品是袁江楼阁界画的代表作，表现华丽的建筑是作者创作的重点，均匀挺直的线条勾画出房屋的各个细部，繁密的斗拱，玲珑的窗格，显示了高超的界画技巧，同时作者亦注意到周围环境与自然气氛的烘托，使画面具有诗一般的意境。"
   },
   {
@@ -609,7 +467,7 @@ export const mockPaintings = [
       "荷花",
       "荷叶"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "许滨荷花草虫扇页，材质为纵18.5cm，颜色为横66.4cm，",
     "restoredImage": "许滨荷花草虫扇页_restored.png",
     "animation": "许滨荷花草虫扇页_animation.mp4"
@@ -655,26 +513,8 @@ export const mockPaintings = [
       "龙",
       "乌龟"
     ],
-    "isPremium": true,
-    "description": "虚谷菊花图扇页，材质为纵19.6cm，颜色为横52.3cm，《菊花图》扇页，清，虚谷绘，金笺，设色，纵19.6厘米，横52.3厘米。 扇页有自题：“博山尊兄先生清玩。虚谷。”钤“虚谷”白文印。 图绘数朵秋菊于矮篱前绽放争艳。作者在章法布势上别具匠心，与菊花相佐的不是人们常用的块面状的土丘、山石，而是线条形的篱笆，篱笆的线条断续而有节奏感，增强了画面的灵透性，也使得画作更贴近生活，富有园林情调。图中菊花的花瓣用双勾填彩法，先以笔勾出轮廓线，再以白粉和曙红填色。花儿在线条的束缚下显得含蓄凝重，具冰肌玉骨之美。叶片用没骨法，饱含水分的笔醮草绿、花青直接落纸晕染，水与色充分地交融，有“润含春泽”之味。作者娴熟地运用不同的笔墨表现不同的物象，显现出较全面的绘画技艺。"
-  },
-  {
-    "id": "37",
-    "title": "虚谷杨柳八哥轴",
-    "artist": "虚谷",
-    "artistId": "artist_36",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "虚谷杨柳八哥轴.png",
-    "tags": [
-      "鸟",
-      "柳树",
-      "柳树"
-    ],
     "isPremium": false,
-    "description": "虚谷杨柳八哥轴，材质为纵115.3cm，颜色为横51.7cm，",
-    "restoredImage": "虚谷杨柳八哥轴_restored.png",
-    "animation": "虚谷杨柳八哥轴_animation.mp4"
+    "description": "虚谷菊花图扇页，材质为纵19.6cm，颜色为横52.3cm，《菊花图》扇页，清，虚谷绘，金笺，设色，纵19.6厘米，横52.3厘米。 扇页有自题：“博山尊兄先生清玩。虚谷。”钤“虚谷”白文印。 图绘数朵秋菊于矮篱前绽放争艳。作者在章法布势上别具匠心，与菊花相佐的不是人们常用的块面状的土丘、山石，而是线条形的篱笆，篱笆的线条断续而有节奏感，增强了画面的灵透性，也使得画作更贴近生活，富有园林情调。图中菊花的花瓣用双勾填彩法，先以笔勾出轮廓线，再以白粉和曙红填色。花儿在线条的束缚下显得含蓄凝重，具冰肌玉骨之美。叶片用没骨法，饱含水分的笔醮草绿、花青直接落纸晕染，水与色充分地交融，有“润含春泽”之味。作者娴熟地运用不同的笔墨表现不同的物象，显现出较全面的绘画技艺。"
   },
   {
     "id": "38",
@@ -693,32 +533,8 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
-    "description": "谢荪青绿山水图轴，材质为纵157.2cm，颜色为横52.6cm，《青绿山水图》轴，清，谢荪绘，绢本，设色，纵157.2厘米，横52.6厘米。 本幅款署：“谢荪。”钤印一，模糊不辨。鉴藏印有：“壬子以后所得”等。 图绘近景溪水岸边房舍错落；远处高山耸立，林木繁茂。构图深远、高远兼备，富有空间层次变化。用笔工整细密，山石树木以石青石绿点染，画风清丽淡雅。此图与传统的青绿山水相比较，更多一分清新明快，是谢荪山水画的代表作。"
-  },
-  {
-    "id": "39",
-    "title": "吴应贞红莲轴",
-    "artist": "吴应贞",
-    "artistId": "artist_38",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "吴应贞红莲轴.png",
-    "tags": [
-      "荷叶",
-      "荷叶",
-      "荷叶",
-      "荷叶",
-      "莲花",
-      "莲花",
-      "莲花",
-      "莲花",
-      "荷叶",
-      "荷叶",
-      "荷叶"
-    ],
     "isPremium": false,
-    "description": "吴应贞红莲轴，材质为纵130cm，颜色为横58.5cm，"
+    "description": "谢荪青绿山水图轴，材质为纵157.2cm，颜色为横52.6cm，《青绿山水图》轴，清，谢荪绘，绢本，设色，纵157.2厘米，横52.6厘米。 本幅款署：“谢荪。”钤印一，模糊不辨。鉴藏印有：“壬子以后所得”等。 图绘近景溪水岸边房舍错落；远处高山耸立，林木繁茂。构图深远、高远兼备，富有空间层次变化。用笔工整细密，山石树木以石青石绿点染，画风清丽淡雅。此图与传统的青绿山水相比较，更多一分清新明快，是谢荪山水画的代表作。"
   },
   {
     "id": "40",
@@ -732,7 +548,7 @@ export const mockPaintings = [
       "人",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "吴观岱采桑图扇页，材质为纵15.7cm，颜色为横49.2cm，",
     "restoredImage": "吴观岱采桑图扇页_restored.png",
     "animation": "吴观岱采桑图扇页_animation.mp4"
@@ -774,7 +590,7 @@ export const mockPaintings = [
       "船",
       "船"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "吴穀祥仿梅道人山水扇，材质为纵18.9cm，颜色为横53.6cm，"
   },
   {
@@ -798,27 +614,6 @@ export const mockPaintings = [
     "animation": "文柟山水人物图扇页_animation.mp4"
   },
   {
-    "id": "44",
-    "title": "文点山水图轴",
-    "artist": "文点",
-    "artistId": "artist_43",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "文点山水图轴.png",
-    "tags": [
-      "山",
-      "山",
-      "山",
-      "山",
-      "树",
-      "树",
-      "树",
-      "岩石"
-    ],
-    "isPremium": true,
-    "description": "文点山水图轴，材质为纵114.9cm，颜色为横47.8cm，"
-  },
-  {
     "id": "45",
     "title": "王屿雪景山水图轴",
     "artist": "王屿",
@@ -838,24 +633,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "王屿雪景山水图轴，材质为纵91.4cm，颜色为横30.8cm，"
-  },
-  {
-    "id": "46",
-    "title": "王武乔松仙杏图轴",
-    "artist": "王武",
-    "artistId": "artist_45",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "王武乔松仙杏图轴.png",
-    "tags": [
-      "松树",
-      "鸟",
-      "岩石"
-    ],
-    "isPremium": true,
-    "description": "王武乔松仙杏图轴，材质为纵141cm，颜色为横75.5cm，",
-    "restoredImage": "王武乔松仙杏图轴_restored.png",
-    "animation": "王武乔松仙杏图轴_animation.mp4"
   },
   {
     "id": "47",
@@ -884,7 +661,7 @@ export const mockPaintings = [
       "房屋",
       "房屋"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "王翚、恽寿平槐隐图册，材质为纵22cm，颜色为横28.3cm，"
   },
   {
@@ -917,7 +694,7 @@ export const mockPaintings = [
       "蝴蝶",
       "叶子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "童塏花蝶扇，材质为纵18.5cm，颜色为横55.6cm，"
   },
   {
@@ -934,24 +711,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "陶宏戏婴图轴，材质为纵109cm，颜色为横54.2cm，"
-  },
-  {
-    "id": "52",
-    "title": "汤禄名梅竹仕女图扇页",
-    "artist": "汤禄名",
-    "artistId": "artist_51",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "汤禄名梅竹仕女图扇页.png",
-    "tags": [
-      "人",
-      "树",
-      "针叶树"
-    ],
-    "isPremium": true,
-    "description": "汤禄名梅竹仕女图扇页，材质为纵17.5cm，颜色为横52.3cm，《梅竹仕女图》扇页，清，汤禄名绘，金笺，设色，纵17.8厘米，横52.5厘米。 扇页有自题：“伯符大兄大人雅正。汤禄名。”钤“乐民”半白半朱印。 图绘闺阁女子倚窗赏梅的小景。画家笔墨娴熟，线条婉转流畅，施墨有浓淡变化，设色以雅淡为宗，较好地表现出女子明媚秀雅的神态。女子细眉小眼、瓜子脸以及瘦体溜肩弱不禁风的体态，具有鲜明的时代特征，正是晚清时期仕女画的典型风貌。",
-    "restoredImage": "汤禄名梅竹仕女图扇页_restored.png",
-    "animation": "汤禄名梅竹仕女图扇页_animation.mp4"
   },
   {
     "id": "53",
@@ -984,7 +743,7 @@ export const mockPaintings = [
       "叶子",
       "海棠"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "金陵名笔集胜-损之画花蝴册页，材质为纵16.7cm，颜色为横21.1cm，"
   },
   {
@@ -1018,26 +777,8 @@ export const mockPaintings = [
       "房屋",
       "房屋"
     ],
-    "isPremium": true,
-    "description": "苏宜山水轴，材质为纵154.7cm，颜色为横69cm，"
-  },
-  {
-    "id": "57",
-    "title": "沈铨松鹤图轴",
-    "artist": "沈铨",
-    "artistId": "artist_56",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "沈铨松鹤图轴.png",
-    "tags": [
-      "鹤",
-      "鹤",
-      "松树",
-      "树",
-      "岩石"
-    ],
     "isPremium": false,
-    "description": "沈铨松鹤图轴，材质为纵191cm，颜色为横98cm，"
+    "description": "苏宜山水轴，材质为纵154.7cm，颜色为横69cm，"
   },
   {
     "id": "58",
@@ -1059,30 +800,10 @@ export const mockPaintings = [
       "岩石",
       "岩石"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "沙馥负薪图扇页，材质为纵19.8cm，颜色为横53cm，",
     "restoredImage": "沙馥负薪图扇页_restored.png",
     "animation": "沙馥负薪图扇页_animation.mp4"
-  },
-  {
-    "id": "59",
-    "title": "任预观瀑图轴",
-    "artist": "任预",
-    "artistId": "artist_58",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任预观瀑图轴.png",
-    "tags": [
-      "山",
-      "山",
-      "人",
-      "人",
-      "树",
-      "树",
-      "山"
-    ],
-    "isPremium": false,
-    "description": "任预观瀑图轴，材质为纵125.5cm，颜色为横31.5cm，"
   },
   {
     "id": "60",
@@ -1100,43 +821,8 @@ export const mockPaintings = [
       "岩石",
       "岩石"
     ],
-    "isPremium": true,
-    "description": "任颐听松图轴，材质为纵92cm，颜色为横40.4cm，"
-  },
-  {
-    "id": "61",
-    "title": "任颐画徐步督耕图册装轴",
-    "artist": "任颐",
-    "artistId": "artist_60",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任颐画徐步督耕图册装轴.png",
-    "tags": [
-      "人",
-      "树",
-      "桥"
-    ],
     "isPremium": false,
-    "description": "任颐画徐步督耕图册装轴，材质为纵33cm，颜色为横32.5cm，",
-    "restoredImage": "任颐画徐步督耕图册装轴_restored.png",
-    "animation": "任颐画徐步督耕图册装轴_animation.mp4"
-  },
-  {
-    "id": "62",
-    "title": "任颐竹涧烹茶图团扇",
-    "artist": "任颐",
-    "artistId": "artist_61",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任颐竹涧烹茶图团扇.png",
-    "tags": [
-      "孩子",
-      "孩子",
-      "蒲扇",
-      "竹子"
-    ],
-    "isPremium": true,
-    "description": "任颐竹涧烹茶图团扇，材质为纵26.5cm，颜色为横27.5cm，"
+    "description": "任颐听松图轴，材质为纵92cm，颜色为横40.4cm，"
   },
   {
     "id": "63",
@@ -1155,42 +841,6 @@ export const mockPaintings = [
     "description": "任颐紫藤栖禽团扇，材质为纵24.8cm，颜色为横25cm，"
   },
   {
-    "id": "64",
-    "title": "任颐花鸟扇",
-    "artist": "任颐",
-    "artistId": "artist_63",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任颐花鸟扇.png",
-    "tags": [
-      "鸟",
-      "花",
-      "狗尾草",
-      "狗尾草"
-    ],
-    "isPremium": true,
-    "description": "任颐花鸟扇，材质为纵19.6cm，颜色为横57.2cm，",
-    "restoredImage": "任颐花鸟扇_restored.png",
-    "animation": "任颐花鸟扇_animation.mp4"
-  },
-  {
-    "id": "65",
-    "title": "任颐苏武牧羊图轴",
-    "artist": "任颐",
-    "artistId": "artist_64",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任颐苏武牧羊图轴.png",
-    "tags": [
-      "人",
-      "羊",
-      "羊",
-      "长缨"
-    ],
-    "isPremium": false,
-    "description": "任颐苏武牧羊图轴，材质为纸本，颜色为设色，尺寸为纵149.5cm，形制为横81cm，《苏武牧羊图》轴，清，任颐作，纸本，设色，纵149.5厘米，横81厘米。 钤 “任颐印”白文方印。款：“光绪庚辰嘉平吉旦，山阴任颐伯年甫写于春申浦。” 在任颐众多的人物故事画中，“苏武牧羊”是他描绘较多的题材之一。《汉书·苏武传》中记载：苏武，字子卿，曾奉汉武帝命以中郎将身分出使匈奴，单于欲降苏武，苏武不屈，被留放北海(今贝尔加湖)长达19年，苏武“杖汉节牧羊，卧起操持，节旌尽落”，表现了强烈的爱国精神。作为出身于市民，又一度随太平军转战的任颐，面对加速殖民化的国土，深感“身居十里洋场，无异置身异域”，甚至寄希望于“草莽英雄”，正是这种思想驱使他在画中寄托忧患意识，歌颂高尚的爱国情操。图中苏武手持汉节，如坚石般站立于画面中心，双目望于画外，似在遥望汉国，目光坚定自信，表现了不屈的精神。 画中人物造型比例准确，除保持了陈洪绶人物奇古伟岸的特征之外，还融汇了西洋画速写、素描的技法，线条凝练概括，具有力度，与主题相统一。色墨的渲染协调统一，尤其是羊群运用写意的手法，在黑、白、灰的墨色变化中准确地描绘出羊群的造型，同时也描绘出群羊因寒冷而挤作一团的情景，以此衬托出环境的恶劣，从而突出了人物不畏艰难险阻的刚毅气节。"
-  },
-  {
     "id": "66",
     "title": "任颐桃花白鸡图轴",
     "artist": "任颐",
@@ -1205,7 +855,7 @@ export const mockPaintings = [
       "桃树",
       "桃树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "任颐桃花白鸡图轴，材质为纵147.5cm，颜色为横39.8cm，"
   },
   {
@@ -1242,7 +892,7 @@ export const mockPaintings = [
       "树",
       "岩石"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "任颐洗耳画轴，材质为纵140.1cm，颜色为横81cm，"
   },
   {
@@ -1259,25 +909,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "任颐碧桃春燕图轴，材质为纵136.5cm，颜色为横32.9cm，"
-  },
-  {
-    "id": "70",
-    "title": "任颐归牧图轴",
-    "artist": "任颐",
-    "artistId": "artist_69",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "任颐归牧图轴.png",
-    "tags": [
-      "牛",
-      "人",
-      "树",
-      "岩石"
-    ],
-    "isPremium": true,
-    "description": "任颐归牧图轴，材质为纵133cm，颜色为横63.2cm，",
-    "restoredImage": "任颐归牧图轴_restored.png",
-    "animation": "任颐归牧图轴_animation.mp4"
   },
   {
     "id": "71",
@@ -1306,7 +937,7 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "任颐斗梅图轴，材质为纵108.6cm，颜色为横43.8cm，"
   },
   {
@@ -1352,24 +983,8 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
-    "description": "钱维乔松堂读书图扇面，材质为纵21cm，颜色为横59.8cm，"
-  },
-  {
-    "id": "75",
-    "title": "钱慧安听鹂图扇页",
-    "artist": "钱慧安",
-    "artistId": "artist_74",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "钱慧安听鹂图扇页.png",
-    "tags": [
-      "人",
-      "人",
-      "柳树"
-    ],
     "isPremium": false,
-    "description": "钱慧安听鹂图扇页，材质为纵18.9cm，颜色为横53.2cm，"
+    "description": "钱维乔松堂读书图扇面，材质为纵21cm，颜色为横59.8cm，"
   },
   {
     "id": "76",
@@ -1390,7 +1005,7 @@ export const mockPaintings = [
       "房屋",
       "房屋"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "钱杜仿赵大年山水扇，材质为纵18.2cm，颜色为横53.5cm，",
     "restoredImage": "钱杜仿赵大年山水扇_restored.png",
     "animation": "钱杜仿赵大年山水扇_animation.mp4"
@@ -1418,26 +1033,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "钱杜藕香吟馆图扇面，材质为纵16.6cm，颜色为横52cm，"
-  },
-  {
-    "id": "78",
-    "title": "陆灏仿王蒙山水轴",
-    "artist": "陆灏",
-    "artistId": "artist_77",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "陆灏仿王蒙山水轴.png",
-    "tags": [
-      "山",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "岩石"
-    ],
-    "isPremium": true,
-    "description": "陆灏仿王蒙山水轴，材质为纵96.6cm，颜色为横37.7cm，"
   },
   {
     "id": "79",
@@ -1470,7 +1065,7 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "黄向坚巉崖陡壁图轴，材质为纵84.3cm，颜色为横37.2cm，"
   },
   {
@@ -1488,24 +1083,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "黄向坚滇南胜境坊雪景轴，材质为纵129cm，颜色为横43cm，"
-  },
-  {
-    "id": "82",
-    "title": "黄鼎万木奇峰图轴",
-    "artist": "黄鼎",
-    "artistId": "artist_81",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "黄鼎万木奇峰图轴.png",
-    "tags": [
-      "山",
-      "树",
-      "岩石"
-    ],
-    "isPremium": true,
-    "description": "黄鼎万木奇峰图轴，材质为纵158cm，颜色为横55.2cm，",
-    "restoredImage": "黄鼎万木奇峰图轴_restored.png",
-    "animation": "黄鼎万木奇峰图轴_animation.mp4"
   },
   {
     "id": "83",
@@ -1536,7 +1113,7 @@ export const mockPaintings = [
       "山",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "华喦山水图轴，材质为纵162.7cm，颜色为横46.5cm，"
   },
   {
@@ -1574,7 +1151,7 @@ export const mockPaintings = [
       "柳树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "胡锡珪仕女扇，材质为纵19cm，颜色为横53.5cm，"
   },
   {
@@ -1594,22 +1171,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "胡锡珪惜花幽思图扇面，材质为纵18.3cm，颜色为横49.7cm，"
-  },
-  {
-    "id": "88",
-    "title": "何榞兰花各家题扇页",
-    "artist": "何榞",
-    "artistId": "artist_87",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "何榞兰花各家题扇页.png",
-    "tags": [
-      "叶子"
-    ],
-    "isPremium": true,
-    "description": "何榞兰花各家题扇页，材质为纵17.3cm，颜色为横52.4cm，",
-    "restoredImage": "何榞兰花各家题扇页_restored.png",
-    "animation": "何榞兰花各家题扇页_animation.mp4"
   },
   {
     "id": "89",
@@ -1638,46 +1199,6 @@ export const mockPaintings = [
     "description": "高其佩仙山楼阁图轴，材质为纵190cm，颜色为横98.3cm，"
   },
   {
-    "id": "90",
-    "title": "费以耕秋林仕女扇",
-    "artist": "费以耕",
-    "artistId": "artist_89",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "费以耕秋林仕女扇.png",
-    "tags": [
-      "人",
-      "房屋",
-      "房屋",
-      "房屋",
-      "树",
-      "树",
-      "船"
-    ],
-    "isPremium": true,
-    "description": "费以耕秋林仕女扇，材质为纵19.4cm，颜色为横56.8cm，"
-  },
-  {
-    "id": "91",
-    "title": "陈枚人物山水扇",
-    "artist": "陈枚",
-    "artistId": "artist_90",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "陈枚人物山水扇.png",
-    "tags": [
-      "人",
-      "人",
-      "人",
-      "树",
-      "树"
-    ],
-    "isPremium": false,
-    "description": "陈枚人物山水扇，材质为纵18.8cm，颜色为横57.9cm，",
-    "restoredImage": "陈枚人物山水扇_restored.png",
-    "animation": "陈枚人物山水扇_animation.mp4"
-  },
-  {
     "id": "92",
     "title": "陈衡恪蔬果图扇面",
     "artist": "陈衡恪",
@@ -1692,7 +1213,7 @@ export const mockPaintings = [
       "龙",
       "龙"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陈衡恪蔬果图扇面，材质为纵16.7cm，颜色为横51.9cm，"
   },
   {
@@ -1760,91 +1281,8 @@ export const mockPaintings = [
       "鸡",
       "桃树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "朱耷松鹿轴，材质为纸本，颜色为墨笔，尺寸为纵193cm，形制为横74cm，"
-  },
-  {
-    "id": "97",
-    "title": "王原祁仿山樵山水轴",
-    "artist": "王原祁",
-    "artistId": "artist_96",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "王原祁仿山樵山水轴.png",
-    "tags": [
-      "山",
-      "山",
-      "山",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树"
-    ],
-    "isPremium": false,
-    "description": "王原祁仿山樵山水轴，材质为纸本，颜色为墨笔，尺寸为纵95.5cm，形制为横51.5cm，",
-    "restoredImage": "王原祁仿山樵山水轴_restored.png",
-    "animation": "王原祁仿山樵山水轴_animation.mp4"
-  },
-  {
-    "id": "98",
-    "title": "沈利重峦烟云贴落",
-    "artist": "沈利",
-    "artistId": "artist_97",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "沈利重峦烟云贴落.png",
-    "tags": [
-      "萝卜",
-      "竹笋",
-      "鞭炮",
-      "荸荠",
-      "菱角"
-    ],
-    "isPremium": true,
-    "description": "沈利重峦烟云贴落，材质为绢本，颜色为墨笔，尺寸为纵21.7cm，形制为横26.3cm，"
-  },
-  {
-    "id": "99",
-    "title": "高凤翰自画像轴",
-    "artist": "高凤翰",
-    "artistId": "artist_98",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "高凤翰自画像轴.png",
-    "tags": [
-      "山",
-      "山",
-      "山",
-      "山",
-      "山",
-      "山",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "山",
-      "山",
-      "山",
-      "山",
-      "岩石"
-    ],
-    "isPremium": false,
-    "description": "高凤翰自画像轴，材质为绢本，颜色为设色，尺寸为纵106.8cm，形制为横53.4cm，《自画像》轴，清，高凤翰作，绢本，设色，纵106厘米，横53.4厘米。 图右下角自题：“寥天孤鶴，托迹冥鴻。迥臨絕嶠，坐領長風。倘有成連刺舡出沒其中乎？丁未三月初一日南村居士題。”钤“鳳”、“翰”。 《自画像》作于清雍正五年（1727年），时年作者45岁。画面上，高凤翰身着白衫，头戴斗笠，侧身倚石坐于断壁悬崖之上，崖上松柏怪生，崖下波涛澎湃，陡峭的巨石冲出水面，长空中，一只孤鹤飞翔而来，画家俯览水面，似引起无限思绪。当时正值高凤翰仕途转折时期，是年，他赴济南省试，应选，次年赴京应试，考列一等，分发安徽试用。他并不热衷仕途，对当时的社会状况也很不满，应试做官可能是生活所迫，作品即是他当时心境的写照。图中，画家将自己置于陡峭的绝壁之间，险峻的山石，汹涌的江水，奇生的古木，使人感受到的不是士大夫寄托林泉之志的山水，而是预示着人生的艰险，仕途的艰辛。 此图构图新颖，以仰视的角度截取山崖一角，江水自远而近布满画面，气势强大，使景物具有高远和深远之势，以烘托主题。高凤翰的自画像非常写实，据载，高凤翰长眉广额，身体伟岸，又有美髯，曾自署“髯高”。他曾画过一幅《披褐图》，其人物面貌与此幅相似。"
   },
   {
     "id": "100",
@@ -1857,26 +1295,10 @@ export const mockPaintings = [
     "tags": [
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "任颐牡丹双鸡图轴，材质为纸本，颜色为设色，尺寸为纵103.8cm，形制为横44.5cm，",
     "restoredImage": "任颐牡丹双鸡图轴_restored.png",
     "animation": "任颐牡丹双鸡图轴_animation.mp4"
-  },
-  {
-    "id": "101",
-    "title": "王鉴仿叔明长松仙馆图轴",
-    "artist": "王鉴",
-    "artistId": "artist_100",
-    "dynasty": "清朝",
-    "dynastyFolder": "qing",
-    "imageUrl": "王鉴仿叔明长松仙馆图轴.png",
-    "tags": [
-      "山",
-      "树",
-      "岩石"
-    ],
-    "isPremium": false,
-    "description": "王鉴仿叔明长松仙馆图轴，材质为纸本，颜色为设色，尺寸为纵138.2cm，形制为横54.5cm，《仿叔明长松仙馆图》轴，清，王鉴，纸本，设色，纵138.2厘米，横54.5厘米。 本幅自题：“丁未清和，仿叔明長松仙館圖，奉祝悔庵年翁50初度，王鑒。”此图是王鉴为友人尤侗祝寿所作，图中景物青松喻长寿，仙馆喻雅适之意。款识下钤“圆照”、“染香庵主”两印。丁未为清康熙六年（1667年）。 画面下方近水的岩石与长松交错，松涛阵阵似可听闻，幽径蜿蜒于松林之中通向山中馆舍，山馆四周碧树环绕，其后丘壑万千，青峰壁立，苍郁秀润，另有茅屋布于山腰处。整幅图画描绘出郁郁葱葱的青山峻岭，清幽静谧的山居茅舍，传达了绝意仕途的士大夫情系山水之间悠然自得的意趣，此图实为作者托物言志之作。 王鉴的作品有三种面目，即水墨、青绿设色、浅绛设色。浅绛山水创自五代董源，成于黄公望，元末王蒙又略加变化，在水墨的基础上以赭石勾填于局部，风神独具。王鉴此作正是师法王蒙，在树干、屋宇、山石、坡脚等处微染赭石，使画面的层次丰富，也增添了灵秀的韵味。题款中言“仿叔明”，画幅上不只在设色方面模仿王蒙，从构图、山石皴法中亦能看到王蒙的影响。如图中采用王氏惯用的重山复岭的构图形式，气势浑厚雄奇。再如山石多施王氏擅长的解索皴，把山石的质感刻划得细致入微。同时，画面也表现了王鉴的个人风貌，他那恬淡平缓的风格，雅致松秀的气韵，使观者静意自生 此图是王鉴晚年浅绛山水画的一幅精妙作品。"
   },
   {
     "id": "102",
@@ -1897,7 +1319,7 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "王翚查士标合作名山访胜图轴，材质为纸本，颜色为墨笔，尺寸为纵149.3cm，形制为横58.1cm，"
   },
   {
@@ -1920,20 +1342,6 @@ export const mockPaintings = [
     "animation": "任颐苏武牧羊图轴_animation.mp4"
   },
   {
-    "id": "104",
-    "title": "李衎墨竹卷",
-    "artist": "李衎",
-    "artistId": "artist_103",
-    "dynasty": "元朝",
-    "dynastyFolder": "yuan",
-    "imageUrl": "李衎墨竹卷.png",
-    "tags": [
-      "竹子"
-    ],
-    "isPremium": true,
-    "description": "李衎墨竹卷，材质为纸本，颜色为墨笔，尺寸为纵32.5cm，形制为横92cm，"
-  },
-  {
     "id": "105",
     "title": "盛懋坐看云起图页",
     "artist": "盛懋",
@@ -1947,7 +1355,7 @@ export const mockPaintings = [
       "树",
       "岩石"
     ],
-    "isPremium": false,
+    "isPremium": true,
     "description": "盛懋坐看云起图页，材质为绢本，颜色为淡色，尺寸为纵27cm，形制为横28cm，"
   },
   {
@@ -2030,7 +1438,7 @@ export const mockPaintings = [
       "人",
       "花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "吴湘仕女四段图卷，材质为纸本，颜色为设色，尺寸为纵33.1cm，形制为横446.8cm，此卷四段绘竹林拨阮、庭院纳凉、倚琴望月和凝神题扇。作者在仕女形象上学习张路，女子均椭圆脸型，面容饱满，身形也较为丰腴。 吴湘，活动于明万历年间，字文南，号白洋，浙江宁波人。"
   },
   {
@@ -2066,7 +1474,7 @@ export const mockPaintings = [
       "鸟",
       "鸟"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "丁云鹏婕妤挡熊图卷，材质为纸本，颜色为设色，尺寸为纵32.6cm，形制为横148.8cm，丁云鹏《冯媛当熊图》卷，明，丁云鹏绘，纸本，设色， 纵32.6厘米，横148.8厘米。 本幅款署：“万历癸未春丁云鹏写。”下钤“南羽”朱文方印。引首有吴元满篆书“冯媛当（音挡）熊”四字，尾纸有吴时尧、施于民题跋。 按题可知，此图作于明万历十一年（1583年）。 此图以翠竹、梧桐、椿树、湖石为背景，表现了冯媛挡熊的故事场景。据《汉书•外戚传下•冯昭仪》记载，西汉建昭年间，元帝率左右随从，于后宫观斗兽。突然有熊逸出圈，攀栏欲上殿，冯婕妤冲上前挡熊而立，保护元帝免遭伤害。“冯媛当熊”应为爱君之典。《汉书》卷三十六称“《列女传》凡八篇，以戒天子”。",
     "restoredImage": "丁云鹏婕妤挡熊图卷_restored.png",
     "animation": "丁云鹏婕妤挡熊图卷_animation.mp4"
@@ -2098,7 +1506,7 @@ export const mockPaintings = [
       "人",
       "莲花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陈洪绶龙王礼佛轴，材质为纵126.9cm，颜色为横54.7cm，"
   },
   {
@@ -2133,24 +1541,8 @@ export const mockPaintings = [
       "树",
       "岩石"
     ],
-    "isPremium": true,
-    "description": "朱之蕃孤松盘桓轴，材质为纵27.8cm，颜色为横133.4cm，"
-  },
-  {
-    "id": "117",
-    "title": "张路吹箫女仙图轴",
-    "artist": "张路",
-    "artistId": "artist_116",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "张路吹箫女仙图轴.png",
-    "tags": [
-      "笛子",
-      "人",
-      "松树"
-    ],
     "isPremium": false,
-    "description": "张路吹箫女仙图轴，材质为绢本，颜色为墨笔，尺寸为纵141.3cm，形制为横91.8cm，《吹箫女仙图》轴，明，张路绘，绢本，墨笔，纵141.3厘米，横91.8厘米。 署款：“平山。”钤“张路”印。 图绘水际岸边，一妙龄少女坐于苍松下，正专注地吹箫自娱。悠扬的箫声与澎湃的涛声组成抑扬顿挫、刚柔相济的乐章。少女身旁所置的硕大无比的仙桃点明了此为仙人、仙境，为画面增添了几许虚幻的情调。图中少女与顾恺之笔下的洛神或莫高窟唐代壁画中仙女的形象相比有着显著的差异。她面庞饱满，高鼻大眼，形象朴实无华，缺少仙女们瘦骨清像的容貌和高逸脱俗的神态；身材墩实丰满，缺少仙胎道骨的轻盈体态；身着宽大的粗服布衣，缺少飘飘欲飞的衣带。她带有浓厚的生活气息，宛如乡村女子，昭示出的是人间女性的自然美。 图中人物的画法用粗细不同的笔墨分别表现。面部以中锋细笔勾勒，线条工细流畅。衣纹用笔则奔放豪爽，线条方折顿挫，富于、疾迟、浓淡的变化。从张路洒脱快捷的运笔中可见，他在承袭唐代吴道子，宋代梁楷等人疏体狂放的写意传统的基础上，追仿同时代人吴伟的画风，笔墨愈加狂放不羁，正如明姜绍书《无声诗史》所记：张路“画法吴小仙，虽草草而就，笔绝遒劲，然秀逸处远逊小仙。”明徐沁《明画录》亦记张路：“传伟法作人物，虽少秀逸，然颇遒劲可观。弘治间名亚于伟。”将张路此幅人物画代表作与吴伟的《武陵春图》作一比较，的确能发现张路挥洒娴熟的笔墨中缺少吴伟清雅秀逸的书卷气。"
+    "description": "朱之蕃孤松盘桓轴，材质为纵27.8cm，颜色为横133.4cm，"
   },
   {
     "id": "118",
@@ -2166,7 +1558,7 @@ export const mockPaintings = [
       "凤",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "杨文骢白日掩荆扉图卷，材质为纵25cm，颜色为横32.2cm，",
     "restoredImage": "杨文骢白日掩荆扉图卷_restored.png",
     "animation": "杨文骢白日掩荆扉图卷_animation.mp4"
@@ -2198,7 +1590,7 @@ export const mockPaintings = [
     "tags": [
       "岩石"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "邢侗拳石图扇，材质为纵16.8cm，颜色为横51.5cm，"
   },
   {
@@ -2234,7 +1626,7 @@ export const mockPaintings = [
       "人",
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "王仲玉陶渊明像轴，材质为纵106.8cm，颜色为横32.5cm，《陶渊明像》轴，明，王仲玉绘，纸本，墨笔，纵106.8厘米，横32.5厘米。 本幅无款署。左下方钤 “王仲玉印”。 画幅上部隶书录东晋著名诗人陶渊明之辞赋名作《归去来辞》全文。下部绘陶渊明像，其手持长卷，目视远方，宽大的袍袖随风飘动，形象潇洒飘逸。画像用白描法，主要以淡墨勾画，其中偶施浓墨。五官以细线勾勒，刻画出人物从容安详的神态。衣纹线条以中锋、侧锋交替使用，具婉转流畅之势。作品以极简的笔法和构图表现出陶渊明辞官归隐无官一身轻后的愉悦神态及其一代名士的不凡气质。"
   },
   {
@@ -2270,7 +1662,7 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "王綦山水册，材质为纵31cm，颜色为横37.4cm，",
     "restoredImage": "王綦山水册_restored.png",
     "animation": "王綦山水册_animation.mp4"
@@ -2303,26 +1695,8 @@ export const mockPaintings = [
       "房屋",
       "山"
     ],
-    "isPremium": true,
-    "description": "万寿祺松石轴，材质为纵109.4cm，颜色为横52.5cm，"
-  },
-  {
-    "id": "127",
-    "title": "宋珏山楼对雨图轴",
-    "artist": "宋珏",
-    "artistId": "artist_126",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "宋珏山楼对雨图轴.png",
-    "tags": [
-      "人",
-      "桥",
-      "树"
-    ],
     "isPremium": false,
-    "description": "宋珏山楼对雨图轴，材质为纵82.5cm，颜色为横27.4cm，",
-    "restoredImage": "宋珏山楼对雨图轴_restored.png",
-    "animation": "宋珏山楼对雨图轴_animation.mp4"
+    "description": "万寿祺松石轴，材质为纵109.4cm，颜色为横52.5cm，"
   },
   {
     "id": "128",
@@ -2337,7 +1711,7 @@ export const mockPaintings = [
       "人",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "钦式山水扇页，材质为纵16.4cm，颜色为横52.1cm，"
   },
   {
@@ -2373,39 +1747,10 @@ export const mockPaintings = [
       "马",
       "长缨"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "",
     "restoredImage": "明人长江万里图卷_restored.png",
     "animation": "明人长江万里图卷_animation.mp4"
-  },
-  {
-    "id": "131",
-    "title": "明人花鸟图轴",
-    "artist": "佚名",
-    "artistId": "artist_130",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "明人花鸟图轴.png",
-    "tags": [
-      "鸟",
-      "鸟",
-      "鸟",
-      "鸟",
-      "鸟",
-      "鸟",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "岩石"
-    ],
-    "isPremium": false,
-    "description": "明人花鸟图轴，材质为纵150.3cm，颜色为横93.4cm，"
   },
   {
     "id": "132",
@@ -2436,7 +1781,7 @@ export const mockPaintings = [
       "盆栽",
       "盆栽"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "明人五王避暑图轴，材质为纵137cm，颜色为横77.7cm，"
   },
   {
@@ -2467,7 +1812,7 @@ export const mockPaintings = [
     "tags": [
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "明人画赵桓半身像轴，材质为纵108cm，颜色为横52.4cm，"
   },
   {
@@ -2497,7 +1842,7 @@ export const mockPaintings = [
       "人",
       "拂尘"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陆鸣凤画紫柏大师像轴，材质为纵187.5cm，颜色为横102.1cm，",
     "restoredImage": "陆鸣凤画紫柏大师像轴_restored.png",
     "animation": "陆鸣凤画紫柏大师像轴_animation.mp4"
@@ -2533,7 +1878,7 @@ export const mockPaintings = [
       "人",
       "莲花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "丁元公佛像轴，材质为纵99.8cm，颜色为横62.5cm，"
   },
   {
@@ -2572,7 +1917,7 @@ export const mockPaintings = [
       "桥",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陈焕江村旅况卷，材质为纵24.5cm，颜色为横124cm，"
   },
   {
@@ -2589,26 +1934,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "周之冕梅花鸣禽扇面，材质为金笺，颜色为设色，尺寸为纵18.2cm，形制为横54.9cm，"
-  },
-  {
-    "id": "142",
-    "title": "陈洪绶梅花扇页",
-    "artist": "陈洪绶",
-    "artistId": "artist_141",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "陈洪绶梅花扇页.png",
-    "tags": [
-      "梅花",
-      "梅花",
-      "梅花",
-      "梅花",
-      "梅花"
-    ],
-    "isPremium": true,
-    "description": "陈洪绶梅花扇页，材质为金笺，颜色为墨笔，尺寸为纵15.8cm，形制为横50.5cm，",
-    "restoredImage": "陈洪绶梅花扇页_restored.png",
-    "animation": "陈洪绶梅花扇页_animation.mp4"
   },
   {
     "id": "143",
@@ -2638,7 +1963,7 @@ export const mockPaintings = [
       "梅花",
       "梅花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "杨补梅花扇面，材质为金笺，颜色为墨笔，尺寸为纵15.6cm，形制为横48.1cm，"
   },
   {
@@ -2652,7 +1977,7 @@ export const mockPaintings = [
     "tags": [
       "梅花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陈嘉言梅花扇页，材质为金笺，颜色为墨笔，尺寸为纵17.8cm，形制为横56.6cm，",
     "restoredImage": "陈嘉言梅花扇页_restored.png",
     "animation": "陈嘉言梅花扇页_restored.png"
@@ -2669,7 +1994,7 @@ export const mockPaintings = [
       "兔",
       "兔"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "明人双兔页，材质为绢本，颜色为设色，尺寸为纵47cm，形制为横54cm，"
   },
   {
@@ -2705,7 +2030,7 @@ export const mockPaintings = [
       "房屋",
       "桥"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "明皇斗鸡图轴，材质为绢本，颜色为设色，尺寸为纵168.5cm，形制为横102cm，斗鸡又称“博鸡”，是一项十分古老的娱乐游戏。唐玄宗喜爱斗鸡，贵族大臣纷纷效仿，斗鸡游戏盛行，而使得国家政治日渐朽坏，后世对此多有批评。 此绘唐玄宗出行斗鸡，虽名为“明皇斗鸡”，实则是对此故实的批判。图中帝王比例略有扩大，以突出帝王的高大形象，是画像惯用的手法。",
     "restoredImage": "明皇斗鸡图轴_restored.png",
     "animation": "明皇斗鸡图轴_animation.mp4"
@@ -2742,7 +2067,7 @@ export const mockPaintings = [
       "人",
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "李士达三驼图轴，材质为纸本，颜色为墨笔，尺寸为纵78.5cm，形制为横30.3cm，图绘驼背老者三人相遇于途，相互拍手称笑。画家以驼背老者寓意大众屈曲的心理，其虽身形有异，但心中直道而行。人物衣纹线条流畅圆劲，面容清晰传神，老者笑态可掬。"
   },
   {
@@ -2792,80 +2117,8 @@ export const mockPaintings = [
       "人",
       "人"
     ],
-    "isPremium": true,
-    "description": "明人雪山渔父图轴，材质为绢本，颜色为设色，尺寸为纵147.8cm，形制为横76.6cm，此绘雪景寒江捕鱼情景，柳条枯枝横斜，陂岸边渔夫正辛勤劳作。画幅中部四艘蚱蜢小舟两两并行，以竹排相连，上架转轴机械，渔夫转动机轴徐徐收网。设色简淡，人物、细节清晰，生动再现了渔夫合作捕鱼场景。"
-  },
-  {
-    "id": "153",
-    "title": "磨镜图页",
-    "artist": "佚名",
-    "artistId": "artist_152",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "磨镜图页.png",
-    "tags": [
-      "人",
-      "人",
-      "荷叶",
-      "荷叶",
-      "荷叶",
-      "荷花",
-      "荷花",
-      "荷花",
-      "荷花",
-      "树",
-      "鸭"
-    ],
     "isPremium": false,
-    "description": "磨镜图页，材质为绢本，颜色为设色，尺寸为纵27.8cm，形制为横25cm，古人以铜为镜，长年使用后会氧化变黑或模糊不清，须用水银、锡粉调和成研磨粉，打磨镜面使之恢复光洁明亮，达到照人的效果。此图绘磨镜工匠的工作场景，笔墨、敷色与裱工、画幅尺寸，均与《锔缸图》页相似。"
-  },
-  {
-    "id": "154",
-    "title": "李士达岁朝村庆图轴",
-    "artist": "李士达",
-    "artistId": "artist_153",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "李士达岁朝村庆图轴.png",
-    "tags": [
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "树",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "人",
-      "树",
-      "人",
-      "人"
-    ],
-    "isPremium": true,
-    "description": "李士达岁朝村庆图轴，材质为纸本，颜色为设色，尺寸为纵133cm，形制为横65cm，岁朝（音招）即农历正月初一。此图将水村山郭布置满幅，人物分布错落有致，表现过年走亲访友、燃放爆竹等，满眼皆为岁朝村庆、生意盎然景象。人物造型浑圆，生动自然。",
-    "restoredImage": "李士达岁朝村庆图轴_restored.png",
-    "animation": "李士达岁朝村庆图轴_animation.mp4"
+    "description": "明人雪山渔父图轴，材质为绢本，颜色为设色，尺寸为纵147.8cm，形制为横76.6cm，此绘雪景寒江捕鱼情景，柳条枯枝横斜，陂岸边渔夫正辛勤劳作。画幅中部四艘蚱蜢小舟两两并行，以竹排相连，上架转轴机械，渔夫转动机轴徐徐收网。设色简淡，人物、细节清晰，生动再现了渔夫合作捕鱼场景。"
   },
   {
     "id": "155",
@@ -2899,7 +2152,7 @@ export const mockPaintings = [
       "桥",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "文伯仁溪桥策杖扇页，材质为金笺，颜色为设色，尺寸为纵16.5cm，形制为横50.4cm，"
   },
   {
@@ -2933,7 +2186,7 @@ export const mockPaintings = [
       "牛",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "崔子忠问道图扇页，材质为金笺，颜色为设色，尺寸为纵20.8cm，形制为横60.2cm，《问道图》扇页，明，崔子忠绘，金笺，设色，纵20.8厘米，横60.2厘米。 扇页有自题：“崔子忠。”钤“子忠”朱文印。 图绘一年轻男子正向老者作揖行礼，老者则举手指点作回答状的场景，因此，本幅又名《说法图》。崔子忠的人物画在师法顾恺之、陆探微、阎立本、吴道子等传统笔墨的基础上而有创新。他注重人物表情的刻画，在故宫博物院所藏其《洗象图》、《藏云图》及《渔家图》中，都能准确地画出不同身份的人物的特征。在此图中，他将年轻人问询时谦卑的表情和老者自信淡定的神态均表现得生动传神。衣纹用笔圆润细劲，线条颤掣，虬折多变，突出了衣服质料的柔软质感和随风飘的动势。树木的枝叶以双线勾边填色，用笔工细，富装饰性。"
   },
   {
@@ -3007,7 +2260,7 @@ export const mockPaintings = [
       "人",
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "张宏岁朝轴，材质为纸本，颜色为设色，尺寸为纵70.11cm，形制为横53.4cm，"
   },
   {
@@ -3077,7 +2330,7 @@ export const mockPaintings = [
       "人",
       "竽"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陈继儒梅花双禽卷，材质为绢本，颜色为设色，尺寸为纵32.5cm，形制为横256.5cm，",
     "restoredImage": "陈继儒梅花双禽卷_restored.png",
     "animation": "陈继儒梅花双禽卷_animation.mp4"
@@ -3109,7 +2362,7 @@ export const mockPaintings = [
       "岩石",
       "竹子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "朱端竹石轴，材质为绢本，颜色为墨笔，尺寸为纵167.4cm，形制为横100.5cm，"
   },
   {
@@ -3144,25 +2397,8 @@ export const mockPaintings = [
       "花",
       "雕像"
     ],
-    "isPremium": true,
-    "description": "陈洪绶戏婴轴，材质为绢本，颜色为设色，尺寸为纵150cm，形制为横67.3cm，"
-  },
-  {
-    "id": "171",
-    "title": "孙枝携琴访友图轴",
-    "artist": "孙枝",
-    "artistId": "artist_170",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "孙枝携琴访友图轴.png",
-    "tags": [
-      "桥",
-      "人",
-      "房屋",
-      "树"
-    ],
     "isPremium": false,
-    "description": "孙枝携琴访友图轴，材质为纸本，颜色为淡设色，尺寸为纵121.3cm，形制为横31.5cm，"
+    "description": "陈洪绶戏婴轴，材质为绢本，颜色为设色，尺寸为纵150cm，形制为横67.3cm，"
   },
   {
     "id": "172",
@@ -3176,7 +2412,7 @@ export const mockPaintings = [
       "岩石",
       "竹子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陈芹竹石轴，材质为纸本，颜色为墨笔，尺寸为纵131.6cm，形制为横52.9cm，",
     "restoredImage": "陈芹竹石轴_restored.png",
     "animation": "陈芹竹石轴_animation.mp4"
@@ -3209,25 +2445,8 @@ export const mockPaintings = [
       "剑",
       "葫芦"
     ],
-    "isPremium": true,
-    "description": "黄济励剑轴，材质为绢本，颜色为设色，尺寸为纵170.7cm，形制为横111cm，"
-  },
-  {
-    "id": "175",
-    "title": "项元汴桂子香园图轴",
-    "artist": "项元汴",
-    "artistId": "artist_174",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "项元汴桂子香园图轴.png",
-    "tags": [
-      "水果",
-      "岩石"
-    ],
     "isPremium": false,
-    "description": "项元汴桂子香园图轴，材质为纸本，颜色为墨笔，尺寸为纵104.5cm，形制为横34.8cm，",
-    "restoredImage": "项元汴桂子香园图轴_restored.png",
-    "animation": "项元汴桂子香园图轴_animation.mp4"
+    "description": "黄济励剑轴，材质为绢本，颜色为设色，尺寸为纵170.7cm，形制为横111cm，"
   },
   {
     "id": "176",
@@ -3243,7 +2462,7 @@ export const mockPaintings = [
       "树",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "姚绶秋江隐渔图轴，材质为纸本，颜色为设色，尺寸为纵162.2cm，形制为横59cm，"
   },
   {
@@ -3276,7 +2495,7 @@ export const mockPaintings = [
       "房屋",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "文嘉山水图卷，材质为纸本，颜色为设色，尺寸为纵21.3cm，形制为横387.8cm，《山水图》卷，明，文嘉作，纸本，设色，纵21.3厘米，横387.8厘米。 本幅自识：“隆慶四年歲在庚午，齋居多暇，漫爾適興。文水道人休承嘉識。”钤“文嘉印”、“文休承印”。 此图描绘水村渔舟、寺庙山居、岩穴幽渺。图中画法略有元代吴镇、黄公望遗意，而参以黄氏的浅绛法设色。图中山石、树木行笔松秀稳健，施墨设色富于深浅浓淡的变化，区分出物象的层次；水纹细密，用笔流畅而不板滞；山间弥漫的云气以墨和滕黄两次勾线，近线条处以淡墨晕染，表现出云层的厚度，颇富装饰趣味。画面徐徐展开，步移景易，引观者悠游于吴中的山林胜境之中，反映了当时吴中文人隐居、游乐的生活情趣。 此图是文嘉70岁时创作的，堪称是集其数十年创作经验与艺术追求之大成的代表作品。 清陈夔麟《宝迂斋书画录·卷一》著录。",
     "restoredImage": "文嘉山水图卷_restored.png",
     "animation": "文嘉山水图卷_animation.mp4"
@@ -3296,22 +2515,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "孙隆芙蓉鹅图轴，材质为绢本，颜色为设色，尺寸为纵159.3cm，形制为横84.1cm，《芙蓉鹅图》轴，明，孙隆作，绢本，设色，纵159.3厘米，横84.1厘米。 本幅无款识。钤“孫隆圖書”、“金川侍禦”、“開國忠湣侯孫”三印。 图绘池塘草畔，一只大鹅昂首前望，侧立于芙蓉、湖石下。芙蓉花叶用先点后勾法画成，墨、色相间。太湖石以没骨法渲染。鹅则兼用没骨与勾勒，以淡墨线勾勒轮廓、羽毛，淡墨渲染花色，朱棕赭石填染咀和掌，造型严整，笔致工细。整幅画不拘泥于细节的刻划，而是从整体出发，着力表现白鹅、芙蓉的生动神态。 在画法上，作者将写意与写形、没骨与勾勒、水墨与淡彩融为一体，和谐地统一于图画之中。这种画法的渊源，应为宋、元以来水墨写意花鸟技法的发展和变异，是孙隆的一种创造，开写意花鸟画之新风。此图为其存世佳作。"
-  },
-  {
-    "id": "180",
-    "title": "张灵招仙图卷",
-    "artist": "张灵",
-    "artistId": "artist_179",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "张灵招仙图卷.png",
-    "tags": [
-      "人",
-      "芦荻",
-      "芙蓉"
-    ],
-    "isPremium": true,
-    "description": "张灵招仙图卷，材质为纸本，颜色为墨笔，尺寸为纵29.8cm，形制为横111.5cm，《招仙图》卷，明，张灵绘，纸本，墨笔，纵29.8厘米，横111.5厘米。 墨款“张灵图”，下钤“张灵印”。 此图又名《朝仙图》，是幅以景寓情的杰作。皓月当空的桥头处，一清丽女子低眉笼袖悄然伫立。作者通过绘女子的饰带微微上扬，岸边的芦荻摇摆不定，巧妙地暗示出晚风席地而起的寒意。通过构图上大面积留白的处理烘托出画面寂寞凄凉的氛围。女子在此萧索的情景中不禁惆怅慨叹之情陡起，而这种凄婉的心境亦是作者自身不得志的写照。 图中女子的画法承袭了宋元以来的“白描”技法。作者以墨笔勾描人物面部及衣纹服饰。线条遒劲圆转，富有表现力度并有轻重缓急等诸多变化，显示出作者以线造型的精湛造诣。此外，作者还根据所绘物象的不同巧妙地运用了墨染法，人物的头部以浓墨晕染，芦荻、芙蓉叶等为深墨晕染，衣装饰带用淡墨晕染，深浅程度不同的墨韵无疑起到了扩大画面的层次和空间感的作用。此图不仅是张灵的代表作，亦是明代白描人物画的精品之作。 明代张丑《清河书画舫》在著录此图时言：“张梦晋《朝仙图》卷后有唐子畏题咏。”但目前此图并无唐寅的咏题，显然后世好事者在张丑目睹之后将唐寅的题咏割去而移作它用了，从而令原是书画合璧之作减色，使张灵与唐寅间的笔墨交往失去了重要的佐证。在唐寅的《六如居士补遗》中查到他为此图所作的题咏，名为《招仙曲》：“郁金步摇银约指，明月垂珰交龙绮。秋河拂树蒹葭霜，哪能夜夜掩空床。烟中滉滉暮江摇，月底纤纤露水飘。今夕何夕良宴会，此地何地承芳佩。”显然，唐寅的诗情与张灵的画意是完全吻合的。 明张丑《清河书画舫》，清卞永誉《式古堂书画汇考》著录。"
   },
   {
     "id": "181",
@@ -3340,26 +2543,8 @@ export const mockPaintings = [
     "tags": [
       "竹子"
     ],
-    "isPremium": true,
-    "description": "孙启梅花轴，材质为绢本，颜色为墨笔，尺寸为纵156.8cm，形制为横61.6cm，"
-  },
-  {
-    "id": "183",
-    "title": "沈周桐荫玩鹤图轴",
-    "artist": "沈周",
-    "artistId": "artist_182",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "沈周桐荫玩鹤图轴.png",
-    "tags": [
-      "人",
-      "山",
-      "房屋",
-      "房屋",
-      "桥"
-    ],
     "isPremium": false,
-    "description": "沈周桐荫玩鹤图轴，材质为绢本，颜色为设色，尺寸为纵123.8cm，形制为横62.6cm，"
+    "description": "孙启梅花轴，材质为绢本，颜色为墨笔，尺寸为纵156.8cm，形制为横61.6cm，"
   },
   {
     "id": "184",
@@ -3375,29 +2560,10 @@ export const mockPaintings = [
       "盆栽",
       "花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "倪端聘庞图轴，材质为绢本，颜色为设色，尺寸为纵163.8cm，形制为横92.4cm，《聘庞图》轴，明，倪端绘，绢本，设色，纵163.8厘米，横92.4厘米。 画作取材于三国时期荆州刺史刘表聘请隐士庞德公的故事。庞德公是名士庞统的叔父，与徐庶、诸葛亮等贤达交谊笃厚。人物描摹精细，设色妍丽，山水气势雄伟浑厚，林木郁茂清朗。 款署 “楚江倪端”。钤 “金行画史”朱文印、“仲正书画”朱文印、“一师造化”朱文印。另有“乾隆御览之宝”等鉴藏印。",
     "restoredImage": "倪端聘庞图轴_restored.png",
     "animation": "倪端聘庞图轴_animation.mp4"
-  },
-  {
-    "id": "185",
-    "title": "明人夏景货郎图轴",
-    "artist": "佚名",
-    "artistId": "artist_184",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "明人夏景货郎图轴.png",
-    "tags": [
-      "兔",
-      "竹子",
-      "岩石",
-      "岩石",
-      "山",
-      "山"
-    ],
-    "isPremium": false,
-    "description": "明人夏景货郎图轴，材质为绢本，颜色为设色，尺寸为纵186.4cm，形制为横104.2cm，"
   },
   {
     "id": "186",
@@ -3414,7 +2580,7 @@ export const mockPaintings = [
       "房屋",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "李在山村图轴，材质为绢本，颜色为墨笔，尺寸为纵135cm，形制为横76.2cm，《山村图》轴，明，李在绘，绢本，墨笔，纵135厘米，横76厘米。 图绘山间村落，巨峰如障，溪流坡岸，人物舟船，房屋俨然。作品取全景式山水，构图饱满，气势宏阔，皴笔细密扎实，墨韵浑厚。山石的卷云皴法和树木的“蟹爪枝”画法来自北宋郭熙，而用笔较为粗放率意，兼具南宋马远、夏圭之意，这种融南北宋于一体的画法是李在的本色面貌。画面以雄壮的山川衬托村居生活之平和气息，颇具怡然闲适之意趣。 本幅款署“李在”，钤“金门画史之印”朱文印。"
   },
   {
@@ -3437,30 +2603,6 @@ export const mockPaintings = [
     "description": "李在阔渚遥峰轴，材质为绢本，颜色为墨笔，尺寸为纵165.2cm，形制为横90.4cm，《阔渚遥峰图》轴，明，李在绘，绢本，墨笔，纵165.2厘米，横90.4厘米。 本幅无款署。 此作曾经被误定为北宋郭熙所绘，后在画面上发现李在的印记，于是正名。 作品取全景式山水，气势宏阔，皴笔细密扎实，墨韵浑厚，画树木呈“蟹爪枝”状，从意境和笔法来看，确实与郭熙极为相似，是典型的北派山水面貌。",
     "restoredImage": "李在阔渚遥峰轴_restored.png",
     "animation": "李在阔渚遥峰轴_animation.mp4"
-  },
-  {
-    "id": "188",
-    "title": "陈洪绶、严湛合画仕女轴",
-    "artist": "严湛、陈洪绶",
-    "artistId": "artist_187",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "陈洪绶、严湛合画仕女轴.png",
-    "tags": [
-      "人",
-      "人",
-      "树",
-      "山",
-      "房屋",
-      "树",
-      "岩石",
-      "岩石",
-      "岩石",
-      "树",
-      "树"
-    ],
-    "isPremium": true,
-    "description": "陈洪绶、严湛合画仕女轴，材质为绢本，颜色为设色，尺寸为纵173.5cm，形制为横95.3cm，"
   },
   {
     "id": "189",
@@ -3496,7 +2638,7 @@ export const mockPaintings = [
       "花",
       "燕"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陈栝写生游戏图卷，材质为纸本，颜色为设色，尺寸为纵29.8cm，形制为横252cm，《写生游戏图》卷，明，陈栝作，纸本，设色，纵29.8厘米，横252厘米。 此图是陈氏写生画，图中从右至左绘牡丹、兰花、玉兰、桃花、荷花、水仙等9种花卉，花间穿插飞燕、蝴蝶、鱼虾、鸳鸯等。花卉没骨、双钩兼用，鸟用意笔写之，生动活泼，颇富野趣。画风学陈淳而琐碎过之。卷末左下自题“陳栝戲筆”。下钤“古吳陳栝”、“沱江子”二印。引首有清高宗弘历（乾隆皇帝）御题“造物爲師”四字。曾经清内府收藏。 鉴藏印有“乾隆御覽之寶”、“石渠寶笈”、“嘉慶御覽之寶”、“宣統御覽”、“筆研精良人生一樂”等。 清内府《石渠宝笈·初编》著录。",
     "restoredImage": "陈栝写生游戏图卷_restored.png",
     "animation": "陈栝写生游戏图卷_animation.mp4"
@@ -3529,7 +2671,7 @@ export const mockPaintings = [
       "人",
       "岩石"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "周用诗画合璧册，材质为纸本，颜色为设色，尺寸为纵34.2cm，形制为横57.8cm，"
   },
   {
@@ -3550,24 +2692,6 @@ export const mockPaintings = [
     "description": "吕纪鹰鹊图轴，材质为纸本，颜色为设色，尺寸为纵120.7cm，形制为横61.5cm，《鹰鹊图》轴，明，吕纪绘，纸本，设色，纵120.7cm，横61.5cm。 款署：“吕纪”。钤“四明吕廷振印”。 图绘一只苍鹰独立岩顶，两只飞舞的蜜蜂吸引了它的目光，一旁的喜鹊趁机振翅欲逃。作者用笔粗阔，富有简率纵逸的笔墨意趣。吕纪的花鸟画不仅追求形似，更善于表现禽鸟之间的关系，捕捉住禽鸟瞬间的神态和动势，营造出千钧一发的紧迫感和爆发力，突破了传统花鸟画唯美的装饰意味，从而获得了新的艺术生命力。",
     "restoredImage": "吕纪鹰鹊图轴_restored.png",
     "animation": "吕纪鹰鹊图轴_animation.mp4"
-  },
-  {
-    "id": "194",
-    "title": "杜琼友松图卷",
-    "artist": "杜琼",
-    "artistId": "artist_193",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "杜琼友松图卷.png",
-    "tags": [
-      "盆栽",
-      "房屋",
-      "人",
-      "树",
-      "假山"
-    ],
-    "isPremium": true,
-    "description": "杜琼友松图卷，材质为纸本，颜色为设色，尺寸为纵28.8cm，形制为横92.5cm，《友松图》卷，明，杜琼作，纸本，设色，纵28.8cm，横92.5cm。 此图无款，钤“東原齋”、“杜用嘉”、“一丘一壑”三印。后有文伯仁跋，说明为杜琼之作。据张丑《清河书画舫》著录：“东原先生为其姊丈魏友松写号图，当时有题诗，不知何时脱落，尚赖刘完庵长句具存，足称艺林双璧。”又据杜琼文集中有关魏友松的诗文可知，杜琼姊丈魏本成，号友松，魏氏一家都是仕宦文人。此图的创作背景是魏友松到杜琼的“东原斋”做客，两人兴致极高，交谈十分投机。事后，杜琼便乘兴作画题诗纪之，并送与魏友松。 《友松图》以魏本成的别号为题作画，开吴门画派同类题材之先河，这类“别号图”主要流行于早期的吴门画家之中，而止于吴门画派衰落之时，在此前后则较为罕见。《友松图》是一幅典型的庭院小景画，描绘了庭院内的景物和人物的活动。卷首坡石上古松挺立，房屋隐露，树木丛围。正房内二人促膝而谈，身着红色官服、头戴官帽者为魏友松；身着蓝色布衣、手持书卷者是杜琼本人。此外还有两名书童侍茶。画卷中段为园内比较开阔之处，设有盆景、棋案，绘有两组文人活动，一为伏案作画，一为赏景漫游。卷尾面假山数峰，错落有秩，结构密而不塞。假山上建有小亭，当是杜琼文集中所言的延绿亭。图中，杜琼有意突出魏友松的形象，以体现主题。值得注意的是，《友松图》的创作目的不同于一般的文人画，它在寄乐于画的同时，又是为纪念友人相访而创作的，具有很强的针对性和纪念性，其中的人物及景物都有所指，同时还配有诗文说明或友人的题跋。这种创作方式在后世吴门画派的作品中普遍流行，如沈周的《京江送别图》卷、文徵明的《惠山茶会图》卷等。在画法上，此图继承了元代黄公望、王蒙的传统，青绿淡着色，笔法于严谨缜密中见苍健劲逸，设色秀润雅致，从中可见画家温文尔雅的风范。 清张丑《清河书画舫》收录。"
   },
   {
     "id": "195",
@@ -3596,7 +2720,7 @@ export const mockPaintings = [
     "tags": [
       "梅花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "沈周杏花图轴，材质为纸本，颜色为设色，尺寸为纵80cm，形制为横33.5cm，",
     "restoredImage": "沈周杏花图轴_restored.png",
     "animation": "沈周杏花图轴_animation.mp4"
@@ -3630,7 +2754,7 @@ export const mockPaintings = [
       "水壶",
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "文徵明溪桥策杖图轴，材质为纸本，颜色为墨笔，尺寸为纵95.8cm，形制为横48.7cm，《溪桥策杖图》轴，明，文徵明绘，纸本，墨笔，纵95.8cm，横48.7cm。 本幅行书自题七绝诗一首：“短策轻衫烂漫游，暮春时节水西头。日长深树青帏合，雨过遥山碧玉浮。”后钤“文徵明印”、“玉磬山房”印。右下角有“玉兰堂印”鉴藏印，画心有“世美堂印”、“马寒中印”等鉴藏印。裱边及外签有当代书画家狄葆贤（平子）题诗并记，钤藏印“平等阁主人”等。题记详述了此作原为其父于清同治末年购得、而他本人则在甲子年（1924年）夏六月重新装裱的递藏过程。 画中描绘古木森郁，山谷幽静，溪上水波不兴，一人伫立桥头，策杖观流。作品明显地带有取法“元四大家”中倪瓒、吴镇的痕迹，作者很好地将倪瓒细笔疏皴的山石和吴镇粗笔浓墨的树木结合在一起，用笔沉稳雄健，韵致醇厚，加上近景的细致刻画和远景的虚化表现，突出了文人优游山林、怡然自得的精神状态。"
   },
   {
@@ -3662,7 +2786,7 @@ export const mockPaintings = [
     "tags": [
       "蔷薇"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "陆治蔷薇扇面，材质为金笺，颜色为设色，尺寸为纵15.9cm，形制为横49cm，"
   },
   {
@@ -3690,7 +2814,7 @@ export const mockPaintings = [
     "tags": [
       "兰花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "文徵明兰花图扇页，材质为金笺，颜色为墨笔，尺寸为纵16.8cm，形制为横50.9cm，《兰花图》扇页，明，文徵明绘，金笺，墨笔，纵16.8cm，横50.9cm。 扇页有自题：“离离水苍珮，居然在空谷。虽多荆棘枝，春风自芬馥。徵明。”钤“徵明”白文印。 此图绘兰花与荆棘相伴而生的田野风光。文氏以挥洒豪放的笔墨，表现兰叶摇曳之美；以迟缓的中锋运笔，表现荆棘的坚韧而多刺。在一件作品中将不同的物象施以迥异的笔法，由此可见文氏所具的高超绘画技法。",
     "restoredImage": "文徵明兰花图扇页_restored.png",
     "animation": "文徵明兰花图扇页_animation.mp4"
@@ -3722,7 +2846,7 @@ export const mockPaintings = [
       "人",
       "驴"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "沈周荔柿图轴，材质为纸本，颜色为墨笔，尺寸为纵128cm，形制为横38.4cm，"
   },
   {
@@ -3755,7 +2879,7 @@ export const mockPaintings = [
       "人",
       "松树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "唐寅幽人燕坐图轴，材质为纸本，颜色为墨笔，尺寸为纵120cm，形制为横25.9cm，《幽人燕坐图》轴，明，唐寅绘，纸本，墨笔，纵120.3cm，横25.8cm。 作者自题并识：“幽人燕坐处，高阁挂斜曛。何物供吟眺？青山与白云。吴门唐寅画”。后钤“唐白虎”、“唐寅私印”印。 图中云峰缥缈，涧壑丛竹，水阁中一人静坐，旁设书籍、茶具，似有所待。溪流边一人拄杖独立，远眺山色。画法上多用干笔细皴描绘树石人物，笔致坚劲，刻画精微，风格缜密秀润，反映出唐寅善于以早年师从周臣学习宋“院体”山水技法，来表现和传达文人画清雅幽澹的功力。 本幅右上有清代书法家王澍于雍正丁未年（雍正五年，1727年）十二月的题识，叙述了自己收藏此图并馈赠给惠山听松庵僧的经过。裱边及包首外签有当代书画家和鉴定家吴湖帆在庚寅年（1950年）为仲麟题签并记，文中除了记载王澍所云之事外，对惠山听松庵收藏的其他古代名画如王绂《竹炉图》的流传作了介绍，并对时事离乱之际文物的劫难发出了感喟。"
   },
   {
@@ -3787,7 +2911,7 @@ export const mockPaintings = [
       "花",
       "荔枝"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "王铎花卉卷，材质为纸本，颜色为墨笔，尺寸为纵23.7cm，形制为横174.7cm，",
     "restoredImage": "王铎花卉卷_restored.png",
     "animation": "王铎花卉卷_animation.mp4"
@@ -3819,7 +2943,7 @@ export const mockPaintings = [
       "人",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "张路山雨欲来图轴，材质为绢本，颜色为设色，尺寸为纵147cm，形制为横105cm，《山雨欲来图》轴，明，张路作，绢本，设色，纵147cm，横105cm。 “山雨欲来”的画题是后人根据画面内容添加的，用于此图可谓恰如其分。图中绘高山深壑，泉石溪流，云雾迷蒙，树枝摇曳，一幅大雨将至、风云突变的情景。全幅以大笔泼洒，水分浓郁，用笔粗放不羁，水墨酣畅淋漓。山峰以大笔横点融成，外围轮廓呈现不规则的犬牙般曲线，大胆的用笔恰当地描绘了特定环境中风雨交加的自然景色。又以淡墨轻画远山，隐隐约约，给人以山外有山的感觉。山脚下，画家不着一笔，留出大片空白，缭绕的云雾拉开空间距离。作者采用毛笔乱点的手法画树叶，将风雨中飘摇的枝叶表现得生动而富有神韵。全图除人物外，几乎省略了线条，以大块墨色的渲染见长。"
   },
   {
@@ -3854,7 +2978,7 @@ export const mockPaintings = [
       "房屋",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "金湜双钩竹轴，材质为绢本，颜色为设色，尺寸为纵150.5cm，形制为横83.2cm，"
   },
   {
@@ -3871,24 +2995,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "文徵明深翠轩图卷，材质为纸本，颜色为设色，尺寸为纵23.8cm，形制为横78.3cm，"
-  },
-  {
-    "id": "214",
-    "title": "董其昌岚容川色图轴",
-    "artist": "董其昌",
-    "artistId": "artist_213",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "董其昌岚容川色图轴.png",
-    "tags": [
-      "山",
-      "树",
-      "岩石"
-    ],
-    "isPremium": true,
-    "description": "董其昌岚容川色图轴，材质为纸本，颜色为墨笔，尺寸为纵138.8cm，形制为横53.3cm，《岚容川色图》轴，明，董其昌作，纸本，墨笔，纵138.8cm，横53.3cm。 此图是董其昌74岁（1628年）时创作的，以笔墨表现为主旨，意在聊写胸中丘壑。作者在静观自然景象的基础上，以娴熟的笔墨技法阐释自己对自然山川的本质感悟，它超越了山水云树的具体形貌，以形写神，故图中每一景、每一境虽都不是自然景观的真实描绘，但读者却可从其谨严的笔墨塑造中领略到真山实水的存在。以近景的树木为例，形态各异的树木，互有遮掩地生长在凹凸不平的坡地上。树干以短线条双勾，高低不同且有曲直变化，干体以淡墨或皴或晕，增强了其明暗效果及立体感；树叶表现得更为丰富，有的以侧锋卧笔大点横贯，有的浓淡墨相互交叠，有的直接落笔画线成叶，有的则以线勾双边成夹叶状，各具神采。但将它们参照客观存在的植物，却难以分辨出其树种，显然它们是董其昌“读万卷书，行万里路，胸中脱去尘浊，自然丘壑内营，成立鄞鄂（注：指城廓），随手写出，皆为山水传神矣”的美学观的最好图释。",
-    "restoredImage": "董其昌岚容川色图轴_restored.png",
-    "animation": "董其昌岚容川色图轴_animation.mp4"
   },
   {
     "id": "215",
@@ -3917,7 +3023,7 @@ export const mockPaintings = [
       "白菜",
       "花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "杜堇画古贤诗意卷，材质为纸本，颜色为墨笔，尺寸为纵108.2cm，形制为横28cm，"
   },
   {
@@ -3954,7 +3060,7 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "沈周新郭图页，材质为纸本，颜色为墨笔，尺寸为纵31cm，形制为横23cm，"
   },
   {
@@ -3987,7 +3093,7 @@ export const mockPaintings = [
       "岩石",
       "竹子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "唐寅沛台实景图页，材质为绢本，颜色为水墨，尺寸为纵26.2cm，形制为横23.9cm，《沛台实景图》页，明，唐寅作，绢本，水墨，纵26.2cm，横23.9cm。 本幅作者自题并书七言律诗一首：“正德丙寅，奉陪大塚宰太原老先生登歌風台，謹和感古佳韻並圖其實景，呈茂化學士請教。唐寅。‘此地曾經王輦巡，比鄰爭睹帝王身。世隨邑改井猶存，碑勒風歌字失真。仗劍當時冀亡命，入關不意竟降秦。千年泗上荒台在，落日牛羊感路人。’”钤“唐居士”。另有安岐、吴璵等人收藏印记。 唐寅在题诗中讲述了绘制此图的原由。明正德元年丙寅（1506年），唐寅36岁时，陪同大学士王鏊游览沛台后绘此图，并赠茂化学士。沛台，又名歌风台，位于今江苏省沛县境内，相传，汉高祖刘邦曾于此饮酒放歌，后人于是筑此台以纪之。 唐寅此图纯用水墨，完全是纪实写生之作。庭院屋舍结构清晰，颇具透视感。各种树木相间杂，多用空勾夹叶，繁而不乱。近景坡石用细笔长皴，微作晕染，工劲中兼有细秀圆润，是唐寅较富特色的山石画法。远景一角山林，雾气沉沉，墨色湿润，与近景相比较，虽有近大远小的区别，但在空间位置上却有很大的随意性，反映了中国古代画家对空间处理的独特理解。整幅作品融宋代院体技巧与元人笔墨韵味为一体，呈现出劲峭而又不失秀雅的品貌。 《墨缘汇观》著录。",
     "restoredImage": "唐寅沛台实景图页_restored.png",
     "animation": "唐寅沛台实景图页_animation.mp4"
@@ -4020,31 +3126,8 @@ export const mockPaintings = [
       "桥",
       "树"
     ],
-    "isPremium": true,
-    "description": "陈洪绶梅石轴，材质为纸本，颜色为墨笔，尺寸为纵115.2cm，形制为横56cm，《梅石图》轴，明，陈洪绶作，纸本，墨笔，纵115.2厘米，横56厘米。 本幅署款“老蓮洪綬畫于柳莊”。钤“蓮白衣”。 是图以古拙奇特的造型绘拳石耸立，旁伴一株被截去诸多枝干的老梅树，树上几朵梅花绽蕾展瓣。构图简约洗练，并注重物象间的相互衬托与对比。画石用线勾出圆润的外形，再以淡墨渲染。画梅则用浓、枯墨笔勾勒，线条古拙方硬，具金石韵味，体现了老梅饱经沧桑的古木气息。 清内府《石渠宝笈》著录。"
-  },
-  {
-    "id": "223",
-    "title": "陈洪绶杂画图册",
-    "artist": "陈洪绶",
-    "artistId": "artist_222",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "陈洪绶杂画图册.png",
-    "tags": [
-      "人",
-      "人",
-      "岩石",
-      "岩石",
-      "树",
-      "树",
-      "桥",
-      "岩石"
-    ],
     "isPremium": false,
-    "description": "陈洪绶杂画图册，材质为绢本，颜色为设色，尺寸为纵30.2cm，形制为横25.1cm，《杂画图》册，明，陈洪绶作，绢本，设色，每开纵30.2cm，各横25.1cm。 本册共八开，每开均有作者题跋及款印。所画题材有山水、人物、花鸟，全以工笔写之。山岩之结构，花蝶之动态，人物形象之奇特，均已加入了画家个人之造型意念，精彩绝伦。其中一册，以变形夸张的手法表现古拙奇崛的特征，描写佛教传说中的罗汉拄杖坐于大石上，对面跪拜一人，衣饰长摆，异国情调，突出了装饰性趣味，图页上自题名为“無法可說”，颇具禅机。另一册《玉兰柱石图》，图右侧一太湖石竖立，玲珑剔透，紧靠石下伸出一支玉兰花，石另一侧后面也露出一支海棠花，花上一只彩蝶。画家把握住不同的物象特征进行描绘，湖石的稳重坚硬，衬托出花朵的轻盈柔美，浓重的色调托出了玉兰的洁白。画面层次清晰，设色明丽温和，在线条的表现形式上，均用细劲的墨线勾勒，刚柔相济，巧拙互用，于对比中求统一。 从署款和绘画风格看，此图是陈洪绶中前期作品，为其代表作之一。",
-    "restoredImage": "陈洪绶杂画图册_restored.png",
-    "animation": "陈洪绶杂画图册_animation.mp4"
+    "description": "陈洪绶梅石轴，材质为纸本，颜色为墨笔，尺寸为纵115.2cm，形制为横56cm，《梅石图》轴，明，陈洪绶作，纸本，墨笔，纵115.2厘米，横56厘米。 本幅署款“老蓮洪綬畫于柳莊”。钤“蓮白衣”。 是图以古拙奇特的造型绘拳石耸立，旁伴一株被截去诸多枝干的老梅树，树上几朵梅花绽蕾展瓣。构图简约洗练，并注重物象间的相互衬托与对比。画石用线勾出圆润的外形，再以淡墨渲染。画梅则用浓、枯墨笔勾勒，线条古拙方硬，具金石韵味，体现了老梅饱经沧桑的古木气息。 清内府《石渠宝笈》著录。"
   },
   {
     "id": "224",
@@ -4059,7 +3142,7 @@ export const mockPaintings = [
       "蝴蝶",
       "葵"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "唐寅墨梅图轴，材质为纸本，颜色为墨笔，尺寸为纵96cm，形制为横36cm，《墨梅图》轴，明，唐寅绘，纸本，墨笔，纵96cm，横36cm。 此幅以枯笔焦墨画梅花枝干，皴擦纹理，表现梅枝苍劲虬曲的姿态；以浓淡相间的水墨点画花朵，以谨细之笔画出花蕊，笔法刚健清逸，表现出梅花清丽脱俗的风貌。画面中间的梅花风姿绰约，右上的题诗洒脱清秀，左下的印章工稳典雅，三者浑然一体，相得益彰。 本幅自题：“黄金布地梵王家，白玉成林腊后花。对酒不妨还弄墨，一枝清影写横斜。□堂看梅和王少傅韵。吴趋唐寅。”钤“唐居士”朱文、“唐寅私印”白文、“南京解元”朱文、“六如居士”朱文、“吴趋”朱文印。"
   },
   {
@@ -4094,7 +3177,7 @@ export const mockPaintings = [
       "莲蓬",
       "荷叶"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "吕纪残荷鹰鹭图轴，材质为绢本，颜色为水墨，尺寸为纵190cm，形制为横105.2cm，《残荷鹰鹭图》轴，明，吕纪绘，绢本，水墨，纵190cm，横105.2cm。 款署：“吕纪”。钤“四明吕廷振印”。 画面描绘了秋日荷塘中惊心动魄的一幕，苍鹰俯冲搏击白鹭，白鹭冲进苇丛深处，希图逃脱。众鸟或纷纷躲避，或受惊鸣叫。劲风吹动芦苇残荷，更添肃杀之气。作者把握住禽鸟的自然特征，赋予了戏剧化的情节表现，使画面具有扣人心弦的感染力。画家用写意的笔法画出枯败的荷叶，效果逼真，体现出高超的水墨控制能力。",
     "restoredImage": "吕纪残荷鹰鹭图轴_restored.png",
     "animation": "吕纪残荷鹰鹭图轴_animation.mp4"
@@ -4134,25 +3217,8 @@ export const mockPaintings = [
       "竹子",
       "人"
     ],
-    "isPremium": true,
-    "description": "戴进三顾茅庐图轴，材质为绢本，颜色为设色，尺寸为纵172.2cm，形制为横107cm，《三顾茅庐图》轴，明，戴进绘，绢本，设色，纵172.2cm，横107cm。 款署：“静庵”。钤“静庵”。 画面描绘的是家喻户晓的刘备“三顾茅庐”拜访诸葛亮的故事。人物的描绘生动而细致，例如刘备恭敬的神态、张飞的深色面庞及武夫样的站姿都描绘得十分传神。人物的动态掌握得非常准确。画山石用大斧劈皴法，松枝颀长，明显继承了南宋马远的画风，用笔简劲。整体画面墨色清雅。 在明代宫廷画中以“招贤纳士”为题材的历史故事画为数不少，反映了当政皇帝求贤的迫切心情。"
-  },
-  {
-    "id": "229",
-    "title": "董其昌赠稼轩山水图轴",
-    "artist": "董其昌",
-    "artistId": "artist_228",
-    "dynasty": "明朝",
-    "dynastyFolder": "ming",
-    "imageUrl": "董其昌赠稼轩山水图轴.png",
-    "tags": [
-      "房屋",
-      "树"
-    ],
     "isPremium": false,
-    "description": "董其昌赠稼轩山水图轴，材质为纸本，颜色为墨笔，尺寸为纵101.3cm，形制为横46.3cm，《赠稼轩山水图》轴，明，董其昌绘，纸本，墨笔，纵101.3cm，横46.3cm。 本幅自题：“芙蓉一朵插天表，势压天下群山雄。玄宰。丙寅中秋写。己巳秋寄稼轩世丈。”钤“昌”、“宗伯学士”、“董氏玄宰”印。 鉴藏印钤“涿鹿李氏珍藏”、“江左人文”、“子孙宝之”、“第一希有”、“朱之赤鉴藏”等。 “丙寅”为明天启六年（1626年），董其昌时年72岁。 此画构图取势平远，树石简繁相参，敛放有致，与同年作者所作《佘山游境图》轴相比，在笔势运转上更显刚健挺拔。渲染则多湿笔浓墨，墨气纵横，得草树、坡石蓊郁润泽之态。 据题跋可知此图为作者于丙寅年所作，三年后，即“己巳”（明崇祯二年，1629年）寄赠瞿稼轩。“稼轩”是瞿式耜的号。此图从一个侧面反映了明末文人之间以诗文书画相契赏的风尚。",
-    "restoredImage": "董其昌赠稼轩山水图轴_restored.png",
-    "animation": "董其昌赠稼轩山水图轴_animation.mp4"
+    "description": "戴进三顾茅庐图轴，材质为绢本，颜色为设色，尺寸为纵172.2cm，形制为横107cm，《三顾茅庐图》轴，明，戴进绘，绢本，设色，纵172.2cm，横107cm。 款署：“静庵”。钤“静庵”。 画面描绘的是家喻户晓的刘备“三顾茅庐”拜访诸葛亮的故事。人物的描绘生动而细致，例如刘备恭敬的神态、张飞的深色面庞及武夫样的站姿都描绘得十分传神。人物的动态掌握得非常准确。画山石用大斧劈皴法，松枝颀长，明显继承了南宋马远的画风，用笔简劲。整体画面墨色清雅。 在明代宫廷画中以“招贤纳士”为题材的历史故事画为数不少，反映了当政皇帝求贤的迫切心情。"
   },
   {
     "id": "230",
@@ -4165,7 +3231,7 @@ export const mockPaintings = [
     "tags": [
       "桥"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "仇英玉洞仙源图轴，材质为绢本，颜色为设色，尺寸为纵169cm，形制为横65.5cm，《玉洞仙源图》轴，明，仇英作，绢本，设色，纵169cm，横65.5cm。 画面奇峰峻岭，苍松翠柏，琼楼水阁，溶洞流溪，云烟缥缈其间，山壑或隐或现。溪水潺湲的溶洞前，一隐士临流盘膝，停琴静坐，侍童们忙着煮茶、端盘、陈设古玩，俨然人间仙境。这类隐逸题材作品十分多见，而仇英在幽美宁静的意境中表现了一种明快的情调，健康的意趣，在同类作品中颇具特色。 作品取景宏阔，结构严整，层次清晰，布局有序，景物繁杂而不拥塞，人物虽小但刻画精细，位置突出，反映出画家在驾驭复杂场景、安排主从次序方面精深的造诣。此图用大青绿设色，细劲的线条勾勒轮廓，浓艳的石青石绿渲染山石，同时融以细密的皴法，追求色调的和谐，在宗法南宋青绿山水大家赵伯驹的基础上有所变化，代表了仇英青绿山水的典型画风。 此图左下署款“仇英实父制”，钤“仇实父氏”印，有“卞令之鉴定”等鉴藏印14方。"
   },
   {
@@ -4214,7 +3280,7 @@ export const mockPaintings = [
       "房屋",
       "松树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "王绂墨竹图轴，材质为纸本，颜色为墨笔，尺寸为纵113.8cm，形制为横51.3cm，《墨竹图》轴，明，王绂作，纸本，墨笔，纵113.8cm，横51.3cm。 是图以墨笔画竹三株，竿梢挺然，枝叶飘摇，有潇洒出尘之致；枝干润泽，叶尖微垂，具含雨带露之态。王绂以画山水竹石闻名于世，其画竹尤为明代“开山手”。此幅画法上承元人而自出新意，出竿、伸枝、布叶，均笔笔有法而又不拘于法。以圆劲之笔画竿，以秀挺之笔画枝，竹叶运用笔触之宽窄直曲，发挥书法特长，随手自然撇出，以体现叶之正侧向背，顾盼俯仰。以墨之干湿浓淡，笔触之大小疏密，表现竹丛之空间感和立体感。运笔熟练简洁，造形生动逼真，别具一种清爽之神韵。 相传王绂画竹曾有一段故事，他在北京时，夜闻箫声优美，于是乘兴画竹一幅，次日访吹箫者欲当面相赠。其人乃大商贾，见此当然高兴，立即送王绂以厚礼，请他再画一幅。王绂笑曰：“我为箫声访，汝以箫材报，汝俗子也。”遂把前画撕毁，礼物退还。这种傲岸孤高的品性，在王绂笔下的墨竹中时时自然流露，成为其人格的写照。 本幅自题：“□□辛巳九日王紱寫寄塵外禪翁清供。”下钤：“孟端”。裱边有吴湖帆题：“辛巳爲建文三年，九龍山人時年四十歲。辛字上有剜補痕，蓋永樂靖難後忌諱而然。”依此，辛字上面所缺者应为“建文”两字，永乐改制后，收藏者忌讳，怕惹不测之祸，故挖去。政治风波每每累及艺术品，此其一例。所幸剜挖不多，于画尚无大损伤。洪武时王绂因事受牵连，谪戍山西大同，建文元年被释还京（南京），此图正是被释后二年所作，而孤高潇洒之气流露于竹间，可知他并不因遭受贬谪而稍意冷。《无声诗史》载：王绂尝“游太行，出雁门，往来晋代之间，周览形胜，辄感慨吊古，徘徊不能去。一时闻，人慕其名，争延致之，及观其气貌瑰岸，议论踔厉，益加器重。”是知王绂虽遭贬谪而更富经历，气格文采愈高，此图正是画家当时襟怀的写照。 王绂此图，实乃借画竹抒发心怀，表示其对超豁出俗、不与庸俗污浊之徒相苟合的人格的赞美，故题赠友人“清供”。清代王应祥于本幅左上角题诗云：“遠懷天上玉堂仙，身綴鵷行又幾年。回首故國歸未得，夢魂應繞竹溪邊。”则是着意于王绂曾多年归隐九龙山，以为王绂作此图是借写竹而表达其怀念故乡之情。 又诗堂有明代邵宝诗题：“萧萧数叶不胜看，到此方知画竹难。谁信中书曾放笔，片时行尽楚江千。”对王绂写竹的造诣备加推崇。诗中所谓“中书”，即指曾官“中书舍人”的王绂，不过王绂官至中书舍人时，已是永乐十年（1412年），是作此图十余年以后的事了。",
     "restoredImage": "王绂墨竹图轴_restored.png",
     "animation": "王绂墨竹图轴_animation.mp4"
@@ -4257,7 +3323,7 @@ export const mockPaintings = [
       "岩石",
       "岩石"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "吕纪桂菊山禽图轴，材质为绢本，颜色为设色，尺寸为纵192cm，形制为横107cm，《桂菊山禽图》轴，明，吕纪作，绢本，设色，纵192cm，横107cm。 此图为工笔重彩花鸟与写意树石相结合的作品。所绘主体花鸟：绶带鸟、八哥、桂花、秋菊，均属于祥瑞、珍贵之物，寓有富贵长寿和君子节操含意，内容明显地反映了皇家的艺术和审美旨趣。 画面的物象既真实地展现了生物的自然本性，也形象地表达了内涵的寓意。桂树干粗叶茂，枝头繁花如锦，黄色金桂似散出阵阵幽香；石畔数丛菊花，红、黄、粉、白，色彩斑斓，竞相斗艳；枝头八哥相对鸣叫，突出了其善鸣秉性；绶带鸟身姿优美，深蓝色羽毛分外夺目。花鸟绚丽的色泽和生动的情致，营造出喜庆、欢悦的气氛和吉祥、华美的意趣。 此图画法工整鲜丽，继承了“黄家富贵”的宫廷“院体”花鸟传统。同时，工笔重彩的花鸟与粗笔水墨的树石相间，也反映了吕纪兼工带写的成熟花鸟画风格。"
   },
   {
@@ -4289,7 +3355,7 @@ export const mockPaintings = [
     "tags": [
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "唐寅王蜀宫妓图轴，材质为绢本，颜色为设色，尺寸为纵124.7cm，形制为横63.6cm，《王蜀宫妓图》轴，明，唐寅作，绢本，设色，纵124.7厘米，横63.6厘米。 本幅自题：“蓮花冠子道人衣，日侍君王宴紫微。花柳不知人已去，年年鬥绿與爭緋。蜀後主每于宮中裹小巾，命宮妓衣道衣，冠蓮花冠，日尋花柳以侍酣宴。蜀之謠已溢耳矣，而主之不挹注之，竟至濫觴。俾後想搖頭之令，不無扼腕。唐寅。” 此图原名《孟蜀宫妓图》，俗称《四美图》，由明末汪砢玉《珊瑚網·画录》最早定名，沿用至今。近经专文考证，当改为《王蜀宫妓图》，描绘的是五代前蜀后主王衍的后宫故事。画面四个歌舞宫女正在整妆待君王召唤侍奉。她们头戴金莲花冠，身着云霞彩饰的道衣，面施胭脂，体貌丰润中不失娟秀，情态端庄而又娇媚。蜀后主王衍曾自制“甘州曲”歌，形容著道衣的宫妓妩媚之态：“画罗裙，能结束，称腰身。柳眉桃脸不胜春，薄媚足精神。可惜许，沦落在风尘。”唐寅创作此画，则旨主揭示前蜀后主王衍荒淫腐败的生活，寓有鲜明的讽喻之意。 . 此图为唐寅人物画中工笔重彩一路画风的代表作品，显示出他在造型、用笔、设色等方面的高超技艺。仕女体态匀称优美，削肩狭背，柳眉樱髻，额、鼻、颔施以“三白”，既吸收了张萱、周昉创造的“唐妆”仕女造型特色，又体现出明代追求清秀娟美的审美风尚。四人交错而立，平稳有序，并通过微倾的头部、略弯的立姿和攀连的手臂，形成动态的多样变化和相互的紧密联系，加强了形象的丰富性和生动感。笔墨技巧近法杜堇，远宗唐人，衣纹作琴弦描，细劲流畅，富有弹性和质感，冠服纹饰描画尤见精工，细致入微。设色鲜明，既有浓淡、冷暖色彩的强烈对比，又有相近色泽的巧妙过渡和搭配，使整体色调丰富而又和谐，浓艳中兼具清雅。作品画风带有雅俗共赏的艺术特色。"
   },
   {
@@ -4308,22 +3374,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "边景昭竹鹤图轴，材质为绢本，颜色为设色，尺寸为纵180.4cm，形制为横118cm，《竹鹤图》轴，明，边景昭绘，绢本，设色，纵180.4cm，横118cm。 款署：“清华阁画史边景昭制。” 图中一对仙鹤姿态优雅，轩昂高洁，在翠竹间怡然自得。画家以工细的笔法描绘仙鹤的形象，高超的技法使笔触融汇于物象之中，仙鹤洁白轻盈的羽毛片片分明，好似浮在画面之上，令观者屏息凝神。仙鹤的头颈与尾羽处则用重墨，再加上鹤顶的一点丹红，格外醒目。画竹以墨笔双勾再施色彩。全幅设色对比鲜明，整体画风是边景昭的典型风格，承继了五代黄筌以及宋代画院花鸟画的富贵品貌，带有浓郁的宫廷气息。"
-  },
-  {
-    "id": "238",
-    "title": "陈容墨龙卷",
-    "artist": "陈容",
-    "artistId": "artist_237",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "陈容墨龙卷.png",
-    "tags": [
-      "龙"
-    ],
-    "isPremium": true,
-    "description": "陈容墨龙卷，材质为纵34.3cm，颜色为横50cm，此图描绘海波云雾，巨龙飞舞盘旋，张目右顾，两只幼龙隐约可见。画家用粗劲的墨笔勾勒龙身、鳞甲，加以水墨晕染，将飞龙矫健腾跃的磅礴之态表现得淋漓尽致。",
-    "restoredImage": "陈容墨龙卷_restored.png",
-    "animation": "陈容墨龙卷_animation.mp4"
   },
   {
     "id": "239",
@@ -4353,7 +3403,7 @@ export const mockPaintings = [
       "人",
       "石头"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "马远石壁看云单页，材质为设色，颜色为纵23.7cm，尺寸为横24cm，"
   },
   {
@@ -4371,23 +3421,6 @@ export const mockPaintings = [
     "description": "马远孔子像图页，材质为绢本，颜色为设色，尺寸为纵27.7cm，形制为横23.1cm，",
     "restoredImage": "马远孔子像图页_restored.png",
     "animation": "马远孔子像图页_animation.mp4"
-  },
-  {
-    "id": "242",
-    "title": "林椿葡萄草虫图页",
-    "artist": "林椿",
-    "artistId": "artist_241",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "林椿葡萄草虫图页.png",
-    "tags": [
-      "葡萄",
-      "葡萄",
-      "葡萄",
-      "蜻蜓"
-    ],
-    "isPremium": true,
-    "description": "林椿葡萄草虫图页，材质为绢本，颜色为设色，尺寸为纵26.2cm，形制为横27cm，《葡萄草虫图》页，宋，林椿绘，纨扇页，绢本，设色，纵26.2厘米，横27厘米。 本幅款识“林椿”。无鉴藏印。 图绘葡萄累累垂挂，蜻蜓、螳螂、蝈蝈、蝽象伏于藤蔓绿叶间，画家以小幅的画面抒写了一幅生机盎然的田园景致。昆虫以双勾填彩法绘制，用线刚柔相济，既准确地勾勒出秋虫或动或静的各种体态和神情，又将昆虫翅膀的轻薄或外壳的坚硬等不同的质感表露无遗，显示出作者敏锐的观察力和精于细节表现的绘画功底。在色彩上，敷色轻淡，深得造化之妙，葡萄藤的藤尖点染红色以示其新生初发之嫩，叶子的边缘略以褐色渲染，表明叶片饱经浓霜重露之貌。这种合乎自然规律的晕染与其求实写真的线条相得益彰，具有宋代院体工笔画的鲜明特色。"
   },
   {
     "id": "243",
@@ -4420,7 +3453,7 @@ export const mockPaintings = [
       "鸦",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "梁楷疏柳寒鸦图页，材质为绢本，颜色为设色，尺寸为纵24.2cm，形制为横22.4cm，《疏柳寒鸦图》页，宋，梁楷绘，纨扇页，绢本，设色，纵26.4厘米，横24.2厘米。 本幅款识：“梁楷”。 图绘枯柳疏枝，两只乌鸦栖息于树干上，一只低头啄食，一只仰望高空，与远处的飞鸦呼应成趣，另有一只飞临树干。几枝败柳将冬季萧瑟的气氛巧妙地烘托出来，四只寒鸦形神各异。乌鸦头尾以浓墨点染，羽翼用焦墨勾写，腹部略敷白粉，更突出鸦头之黑，笔简神丰。 梁楷的“减笔”画既带有文人的笔墨情趣，又能对物象高度概括，具有传神的效果，这在两宋花鸟画中是绝无仅有的。这种画法对元代的颜辉、明代的徐渭、清代的黄慎、近代的任伯年等著名画家都有较大的影响。",
     "restoredImage": "梁楷疏柳寒鸦图页_restored.png",
     "animation": "梁楷疏柳寒鸦图页_animation.mp4"
@@ -4452,7 +3485,7 @@ export const mockPaintings = [
     "tags": [
       "狗"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "何筌草堂客话图页，材质为绢本，颜色为设色，尺寸为纵24cm，形制为横23cm，"
   },
   {
@@ -4491,7 +3524,7 @@ export const mockPaintings = [
       "乌龟",
       "叶子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "蓼龟图页，材质为绢本，颜色为设色，尺寸为纵28.4cm，形制为横28cm，《蓼龟图》页，宋，绢本，设色，纵28.4厘米，横28厘米。 本幅无款。钤一印，印文模糊不辨。 图绘溪水岸边，泥坡碎石，红蓼吐艳，野菊轻绽。一只老龟缓缓爬上坡岸，未及出水，便被蓼花上的小蜂所吸引，驻足昂首仰望，后足仍浸于池中，其悠闲自在、与世无争的神态表露无遗。用笔兼工带写，红蓼、乌龟以中锋细笔勾描，小草、花蕊用小写意法，工写结合，笔法灵活多样，设色淡雅清秀。"
   },
   {
@@ -4524,7 +3557,7 @@ export const mockPaintings = [
       "人",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人柳荫醉归单页，材质为绢本，颜色为纵23cm，尺寸为横24.8cm，",
     "restoredImage": "宋人柳荫醉归单页_restored.png",
     "animation": "宋人柳荫醉归单页_animation.mp4"
@@ -4567,7 +3600,7 @@ export const mockPaintings = [
       "牡丹",
       "牡丹花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "牡丹图页，材质为绢本，颜色为设色，尺寸为纵24.8cm，形制为横27cm，《牡丹图》页，宋，纨扇页，绢本，设色，纵24.8厘米，横22厘米。 本幅无款。钤鉴藏印“黔宁王子子孙孙永保之”。 图绘牡丹花后魏紫，花冠硕大，重瓣层叠，娇艳华贵，左右以绿叶相衬。花瓣层次丰富，刻画入微，先用中锋细笔勾花瓣，然后用胭脂红层层渲染，以浅黄色点花蕊，以花青汁绿染花叶。此图页精工富丽，美不胜收，构图丰满，设色艳而不俗。"
   },
   {
@@ -4643,7 +3676,7 @@ export const mockPaintings = [
     "tags": [
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人江上青峰页，材质为绢本，颜色为设色，尺寸为纵24.5cm，形制为横26.2cm，",
     "restoredImage": "宋人江上青峰页_restored.png",
     "animation": "宋人江上青峰页_animation.mp4"
@@ -4701,7 +3734,7 @@ export const mockPaintings = [
       "猴子",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "寒塘凫侣图页，材质为绢本，颜色为纵16.6cm，尺寸为横20.8cm，《寒塘凫侣图》页，南宋，绢本，设色，纵16.6厘米，横20.8厘米。 此图无款，旧签题为“赵昌寒凫侣”，但究其画，近似马远画法，带有南宋画风的痕迹，与北宋赵昌无涉，故改为佚名之作。 图左侧塘岸土坡，白梅一枝斜出，枝上梅花怒放，枝下茶花、水仙盛开。一对野鸭嬉戏于水中，顾盼生姿，逗人喜爱。对岸土坡败苇稀疏，两只蓝色的小鸟前后相随飞向远方，随之视去画有尽而意无穷。 对开有清乾隆皇帝御题诗一首：“平湖已动鲤鱼风，湖岸秋花色尚红。波上双凫多乐意，依稀识者有吴融。” 清《石渠宝笈续编》著录。"
   },
   {
@@ -4741,7 +3774,7 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人沧海湧日页，材质为绢本，颜色为纵23.4cm，尺寸为横24.7cm，"
   },
   {
@@ -4772,7 +3805,7 @@ export const mockPaintings = [
     "tags": [
       "花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "蕉阴击球图页，材质为绢本，颜色为设色，尺寸为纵25cm，形制为横24.5cm，《蕉阴击球图》页，宋，绢本，设色，纵25厘米，横24.5厘米。 无作者款印。对幅清高宗弘历御题诗一首。本幅、对幅及裱边钤高宗弘历“古稀天子”、“八徵耄念之宝”、“太上皇帝之宝”等鉴藏印，共6方。 《蕉阴击球图》绘南宋贵族庭院里的婴戏小景。庭院内奇巧的湖石突兀而立，其后隐现茂盛的芭蕉数丛。石前的少妇正与身旁的女子专注地观看二童子玩槌球游戏。一童手持木拍正欲坐地击球，另一童子则向他急急地喊话。图中四人的目光同时落于童子所欲击打的小小球体上。构思巧妙，情节生动，显示出作者善于观察人物并且捕捉生活细节的能力。此幅在构图上巧妙地将玲珑剔透的湖石正立于画心中部，以其自身的完整性起到了镇住画面的作用，聚拢了交叠张扬的芭蕉叶及分散的人物，避免了画面因景物繁杂而出现轻浮感。此外，湖石拉开了前景人物与背景芭蕉间的距离，增强了画面的纵向层次感。在笔法上，作者注重物象间的对比互衬关系。人物与芭蕉为中锋运笔，线条工整细匀，如行云流水；着色渲染浓淡相宜，清新明洁的色调有助于表达轻松活泼的主题。湖石则以粗笔重墨表现，线条劲练，转折顿挫中见洒脱。湖石所呈现出的坚硬质地成功地衬托出人物纤秀婉约的形象及芭蕉飘逸润泽的自然美。 在宋代类似于《蕉阴击球图》的作品很多。以写实的笔法描绘民间生活、反映“市井细民”的审美趣味是宋代绘画的一大特色。当时涌现出众多绘风俗画的著名画家，如王居正、张择端、李嵩、苏汉臣等人，他们的作品以富有浓郁的生活气息而在中国绘画史上占有重要的地位。 原题签作者为苏汉臣。此幅虽在题材、笔法上与苏汉臣的画风较为接近，但在艺术表现的造诣上却远不及苏汉臣，因此，此图当是与苏汉臣同时代的佚名画家之作。 清内府《石渠宝笈续编》著录。",
     "restoredImage": "蕉阴击球图页_restored.png",
     "animation": "蕉阴击球图页_animation.mp4"
@@ -4818,7 +3851,7 @@ export const mockPaintings = [
       "桥",
       "桥"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "青山白云图页，材质为绢本，颜色为设色，尺寸为纵23.9cm，形制为横22.9cm，《青山白云图》页，宋，绢本，设色，纵22.9厘米，横23.9厘米。 本幅无作者款印，钤“庞莱臣珍藏宋元真迹”鉴藏印1方。对幅行书诗题：“青山晓兮白云飞，青山暮兮白云归。青松茂兮明月辉，了不了兮谁得知。”钤椭圆形坤卦印。 此图绘高山流水、白云明月，古松团瓢前一老者坐看山间风起云涌。画面似写唐代王维五言诗《终南别业》中诗句“行到水穷处，坐看云起时”的诗意。此诗在北宋郭熙的画学论著《林泉高致》中被录入“画意”一节，作为可资入画的题目。从此图画法看，亦是师法郭熙一派山水画法，山石兼皴带染，松枝作蟹爪形，空中用淡墨晕染出明月一轮，山间白云以墨线勾廓，外围施淡墨晕染，极好地表现出云层的体积感。 对幅题诗为宋高宗吴皇后手笔，用笔苍劲，极类高宗，则此图应创作于南宋初年。 《虚斋名画录》卷十一著录。"
   },
   {
@@ -4858,7 +3891,7 @@ export const mockPaintings = [
       "牛",
       "牛"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人耕获图页，材质为绢本，颜色为设色，尺寸为纵25.7cm，形制为横24.8cm，"
   },
   {
@@ -4889,7 +3922,7 @@ export const mockPaintings = [
       "山",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "红蓼水禽图页，材质为绢本，颜色为设色，尺寸为纵26.8cm，形制为横25.2cm，《红蓼水禽图》页，宋，纨扇页，绢本，设色，纵25.2厘米，横26.8厘米。 本幅无款识。鉴藏印钤“真赏”、“都尉耿信公书画之章”、“公”、“信公珍赏”、“丹诚”、“宜尔子孙”、“汉水耿会侯书画之章”、“漱六主人”、“陈定”、“项子京家珍藏”、“墨林秘玩”、“庞莱臣珍藏宋元真迹”。裱边钤“信公监定珍藏”。 图绘水边一枝红蓼，小花盛开。水鸟发现波中青虾，悄然飞落红蓼枝头，引喙而啄。红蓼被水鸟的体重与蹬力压弯，梢头、叶尖浸入水中。而青虾在水中灵活地悠游，对面临的危险浑然不觉。自然界中这惊险的一霎被巧妙地摄入绢素，极为生动传神。水禽和红蓼设色鲜丽，工笔细写。小鸟纤细的毛羽清晰可数，连蓼花粟米大的花冠也用紫红、粉白晕染得一丝不苟，层次分明。而水中的青虾和荇藻则采用模糊的手法表现，唯以淡墨绿一色染成，类似写意画法。因而虽不画水，却水旱两界分明。 对幅有耿昭忠题记：“传写物态，蔚有生意，徐崇矩岂惟不坠祖风，直可领袖后学。襄平耿昭忠题。” 存《名笔集胜》册中。《虚斋名画录》著录。",
     "restoredImage": "红蓼水禽图页_restored.png",
     "animation": "红蓼水禽图页_animation.mp4"
@@ -4927,7 +3960,7 @@ export const mockPaintings = [
       "桌子",
       "床"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "红梅孔雀图页，材质为绢本，颜色为设色，尺寸为纵31.6cm，形制为横24.4cm，《红梅孔雀图》页，宋，绢本，设色，纵24.4厘米，横31.6厘米。 本幅无款识。钤鉴藏印“真赏”、“都尉耿信公书画之章”、“公”、“信公珍赏”、“丹诚”、“宜尔子孙”、“珍秘”、“会侯珍藏”、“庞莱臣珍藏宋元真迹”。裱边钤鉴藏印“信公监定珍藏”。 中国古代以孔雀为题材的绘画不多见。此图绘溪边春色，以近远景搭配，表现出自然界的勃勃生机。正中一树梅花盛开，两侧辅以山茶、古柏、翠竹、迎春。孔雀一对，雄者栖于树干，回首梳翎；雌者倘佯岸边，低头觅食。其毛羽斑斓，与花树汇成一片绚烂春光。此图难能之处在于布局繁密但杂而不乱；设色富丽但艳而不俗。梅、柏枝干用焦墨勾皴，苍劲古朴，与周围花卉禽鸟的纤细娇美恰成互补。作者当是擅长状写升平景象的画院高手。 本幅右侧题“马麟”细款，但细察周围有挖痕，应系从别处移来。 对幅有耿昭忠题记：“此图花木禽鸟极其精工。《画髓》评云：‘远欲其子得誉，多于己画题作马麟。’夫岂其然？千山信公。”钤“虚斋珍赏”及耿氏藏印5方。 存《名笔集胜》册中。《虚斋名画录》著录。"
   },
   {
@@ -4960,7 +3993,7 @@ export const mockPaintings = [
       "松树",
       "岩石"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人柳塘牧马图页，材质为绢本，颜色为设色，尺寸为纵25.6cm，形制为横23.5cm，"
   },
   {
@@ -4976,28 +4009,6 @@ export const mockPaintings = [
     ],
     "isPremium": false,
     "description": "宋人木末孤亭页，材质为绢本，颜色为设色，尺寸为纵23.3cm，形制为横24.6cm，"
-  },
-  {
-    "id": "274",
-    "title": "宋人柳塘泛月页",
-    "artist": "佚名",
-    "artistId": "artist_273",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "宋人柳塘泛月页.png",
-    "tags": [
-      "人",
-      "人",
-      "人",
-      "人",
-      "船",
-      "船",
-      "柳树"
-    ],
-    "isPremium": true,
-    "description": "宋人柳塘泛月页，材质为绢本，颜色为设色，尺寸为纵23.2cm，形制为横28.1cm，",
-    "restoredImage": "宋人柳塘泛月页_restored.png",
-    "animation": "宋人柳塘泛月页_restored.png"
   },
   {
     "id": "275",
@@ -5039,7 +4050,7 @@ export const mockPaintings = [
       "树",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人春山渔艇页，材质为绢本，颜色为设色，尺寸为纵21cm，形制为横21.5cm，"
   },
   {
@@ -5073,7 +4084,7 @@ export const mockPaintings = [
       "人",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "群鱼戏藻图页，材质为绢本，颜色为设色，尺寸为纵25.5cm，形制为横24.5cm，《群鱼戏藻图》页，宋，纨扇页，绢本，设色，纵24.5厘米，横25.5厘米。 本幅无款。鉴藏印钤“季彤平生真赏”、“庞莱臣珍藏宋元真迹”。裱边钤“虚斋审定名迹”。 《庄子·秋水篇》中有“濠梁观鱼”的著名典故，故“鱼乐图”成为中国绘画的传统题材。“鱼”又谐“余”之音，有祝颂丰穰之吉祥寓意。 图中绘小鱼5尾，欢快地游戏于荇藻之间。 鱼身用没骨法墨染而成，其光滑、细腻而富于弹性的质感表现得非常充分，线条圆浑流畅；黑脊与白肚之间过渡自然；口、眼、鳍、尾之刻画逼真而具立体感。鱼的游向各异，远近分明，荇藻轻灵而富于动感，构图生动活泼，是宋人画鱼的名作。 存《名笔集胜》册中。《虚斋名画续录》著录。"
   },
   {
@@ -5093,23 +4104,6 @@ export const mockPaintings = [
     "description": "宋人画洛神图卷，材质为绢本，颜色为设色，尺寸为纵159cm，形制为横26.8cm，典出曹植所作《洛神赋》。画面描写曹植离开魏都洛阳后，在洛水之滨邂逅洛水之神宓妃，并与之思慕爱恋的故事。此卷无款，笔墨、造型属南宋院体风格，空间比例合度，人物线描以中锋为主，简约劲健。"
   },
   {
-    "id": "280",
-    "title": "鹡鸰图册页",
-    "artist": "佚名",
-    "artistId": "artist_279",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "鹡鸰图册页.png",
-    "tags": [
-      "鸟",
-      "叶子"
-    ],
-    "isPremium": true,
-    "description": "鹡鸰图册页，材质为绢本，颜色为设色，尺寸为纵23.3cm，形制为横23.2cm，",
-    "restoredImage": "鹡鸰图册页_restored.png",
-    "animation": "鹡鸰图册页_animation.mp4"
-  },
-  {
     "id": "281",
     "title": "宋人牧牛图单页",
     "artist": "佚名",
@@ -5125,20 +4119,6 @@ export const mockPaintings = [
     "description": "宋人牧牛图单页，材质为绢本，颜色为墨笔，尺寸为纵23cm，形制为横24cm，"
   },
   {
-    "id": "282",
-    "title": "宋人柳塘秋草页",
-    "artist": "佚名",
-    "artistId": "artist_281",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "宋人柳塘秋草页.png",
-    "tags": [
-      "柳树"
-    ],
-    "isPremium": true,
-    "description": "宋人柳塘秋草页，材质为绢本，颜色为垤园形设色，尺寸为纵23.4cm，形制为横24.2cm，"
-  },
-  {
     "id": "283",
     "title": "宋人柳溪春色图页",
     "artist": "佚名",
@@ -5151,7 +4131,7 @@ export const mockPaintings = [
       "柳树",
       "山"
     ],
-    "isPremium": false,
+    "isPremium": true,
     "description": "宋人柳溪春色图页，材质为绢本，颜色为圆形设色，尺寸为纵22cm，形制为横24.8cm，南宋，佚名，绢本设色，纵22厘米，横24.8厘米。 该图为纨扇面，图绘江山小景，近岸陂陀杨柳，中间留白以示江山，远山山势和缓连绵，云气缥缈。无款，左下存半印。",
     "restoredImage": "宋人柳溪春色图页_restored.png",
     "animation": "宋人柳溪春色图页_animation.mp4"
@@ -5171,25 +4151,8 @@ export const mockPaintings = [
       "羊",
       "羊"
     ],
-    "isPremium": true,
-    "description": "宋人化石成羊页，材质为绢本，颜色为圆形设色，尺寸为纵23.5cm，形制为横24.6cm，"
-  },
-  {
-    "id": "285",
-    "title": "马麟橘绿图页",
-    "artist": "马麟",
-    "artistId": "artist_284",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "马麟橘绿图页.png",
-    "tags": [
-      "桃树",
-      "橘",
-      "橘",
-      "橘"
-    ],
     "isPremium": false,
-    "description": "马麟橘绿图页，材质为绢本，颜色为圆形设色，尺寸为纵23cm，形制为横23.5cm，《橘绿图》页，宋，马麟绘，纨扇页，绢本，设色，纵23厘米，横23.5厘米。 本幅款识“马麟”。钤明代项子京朱文鉴藏印4方：“项子京家珍藏”、“墨林秘玩”、“神”、“品”。裱边题签：“南宋马麟橘绿图”。 图中橘子由绿转黄，满压枝头。画家以粗细匀整的用笔流畅地勾画出橘叶的外形轮廓，并以黄绿色填涂叶面，叶片虽然不多，但其充满生命力的色彩为画面增添了几许活力，侧、转、反、正的种种姿态也为全图带来灵动的节律。橘子的画法一改平涂晕染的技法，直接以笔着色粉戳染成形，生动地表现出橘皮粗糙不平的质感。虽然画作历经磨损，许多白色粉点已经剥落，并露出了黄色的绢底，但仍然可见马麟的非凡技艺。 橘子又称香圆，寓团圆之意。台北故宫博物院藏南宋画院画家林椿创作的《橙黄橘绿图》与本幅在构图及橘、叶的表现技法上均相同，可见此类题材及画法在南宋画院较为普遍。"
+    "description": "宋人化石成羊页，材质为绢本，颜色为圆形设色，尺寸为纵23.5cm，形制为横24.6cm，"
   },
   {
     "id": "286",
@@ -5203,7 +4166,7 @@ export const mockPaintings = [
       "鸟",
       "荷叶"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人鹡鸰荷叶页，材质为绢本，颜色为设色，尺寸为纵26.5cm，形制为横26cm，《鹡鸰荷叶图》页，宋，绢本，设色，纵26厘米，横26.5厘米。 本幅无款。钤鉴藏印“宋犖审定”，又半印一方，印文不辨。裱边题签：“宋人画鹡鸰荷叶”。 图中荷塘里枯枝断茎，一片残败的荷叶向上斜出，翻卷的叶面，满布虫蚀的痕迹，一只鹡鸰停驻其上，双爪紧握荷茎，扭颈俯视，神情专注，为萧瑟的深秋平添了几许生气。鸟羽刻画细腻，先用色渲染，然后以极细之笔勾出，笔法生动秀逸。构图疏密有致，动静结合。",
     "restoredImage": "宋人鹡鸰荷叶页_restored.png",
     "animation": "宋人鹡鸰荷叶页_animation.mp4"
@@ -5239,7 +4202,7 @@ export const mockPaintings = [
       "山",
       "竹子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "胆瓶秋卉图页，材质为绢本，颜色为设色，尺寸为纵26.5cm，形制为横27.5cm，《胆瓶秋卉图》页，宋，纨扇页，绢本，设色，纵26.5厘米，横27.5厘米。本幅无款。鉴藏印钤“交翠轩印”、“神品”、“子京父印”、“项元汴印”、“项墨林鉴赏章”、“张则之”6方。图中瓶架上置一蓝釉长颈瓶，内插菊花。花朵施以勾勒填色法，花叶用没骨法出之，刻画自然细腻，渲染柔和润泽。秋菊艳丽而不失于秀雅，此图为南宋写生画中的优秀作品。画页左侧题诗：“秋风融日满东篱，万叠轻红簇翠枝。若使芳姿同众色，无人知是小春时。”此为即景诗，描写瓶中之花轻红淡雅，叠簇于翠枝。<对幅有清乾隆御题诗一首：“花似菊而红，叶则迥然异。自题属冬篱，殊难解用意。徒以设色工，选藻许其厕。辛亥清和御题。”钤 “八征耄念之宝”、“自强不息”、“太上皇帝之宝”。清《石渠宝笈》著录。"
   },
   {
@@ -5274,7 +4237,7 @@ export const mockPaintings = [
       "蝴蝶",
       "蝴蝶"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "海棠蛱蝶图页，材质为绢本，颜色为设色，尺寸为纵25cm，形制为横24.5cm，《海棠蛱蝶图》页，宋，绢本，设色，纵25厘米，横24.5厘米。 本幅无作者款印。钤鉴藏印 于腾私印 、 黔宁王子子孙孙永保之 、 丁伯川鉴赏章 等4方印。 图绘阳春三月，蛱蝶翩翩起舞于海棠花枝间。画家着重表现海棠在乍起的春风中花枝招展的动感瞬间。通过花朵偃仰向背，叶片翻卷辗转，枝干呈 S 形的曲张之态，成功地渲染出了无形的醉人春风和隽永的春意。图中花瓣先以墨笔双勾轮廓线，中锋行笔，线条圆润流畅。然后在花瓣外侧上部略点胭脂红，旋即以清水将色彩晕染开，最后罩上一层白粉，为海棠花亮丽的色调增添了几多妩媚的意韵。叶片用工整的双勾填色笔法表现。作者根据叶片受光照程度的不同而填染以绿、赭等颜色，从而充分表露出叶片 清如水碧，洁如霜露 的美感，显示出画家细致的观察力和深厚的写实功底。"
   },
   {
@@ -5305,7 +4268,7 @@ export const mockPaintings = [
     "tags": [
       "花"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "李嵩花篮图页，材质为绢本，颜色为设色，尺寸为纵19.1cm，形制为横26.5cm，《花篮图》页，南宋，李嵩绘，绢本，设色，纵19.1厘米，横26.5厘米。 画幅的左下角有款识：“李嵩画”。鉴藏印钤 “项子京家珍藏”。 竹篮编织精巧，里面放满了各色鲜花，有秋葵、栀子、百合、广玉兰、石榴等，小小的花篮折射出繁花似锦的大自然——美丽、多样、蓬勃、朝气，让人看了之后感到十分亲切，画家对自然、生命的热爱和关注亦油然绢上。画幅虽然不大，但是描绘细腻具体，线条富有表现力，敷色艳丽雅致，构图稳定饱满。 据款识可知，这是南宋著名的画院画家李嵩的手笔，小中见大，果然不同凡响。",
     "restoredImage": "李嵩花篮图页_restored.png",
     "animation": "李嵩花篮图页_animation.mp4"
@@ -5343,7 +4306,7 @@ export const mockPaintings = [
       "人",
       "人"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "晴春蝶戏图页，材质为绢本，颜色为设色，尺寸为纵23.7cm，形制为横25.3cm，《晴春蝶戏图》页，宋，纨扇页，绢本，设色，纵23.7厘米，横25.3厘米。 本幅无款识。钤半印一方，印文模糊不辨。原载《四朝选藻图》册，旧签题 李安忠作 。骑缝钤 太上皇帝之宝 、 八征耄念之宝 。 图绘体态多姿的凤蝶、娇小素净的粉蝶等各种蛱蝶15只和胡蜂1只。它们或平展双翼，或振翅飞舞，在明媚的春光下宛若俏丽的花团漫天绽放，形象生动地体现出 蝶戏 的创作主题。在蜂、蝶的塑造上，作者结合勾勒与渲染两种手法，先以极细而淡的线条勾勒轮廓，再 随类赋彩 ，或以粉白、土黄多层积色，或在墨线中填重彩。晕染工细，色泽丰富，很好地展现出蛱蝶翅翼的绚烂之美。 对幅有清乾隆御题七言诗一首：蝡肖翘高复低，春园风物已昌兮。宣和画院曾经试，何未明拈逐马蹄 。钤 八征耄念之宝 、 自强不息 等印。"
   },
   {
@@ -5392,7 +4355,7 @@ export const mockPaintings = [
       "人",
       "马"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "蓬瀛仙馆图页，材质为绢本，颜色为设色，尺寸为纵26.4cm，形制为横27.9cm，《蓬瀛仙馆图页》，宋，绢本，设色，纵26.4厘米，横27.9厘米。 本幅无款印。对幅清朝乾隆皇帝题七言绝句一首。钤乾隆内府诸收藏印。 此图设色画屋宇、远山、溪水、奇石异木、各式陈设，宛似仙境，正如乾隆所题：“参差仙馆类蓬瀛，临水依山风物清。可望不可即之处，画家别有寄深情。”画中楼台参差，亭榭栉比，曲槛回廊错落有致，整幅布局繁复，法度谨严，折算准确，透视比例亦合乎画理。同时，在处理建筑主体与周围环境气氛的关系上比北宋有进一步提高，体现出南宋楼阁画家在构图与技法上的发展。"
   },
   {
@@ -5444,7 +4407,7 @@ export const mockPaintings = [
       "山",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人春江帆饱页，材质为绢本，颜色为墨笔淡设色，尺寸为纵25.8cm，形制为横27cm，",
     "restoredImage": "宋人春江帆饱页_restored.png",
     "animation": "宋人春江帆饱页_animation.mp4"
@@ -5487,7 +4450,7 @@ export const mockPaintings = [
       "鸭子",
       "鸭子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "马远梅石溪凫图页，材质为绢本，颜色为设色，尺寸为纵26.7cm，形制为横28.6cm，《梅石溪凫图》页，南宋，马远作，绢本，设色，纵26.7厘米，横28.6厘米。 本幅款署“馬遠”。钤藏印：“ 潞王之寶”、“茅林心賞”、“阿蒙”、“于騰私印”。 图中画山崖侧立，腊梅倒垂，薄雾蒙蒙的涧水中，一群野鸭正在游戏。山石以斧劈皴法画之，方硬峭拔，与用笔轻快、毛羽松蓬的野鸭形成鲜明的对比。倒垂曲折的枝条是马远特有的画法，故有“拖枝马远”之称。画面呈典型的对角线式构图，岩石、梅树都偏居画面的左上部分，梅树枝条的走势更强调了此种布局的形式感，右下方的野鸭既起到了平衡画面的作用，又是全图的点睛之笔，一幅“春江水暖鸭先知”的景象，无限生趣，跃然绢素。"
   },
   {
@@ -5541,7 +4504,7 @@ export const mockPaintings = [
       "牛",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "柳林牧牛图页，材质为绢本，颜色为墨笔，尺寸为纵23.2cm，形制为横24.1cm，"
   },
   {
@@ -5611,26 +4574,6 @@ export const mockPaintings = [
     "description": "宋人柳院消暑页，材质为绢本，颜色为设色，尺寸为纵29cm，形制为横29.2cm，"
   },
   {
-    "id": "306",
-    "title": "宋人柳阁风帆页",
-    "artist": "佚名",
-    "artistId": "artist_305",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "宋人柳阁风帆页.png",
-    "tags": [
-      "柳树",
-      "房屋",
-      "人",
-      "人",
-      "桥",
-      "船",
-      "船"
-    ],
-    "isPremium": true,
-    "description": "宋人柳阁风帆页，材质为绢本，颜色为设色，尺寸为纵25.2cm，形制为横26.7cm，"
-  },
-  {
     "id": "307",
     "title": "宋人春游晚归页",
     "artist": "佚名",
@@ -5683,7 +4626,7 @@ export const mockPaintings = [
       "叶子",
       "叶子"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "宋人青枫巨蝶页，材质为绢本，颜色为设色，尺寸为纵23cm，形制为横24.2cm，《青枫巨蝶图》页，宋，纨扇页，绢本，设色，纵23厘米 ，横24.2厘米。 本幅无款。鉴藏印钤“大观”葫芦形朱文印以及“石渠宝笈”、“乐善堂图书记”、“重华宫鉴藏宝”3印。钤清乾隆、嘉庆二御览印。 图左下方伸出嫩绿色枫树一株，枝叶婆娑。一只赭黄色巨蝶从右上侧凌空飞临，与枫叶构成平衡的对角关系。更有鲜红色瓢虫伏于枫叶之上，十分俏皮。画风高度写实，细致入微。画法的特点一是细线勾勒，笔若游丝，使蝶与枝、叶的形态皆极为轻倩灵秀；二是设色淡雅明快，红、绿、黄对比鲜明，给人以清新出尘之感，不落浓艳俗套。 存《纨扇画》册中。《石渠宝笈初编》著录。"
   },
   {
@@ -5714,7 +4657,7 @@ export const mockPaintings = [
       "树",
       "岩石"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "钱选西湖吟趣图卷，材质为纸本，颜色为设色，尺寸为纵25cm，形制为横72.5cm，",
     "restoredImage": "钱选西湖吟趣图卷_restored.png",
     "animation": "钱选西湖吟趣图卷_animation.mp4"
@@ -5752,7 +4695,7 @@ export const mockPaintings = [
       "船",
       "树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "后赤壁图赵构书赋卷，材质为绢本，颜色为设色，尺寸为纵25.9cm，形制为横143cm，"
   },
   {
@@ -5790,7 +4733,7 @@ export const mockPaintings = [
       "桃树",
       "桃树"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "林椿果熟来禽图页，材质为绢本，颜色为设色，尺寸为纵26.9cm，形制为横27.2cm，《果熟来禽图》页，南宋，林椿作，绢本，设色，纵26.9cm，横27.2cm。 画家选取果木的一枝写秋景：寂静的山林木叶泛黄，沉甸甸的果实早已熟透却无人采摘，任由虫儿噬蚀。一只小鸟蓦然飞上枝头，打破了空间的宁静。忽而，它转颈回眸，振翅欲飞，在这收获的季节里，它是否被画面外更为诱人的景色所吸引呢？ 折枝画法发挥了小幅的特长，作者以活泼的形式突出表现了枝叶、果实的色彩和禽鸟的情态，大不盈尺却美轮美奂，在饱满丰硕的果实和小鸟怡然自得的鸣唱中，画外的情趣、诗意与画意相结合，加强了花鸟画借物抒情的目的，令人赏心。 小鸟的动态用细劲柔和的笔致勾勒，蓬松的羽毛则以浑融的墨色晕染，木叶的枯萎、残损、锈斑，果子上被虫儿叮咬的痕迹都被一一描绘出来，可见画家从自然景致中“摄集花形鸟态”的高超的写生能力。在构图上删繁就简，明洁奇巧，既保持了画院花鸟画“要物形不改”状物精微的写实精神，又表现出作者蕴藉空灵的审美追求。设色轻敷淡染，黄绿的叶子、淡红的果实、鹅黄的小鸟，分外和谐明丽。 署款“林椿”。有“宋荦审定”藏印一方。此图为清宫旧藏。"
   },
   {
@@ -5826,52 +4769,10 @@ export const mockPaintings = [
       "山",
       "山"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "李唐采薇图卷，材质为绢本，颜色为水墨淡设色，尺寸为纵27.2cm，形制为横90.5cm，《采薇图》卷，宋，李唐作，绢本，水墨淡设色，纵27.2cm，横90.5cm。 这是一幅历史题材的绘画作品，是以殷末伯夷、叔齐“不食周粟”的故事为题而画的。司马迁所著之《史记》中即有“伯夷列传”，伯夷和叔齐是殷的诸侯孤竹君（国在今河北卢龙南）的两个儿子，孤竹君立其三子叔齐为继承人。孤竹君死后，叔齐要把继承权让给哥哥伯夷，伯夷不肯接受，说这是父命，不可违背，最后逃跑了。叔齐见状也离家出走。兄弟二人出走后先后投奔了西伯姬昌（即周文王），不久姬昌死，儿子姬发（即周武王）要出兵讨伐纣王。伯夷、叔齐拦住姬发的马头谏阻，认为臣子造反讨伐君王是大逆不道的。武王伐纣取得胜利后，伯夷、叔齐深以为耻，表示决心不吃从周朝土地上长出来的粮食，于是逃隐至首阳山（在山西永济县境），采食野菜充饥度日，最后双双饿死在山里，临死前还作了一首采薇歌：“登彼西山兮，采其薇矣！以暴易暴兮，不知其非矣！神农虞夏忽焉没兮，我安适归矣？于嗟徂兮，命之衰矣！”表示了坚决不屈服的志向。 李唐所画的《采薇图》，即着力刻划了这两个古代宁死不愿意失去气节的人物。图中描绘伯夷、叔齐对坐在悬崖峭壁间的一块坡地上，伯夷双手抱膝，目光炯然，显得坚定沉着；叔齐则上身前倾，表示愿意相随。伯夷、叔齐均面容清癯，身体瘦弱，肉体上由于生活在野外和以野菜充饥而受到极大的折磨，但是在精神上却丝毫没有被困苦压倒。作者着墨不多，就把伯夷、叔齐在特定环境下的神态描绘得淋漓尽致，达到了很高的水平。 李唐采用这个历史故事来表彰保持气节的人，谴责投降变节的行为，在当时南宋与金国对峙的时候，可谓是“借古讽今”，用心良苦。",
     "restoredImage": "李唐采薇图卷_restored.png",
     "animation": "李唐采薇图卷_animation.mp4"
-  },
-  {
-    "id": "317",
-    "title": "李嵩钱塘观潮图卷",
-    "artist": "李嵩",
-    "artistId": "artist_316",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "李嵩钱塘观潮图卷.png",
-    "tags": [
-      "树",
-      "树"
-    ],
-    "isPremium": false,
-    "description": "李嵩钱塘观潮图卷，材质为绢本，颜色为设色，尺寸为纵17.4cm，形制为横83cm，《钱塘观潮图》卷，南宋，李嵩绘，绢本，设色，纵17.4厘米，横83厘米。 本幅无款印。引首及前后隔水有清乾隆题诗，后幅有张仁近、杨基题跋。收藏印有项子京、清内府、梁清标诸印。 少年时曾作过木工的画院画家李嵩是善画建筑的高手。台北故宫博物院收藏的李嵩所绘《月夜看潮图》页是对南宋官式建筑的风格和细部特点的忠实写真，而此卷则带有缘物抒情的感情色彩，展现了李嵩的其另一种建筑画风。 每年农历八月十六至十八日为浙江钱塘江的大潮汐期。自南宋迁都临安（今浙江杭州）后，观潮成为临安一年一度的盛大活动。其时海水沿喇叭形的钱塘江口逆江而上，如“玉域雪岭，际天而来，大声如雷霆，震撼激射，吞天沃日，势极雄豪”。 此幅画面除表现滔滔的江水，即写“大内临江起飞阁”的都城临安。耐人寻味的是作者并没有以其擅长的细腻精微的表现手法再现皇家殿宇的巍峨辉煌、临安城池的雄伟整饬、“岁岁观潮乐”的繁华热烈，而只以简括的笔法写出成片的半露瓦顶于薄雾树影之中朦胧隐现，茂林中三面围墙的宽大空场或许即南宋的宫室所在，意境颇显空寂。作者活动的年代，正值南宋时局动荡，国家面临内忧外患，而小朝廷又沉湎于“钱塘江上开皇畿”，“贪看秋潮忘黍离”的耽乐奢靡。身为画院待诏得以侍于君侧的李嵩忠君忧国而又无力回天的孤寂心境在画面中似有曲折流露。"
-  },
-  {
-    "id": "318",
-    "title": "马和之豳风图卷",
-    "artist": "马和之",
-    "artistId": "artist_317",
-    "dynasty": "宋朝",
-    "dynastyFolder": "song",
-    "imageUrl": "马和之豳风图卷.png",
-    "tags": [
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "花",
-      "蝴蝶",
-      "花",
-      "花",
-      "花"
-    ],
-    "isPremium": true,
-    "description": "马和之豳风图卷，材质为绢本，颜色为设色，尺寸为纵25.7cm，形制为横55.7cm，《豳风图》卷，南宋，马和之作，绢本，设色，纵25.7cm，横55.7cm。 作者根据《诗经·国风》之《豳风》诗意而作。全卷共分七段，依次为《七月》、《鸱鸮》、《东山》、《破斧》、《伐柯》、《九罭》、《狼跋》，每段画前书《豳风》原文。图中人物形象生动，衣纹用兰叶描，笔法流畅潇洒，设色清丽古雅，在诸本毛诗图中，亦属精作。此卷无款印，旧传为马和之画，宋高宗赵构书。但在《伐柯》篇内“構”字因避高宗讳而缺一笔，说明该书不是赵构所写，而是画院高手代笔。此图大约在元代初年被分割为两卷，仅《破斧》篇为赵孟頫收藏，明末董其昌误认为是赵孟頫补图。清乾隆年间两卷入内府，合璧装成一卷，并将董其昌、高士奇跋移往后幅。卷首有清高宗弘历御书“苇龠余风”四字，尾纸除董其昌、项元汴等三则题记外，尚有乾隆御题一则，钤明项元汴、清高士奇、梁清标及乾隆、嘉庆、宣统内府藏印多方。 张丑《清河书画舫》、卞永誉《式古堂书画汇考》、吴升《大观录》、《石渠宝笈·续编》、《石渠随笔》等书著录。"
   },
   {
     "id": "319",
@@ -5922,7 +4823,7 @@ export const mockPaintings = [
       "货物",
       "货物"
     ],
-    "isPremium": true,
+    "isPremium": false,
     "description": "李嵩货郎图卷，材质为绢本，颜色为设色，尺寸为纵25.5cm，形制为横70.4cm，《货郎图》卷，南宋，李嵩作，绢本，设色，纵25.5cm，横70.4cm。 本幅款署：“嘉定辛未李從順男嵩畫。”另有清乾隆帝御题七言诗一首。 这是一幅人物风俗画卷，画面上货郎肩挑杂货担，不堪重负的弯着腰，欢呼雀跃的儿童奔走相告，喜悦之情溢于言表。货担上物品繁多，不胜枚举，从锅碗盘碟、儿童玩具到瓜果糕点，无所不有。在商品流通尚不够发达的南宋时期，货郎们走街串巷，一副货担就是一个小小的百货店，货郎们不仅为偏僻的乡村带来所需的货物，也带来各种新奇的见闻，货郎的到来往往象节日般热闹，李嵩在图中就描绘了这样一幅场景。画家借助货郎这一题材表现了南宋市井生活的一个侧面，那些令人眼花缭乱的物品，虽然今天有很多已不明其用途，但却真实地记录了南宋百姓的生活方式，是民俗学家不可多得的珍贵史料。 画面中人物的塑造主要依靠线描勾勒，细秀的笔划辅以淡雅的设色，使画面古朴沉着。人物动态鲜明，无一雷同，显示出画家的写实功底。繁而不乱的货物描绘得一丝不苟，更显示了李嵩“尤长界画”的技巧。 《石渠宝笈·初编》著录。"
   },
   {
